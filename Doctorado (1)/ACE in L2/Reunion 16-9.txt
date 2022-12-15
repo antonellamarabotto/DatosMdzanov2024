@@ -1,0 +1,25 @@
+Reunion 16/9 ACE en L2
+
+Outliers:
+1)Eliminar sujetos outliers. Calculo la media del lift off time por sujeto. Sacar los sujetos que estan mas de dos desvios estandar de la media.
+Calculo la mediana y divido en grupos. Repetir el analisis.
+
+Como avanzar con el analisis de Grupo
+2) Repito el analisis con el esquema de grupos ya planteado.
+3) Quitar el tertil del medio en el analisis por tertiles.
+
+4) Tomar la mediana y quitar los n valores fronterizos de los dos grupos. Averiguar cual es ese n (bkogan86@gmail.com
+ enviarle un mail a Boris preguntandole).
+
+
+
+****Tener en cuenta a futuro que el efecto grupo que estamos buscando puede explicarse por variables sociodemograficas.
+
+Comparaciones Pares en R
+
+https://www.sheffield.ac.uk/polopoly_fs/1.536444!/file/MASH_2way_ANOVA_in_R.pdf
+
+tutorial para hacer pairwise comarisions de interacciones
+
+https://www.r-bloggers.com/2011/01/r-tutorial-series-two-way-anova-with-pairwise-comparisons/
+este sitio puede ayudar para hacer los pairwaise coparisions

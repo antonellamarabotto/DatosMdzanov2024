@@ -1,0 +1,19 @@
+                                          Df   Sum Sq Mean Sq F value Pr(>F)    
+SenDir                                     1    41947   41947   3.069 0.0800 .  
+CueDir                                     1    30256   30256   2.214 0.1370    
+GrupoMoveTime                              2  9389820 4694910 343.474 <2e-16 ***
+SentenceDur                                1    10522   10522   0.770 0.3804    
+SenDir:CueDir                              1     6084    6084   0.445 0.5048    
+SenDir:GrupoMoveTime                       2     3042    1521   0.111 0.8947    
+CueDir:GrupoMoveTime                       2    65204   32602   2.385 0.0924 .  
+SenDir:SentenceDur                         1    23607   23607   1.727 0.1890    
+CueDir:SentenceDur                         1        0       0   0.000 0.9977    
+GrupoMoveTime:SentenceDur                  2    11872    5936   0.434 0.6478    
+SenDir:CueDir:GrupoMoveTime                2    10930    5465   0.400 0.6705    
+SenDir:CueDir:SentenceDur                  1    26415   26415   1.932 0.1647    
+SenDir:GrupoMoveTime:SentenceDur           2     7226    3613   0.264 0.7678    
+CueDir:GrupoMoveTime:SentenceDur           2     2359    1179   0.086 0.9173    
+SenDir:CueDir:GrupoMoveTime:SentenceDur    2     9791    4895   0.358 0.6990    
+Residuals                               1669 22813355   13669                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

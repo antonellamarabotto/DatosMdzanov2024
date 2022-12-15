@@ -1,0 +1,992 @@
+1.4465 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+34.5669 	WARNING 	User requested fullscreen with size [1680 1050], but screen is actually [1920, 1080]. Using actual size
+35.1764 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BC0B09B4F0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001BC0B403E20>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+35.1768 	EXP 	window1: mouseVisible = True
+35.1768 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+35.1769 	EXP 	window1: recordFrameIntervals = False
+35.3424 	EXP 	window1: recordFrameIntervals = True
+35.5262 	EXP 	Screen (0) actual frame rate measured at 59.93Hz
+35.5262 	EXP 	window1: recordFrameIntervals = False
+37.6335 	EXP 	Created Instrucciones1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instrucciones1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.6412 	EXP 	Created Instrucciones2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instrucciones2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.6551 	EXP 	Created Instrucciones3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instrucciones3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.6715 	EXP 	Created instrucciones4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrucciones4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.6813 	EXP 	Created Instrucciones5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instrucciones5', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.6869 	EXP 	Created GratingPrueba = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask='circle', maskParams=None, name='GratingPrueba', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([200., 200.]), tex='sin', texRes=128, units='pix', win=Window(...))
+37.6889 	EXP 	Created FeedbackPrueb = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='FeedbackPrueb', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7075 	EXP 	Created ComienzoTexto = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ComienzoTexto', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.7113 	EXP 	Created grating2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask='circle', maskParams=None, name='grating2', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([200., 200.]), tex='sin', texRes=128, units='pix', win=Window(...))
+37.7125 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.7267 	EXP 	Created Gracias = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Gracias', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='¡Muchas gracias por participar!', units='height', win=Window(...), wrapWidth=1)
+37.7286 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='deg', win=Window(...))
+38.7273 	EXP 	Instrucciones1: autoDraw = True
+40.7137 	DATA 	Keypress: space
+40.7280 	EXP 	Instrucciones1: autoDraw = False
+40.7280 	EXP 	Instrucciones2: autoDraw = True
+43.2973 	DATA 	Keypress: space
+49.1000 	DATA 	Keypress: space
+49.1139 	EXP 	Instrucciones2: autoDraw = False
+49.1139 	EXP 	Instrucciones3: autoDraw = True
+54.7010 	DATA 	Keypress: space
+58.2699 	DATA 	Keypress: space
+58.2835 	EXP 	Instrucciones3: autoDraw = False
+58.2835 	EXP 	instrucciones4: autoDraw = True
+67.8416 	DATA 	Keypress: space
+69.1614 	DATA 	Keypress: space
+69.1704 	EXP 	instrucciones4: autoDraw = False
+69.1704 	EXP 	Instrucciones5: autoDraw = True
+75.0913 	DATA 	Keypress: space
+77.2407 	DATA 	Keypress: space
+77.2557 	EXP 	Instrucciones5: autoDraw = False
+84.3760 	DATA 	Keypress: space
+84.4003 	EXP 	Imported Parametros/Parametros E y F(superpuestos)/ParametrosEyFPractice.xlsx as conditions, 10 conditions, 6 params
+84.4009 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+84.4012 	EXP 	New trial (rep=0, index=0): {'Frecuencia': 5.8071055031334, 'Orientation': 126.095527609804, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029035527515667, 'Orden': 1}
+84.4103 	EXP 	Instrucciones1: autoDraw = False
+84.4103 	EXP 	Instrucciones2: autoDraw = False
+84.4103 	EXP 	Instrucciones3: autoDraw = False
+84.4103 	EXP 	instrucciones4: autoDraw = False
+84.4103 	EXP 	Instrucciones5: autoDraw = False
+84.4103 	EXP 	GratingPrueba: ori = 126.095527609804
+84.4103 	EXP 	GratingPrueba: sf = array([0.02903553, 0.02903553])
+84.5082 	EXP 	GratingPrueba: autoDraw = True
+84.5082 	EXP 	GratingPrueba: tex = 'sin'
+86.3026 	DATA 	Keypress: right
+86.3117 	EXP 	GratingPrueba: autoDraw = False
+86.3117 	EXP 	FeedbackPrueb: height = 0.1
+86.3117 	EXP 	FeedbackPrueb: height = 0.1
+86.3117 	EXP 	FeedbackPrueb: text = 'Segui intentando'
+86.3117 	EXP 	FeedbackPrueb: autoDraw = True
+87.3099 	EXP 	New trial (rep=0, index=1): {'Frecuencia': 5.64436961501561, 'Orientation': 120.102947993844, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.028221848075078052, 'Orden': 4}
+87.3256 	EXP 	FeedbackPrueb: autoDraw = False
+87.3256 	EXP 	FeedbackPrueb: autoDraw = False
+87.3256 	EXP 	GratingPrueba: ori = 120.102947993844
+87.3256 	EXP 	GratingPrueba: sf = array([0.02822185, 0.02822185])
+87.4091 	EXP 	GratingPrueba: autoDraw = True
+88.1442 	DATA 	Keypress: left
+88.1788 	EXP 	GratingPrueba: autoDraw = False
+88.1788 	EXP 	FeedbackPrueb: height = 0.1
+88.1788 	EXP 	FeedbackPrueb: height = 0.1
+88.1788 	EXP 	FeedbackPrueb: text = '¡Correcto!'
+88.1788 	EXP 	FeedbackPrueb: autoDraw = True
+89.1774 	EXP 	New trial (rep=0, index=2): {'Frecuencia': 6.01842108155121, 'Orientation': 124.970499761804, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.030092105407756052, 'Orden': 6}
+89.1930 	EXP 	FeedbackPrueb: autoDraw = False
+89.1930 	EXP 	FeedbackPrueb: autoDraw = False
+89.1930 	EXP 	GratingPrueba: ori = 124.970499761804
+89.1930 	EXP 	GratingPrueba: sf = array([0.03009211, 0.03009211])
+89.2761 	EXP 	GratingPrueba: autoDraw = True
+89.9614 	DATA 	Keypress: left
+89.9931 	EXP 	GratingPrueba: autoDraw = False
+89.9931 	EXP 	FeedbackPrueb: text = '¡Correcto!'
+89.9931 	EXP 	FeedbackPrueb: autoDraw = True
+90.9781 	EXP 	New trial (rep=0, index=3): {'Frecuencia': 5.59991295731731, 'Orientation': 123.659377025703, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.027999564786586547, 'Orden': 3}
+90.9934 	EXP 	FeedbackPrueb: autoDraw = False
+90.9934 	EXP 	FeedbackPrueb: autoDraw = False
+90.9934 	EXP 	GratingPrueba: ori = 123.659377025703
+90.9934 	EXP 	GratingPrueba: sf = array([0.02799956, 0.02799956])
+91.0768 	EXP 	GratingPrueba: autoDraw = True
+91.6644 	DATA 	Keypress: left
+91.6771 	EXP 	GratingPrueba: autoDraw = False
+91.6771 	EXP 	FeedbackPrueb: text = '¡Correcto!'
+91.6771 	EXP 	FeedbackPrueb: autoDraw = True
+92.6615 	EXP 	New trial (rep=0, index=4): {'Frecuencia': 5.86000675504161, 'Orientation': 125.097810493697, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02930003377520805, 'Orden': 10}
+92.6772 	EXP 	FeedbackPrueb: autoDraw = False
+92.6772 	EXP 	FeedbackPrueb: autoDraw = False
+92.6772 	EXP 	GratingPrueba: ori = 125.097810493697
+92.6772 	EXP 	GratingPrueba: sf = array([0.02930003, 0.02930003])
+92.7607 	EXP 	GratingPrueba: autoDraw = True
+93.6356 	DATA 	Keypress: left
+93.6448 	EXP 	GratingPrueba: autoDraw = False
+93.6448 	EXP 	FeedbackPrueb: text = '¡Correcto!'
+93.6448 	EXP 	FeedbackPrueb: autoDraw = True
+94.6288 	EXP 	New trial (rep=0, index=5): {'Frecuencia': 6.97351028243891, 'Orientation': 124.811887846181, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.034867551412194546, 'Orden': 2}
+94.6445 	EXP 	FeedbackPrueb: autoDraw = False
+94.6445 	EXP 	FeedbackPrueb: autoDraw = False
+94.6445 	EXP 	GratingPrueba: ori = 124.811887846181
+94.6445 	EXP 	GratingPrueba: sf = array([0.03486755, 0.03486755])
+94.7279 	EXP 	GratingPrueba: autoDraw = True
+95.4317 	DATA 	Keypress: right
+95.4448 	EXP 	GratingPrueba: autoDraw = False
+95.4448 	EXP 	FeedbackPrueb: text = '¡Correcto!'
+95.4448 	EXP 	FeedbackPrueb: autoDraw = True
+96.4296 	EXP 	New trial (rep=0, index=6): {'Frecuencia': 6.70154405694418, 'Orientation': 124.752281469682, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.033507720284720904, 'Orden': 9}
+96.4451 	EXP 	FeedbackPrueb: autoDraw = False
+96.4451 	EXP 	FeedbackPrueb: autoDraw = False
+96.4451 	EXP 	GratingPrueba: ori = 124.752281469682
+96.4451 	EXP 	GratingPrueba: sf = array([0.03350772, 0.03350772])
+96.5284 	EXP 	GratingPrueba: autoDraw = True
+97.3155 	DATA 	Keypress: right
+97.3287 	EXP 	GratingPrueba: autoDraw = False
+97.3287 	EXP 	FeedbackPrueb: text = '¡Correcto!'
+97.3287 	EXP 	FeedbackPrueb: autoDraw = True
+98.3133 	EXP 	New trial (rep=0, index=7): {'Frecuencia': 6.70252114110423, 'Orientation': 125.631939944495, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03351260570552115, 'Orden': 7}
+98.3290 	EXP 	FeedbackPrueb: autoDraw = False
+98.3290 	EXP 	FeedbackPrueb: autoDraw = False
+98.3290 	EXP 	GratingPrueba: ori = 125.631939944495
+98.3290 	EXP 	GratingPrueba: sf = array([0.03351261, 0.03351261])
+98.4124 	EXP 	GratingPrueba: autoDraw = True
+99.0161 	DATA 	Keypress: right
+99.0293 	EXP 	GratingPrueba: autoDraw = False
+99.0293 	EXP 	FeedbackPrueb: text = '¡Correcto!'
+99.0293 	EXP 	FeedbackPrueb: autoDraw = True
+100.0139 	EXP 	New trial (rep=0, index=8): {'Frecuencia': 7.04733241547937, 'Orientation': 123.230512019733, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03523666207739685, 'Orden': 5}
+100.0295 	EXP 	FeedbackPrueb: autoDraw = False
+100.0295 	EXP 	FeedbackPrueb: autoDraw = False
+100.0295 	EXP 	GratingPrueba: ori = 123.230512019733
+100.0295 	EXP 	GratingPrueba: sf = array([0.03523666, 0.03523666])
+100.1130 	EXP 	GratingPrueba: autoDraw = True
+100.7166 	DATA 	Keypress: right
+100.7298 	EXP 	GratingPrueba: autoDraw = False
+100.7298 	EXP 	FeedbackPrueb: text = '¡Correcto!'
+100.7298 	EXP 	FeedbackPrueb: autoDraw = True
+101.7144 	EXP 	New trial (rep=0, index=9): {'Frecuencia': 6.79460937138033, 'Orientation': 126.741118380059, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.033973046856901654, 'Orden': 8}
+101.7303 	EXP 	FeedbackPrueb: autoDraw = False
+101.7303 	EXP 	FeedbackPrueb: autoDraw = False
+101.7303 	EXP 	GratingPrueba: ori = 126.741118380059
+101.7303 	EXP 	GratingPrueba: sf = array([0.03397305, 0.03397305])
+101.8134 	EXP 	GratingPrueba: autoDraw = True
+102.3836 	DATA 	Keypress: right
+102.3969 	EXP 	GratingPrueba: autoDraw = False
+102.3969 	EXP 	FeedbackPrueb: text = '¡Correcto!'
+102.3969 	EXP 	FeedbackPrueb: autoDraw = True
+103.4182 	EXP 	FeedbackPrueb: autoDraw = False
+103.4182 	EXP 	FeedbackPrueb: autoDraw = False
+103.9143 	EXP 	ComienzoTexto: autoDraw = True
+107.1647 	EXP 	Imported Parametros/Parametros E y F(superpuestos)/ParametrosEyF.xlsx as conditions, 80 conditions, 6 params
+107.1658 	EXP 	Created sequence: sequential, trialTypes=80, nReps=1, seed=None
+107.1661 	EXP 	New trial (rep=0, index=0): {'Frecuencia': 6.93234125901961, 'Orientation': 125.924868165109, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03466170629509805, 'Orden': 1}
+107.1670 	DATA 	Keypress: space
+107.1745 	EXP 	ComienzoTexto: autoDraw = False
+107.1745 	EXP 	grating2: ori = 125.924868165109
+107.1745 	EXP 	grating2: sf = array([0.03466171, 0.03466171])
+107.2655 	EXP 	grating2: autoDraw = True
+107.2655 	EXP 	grating2: tex = 'sin'
+108.2384 	DATA 	Keypress: right
+108.2490 	EXP 	grating2: autoDraw = False
+108.2490 	EXP 	feedback_2: height = 0.1
+108.2490 	EXP 	feedback_2: height = 0.1
+108.2490 	EXP 	feedback_2: text = '¡Correcto!'
+108.2490 	EXP 	feedback_2: autoDraw = True
+109.2336 	EXP 	New trial (rep=0, index=1): {'Frecuencia': 7.02497359482055, 'Orientation': 122.628624380508, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.035124867974102754, 'Orden': 2}
+109.2494 	EXP 	feedback_2: autoDraw = False
+109.2494 	EXP 	feedback_2: autoDraw = False
+109.2494 	EXP 	grating2: ori = 122.628624380508
+109.2494 	EXP 	grating2: sf = array([0.03512487, 0.03512487])
+109.3327 	EXP 	grating2: autoDraw = True
+109.8185 	DATA 	Keypress: right
+109.8328 	EXP 	grating2: autoDraw = False
+109.8328 	EXP 	feedback_2: text = '¡Correcto!'
+109.8328 	EXP 	feedback_2: autoDraw = True
+110.8171 	EXP 	New trial (rep=0, index=2): {'Frecuencia': 6.60367058960161, 'Orientation': 122.972561364095, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.033018352948008055, 'Orden': 3}
+110.8331 	EXP 	feedback_2: autoDraw = False
+110.8331 	EXP 	feedback_2: autoDraw = False
+110.8331 	EXP 	grating2: ori = 122.972561364095
+110.8331 	EXP 	grating2: sf = array([0.03301835, 0.03301835])
+110.9164 	EXP 	grating2: autoDraw = True
+111.3524 	DATA 	Keypress: right
+111.3667 	EXP 	grating2: autoDraw = False
+111.3667 	EXP 	feedback_2: text = '¡Correcto!'
+111.3667 	EXP 	feedback_2: autoDraw = True
+112.3509 	EXP 	New trial (rep=0, index=3): {'Frecuencia': 6.09987877706183, 'Orientation': 125.373371597183, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.030499393885309152, 'Orden': 4}
+112.3671 	EXP 	feedback_2: autoDraw = False
+112.3671 	EXP 	feedback_2: autoDraw = False
+112.3671 	EXP 	grating2: ori = 125.373371597183
+112.3671 	EXP 	grating2: sf = array([0.03049939, 0.03049939])
+112.4503 	EXP 	grating2: autoDraw = True
+112.9395 	DATA 	Keypress: right
+112.9506 	EXP 	grating2: autoDraw = False
+112.9506 	EXP 	feedback_2: height = 0.1
+112.9506 	EXP 	feedback_2: height = 0.1
+112.9506 	EXP 	feedback_2: text = 'Segui intentando'
+112.9506 	EXP 	feedback_2: autoDraw = True
+113.9350 	EXP 	New trial (rep=0, index=4): {'Frecuencia': 5.99246984832617, 'Orientation': 128.207849823814, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.02996234924163085, 'Orden': 5}
+113.9514 	EXP 	feedback_2: autoDraw = False
+113.9514 	EXP 	feedback_2: autoDraw = False
+113.9514 	EXP 	grating2: ori = 128.207849823814
+113.9514 	EXP 	grating2: sf = array([0.02996235, 0.02996235])
+114.0345 	EXP 	grating2: autoDraw = True
+115.5059 	DATA 	Keypress: left
+115.5179 	EXP 	grating2: autoDraw = False
+115.5179 	EXP 	feedback_2: height = 0.1
+115.5179 	EXP 	feedback_2: height = 0.1
+115.5179 	EXP 	feedback_2: text = '¡Correcto!'
+115.5179 	EXP 	feedback_2: autoDraw = True
+116.5025 	EXP 	New trial (rep=0, index=5): {'Frecuencia': 5.97116825735348, 'Orientation': 117.721009455833, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.029855841286767403, 'Orden': 6}
+116.5183 	EXP 	feedback_2: autoDraw = False
+116.5183 	EXP 	feedback_2: autoDraw = False
+116.5183 	EXP 	grating2: ori = 117.721009455833
+116.5183 	EXP 	grating2: sf = array([0.02985584, 0.02985584])
+116.6016 	EXP 	grating2: autoDraw = True
+117.1740 	DATA 	Keypress: right
+117.1852 	EXP 	grating2: autoDraw = False
+117.1852 	EXP 	feedback_2: height = 0.1
+117.1852 	EXP 	feedback_2: height = 0.1
+117.1852 	EXP 	feedback_2: text = 'Segui intentando'
+117.1852 	EXP 	feedback_2: autoDraw = True
+118.1695 	EXP 	New trial (rep=0, index=6): {'Frecuencia': 6.73943488968302, 'Orientation': 125.807525046009, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0336971744484151, 'Orden': 7}
+118.1855 	EXP 	feedback_2: autoDraw = False
+118.1855 	EXP 	feedback_2: autoDraw = False
+118.1855 	EXP 	grating2: ori = 125.807525046009
+118.1855 	EXP 	grating2: sf = array([0.03369717, 0.03369717])
+118.2689 	EXP 	grating2: autoDraw = True
+118.9214 	DATA 	Keypress: left
+118.9357 	EXP 	grating2: autoDraw = False
+118.9357 	EXP 	feedback_2: text = 'Segui intentando'
+118.9357 	EXP 	feedback_2: autoDraw = True
+119.9197 	EXP 	New trial (rep=0, index=7): {'Frecuencia': 7.10539554110955, 'Orientation': 131.136658346503, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.035526977705547746, 'Orden': 8}
+119.9357 	EXP 	feedback_2: autoDraw = False
+119.9357 	EXP 	feedback_2: autoDraw = False
+119.9357 	EXP 	grating2: ori = 131.136658346503
+119.9357 	EXP 	grating2: sf = array([0.03552698, 0.03552698])
+120.0191 	EXP 	grating2: autoDraw = True
+120.6083 	DATA 	Keypress: right
+120.6195 	EXP 	grating2: autoDraw = False
+120.6195 	EXP 	feedback_2: height = 0.1
+120.6195 	EXP 	feedback_2: height = 0.1
+120.6195 	EXP 	feedback_2: text = '¡Correcto!'
+120.6195 	EXP 	feedback_2: autoDraw = True
+121.6040 	EXP 	New trial (rep=0, index=8): {'Frecuencia': 6.12217460351626, 'Orientation': 126.097885466808, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0306108730175813, 'Orden': 9}
+121.6199 	EXP 	feedback_2: autoDraw = False
+121.6199 	EXP 	feedback_2: autoDraw = False
+121.6199 	EXP 	grating2: ori = 126.097885466808
+121.6199 	EXP 	grating2: sf = array([0.03061087, 0.03061087])
+121.7032 	EXP 	grating2: autoDraw = True
+122.8225 	DATA 	Keypress: left
+122.8370 	EXP 	grating2: autoDraw = False
+122.8370 	EXP 	feedback_2: text = '¡Correcto!'
+122.8370 	EXP 	feedback_2: autoDraw = True
+123.8211 	EXP 	New trial (rep=0, index=9): {'Frecuencia': 5.56505551233152, 'Orientation': 123.664663304171, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0278252775616576, 'Orden': 10}
+123.8373 	EXP 	feedback_2: autoDraw = False
+123.8373 	EXP 	feedback_2: autoDraw = False
+123.8373 	EXP 	grating2: ori = 123.664663304171
+123.8373 	EXP 	grating2: sf = array([0.02782528, 0.02782528])
+123.9206 	EXP 	grating2: autoDraw = True
+124.7564 	DATA 	Keypress: left
+124.7709 	EXP 	grating2: autoDraw = False
+124.7709 	EXP 	feedback_2: text = '¡Correcto!'
+124.7709 	EXP 	feedback_2: autoDraw = True
+125.7552 	EXP 	New trial (rep=0, index=10): {'Frecuencia': 5.91037757272398, 'Orientation': 127.915093901674, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0295518878636199, 'Orden': 11}
+125.7711 	EXP 	feedback_2: autoDraw = False
+125.7711 	EXP 	feedback_2: autoDraw = False
+125.7711 	EXP 	grating2: ori = 127.915093901674
+125.7711 	EXP 	grating2: sf = array([0.02955189, 0.02955189])
+125.8544 	EXP 	grating2: autoDraw = True
+126.4611 	DATA 	Keypress: right
+126.4712 	EXP 	grating2: autoDraw = False
+126.4712 	EXP 	feedback_2: height = 0.1
+126.4712 	EXP 	feedback_2: height = 0.1
+126.4712 	EXP 	feedback_2: text = 'Segui intentando'
+126.4712 	EXP 	feedback_2: autoDraw = True
+127.4558 	EXP 	New trial (rep=0, index=11): {'Frecuencia': 5.52075126243115, 'Orientation': 123.72341354159, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.027603756312155753, 'Orden': 12}
+127.4717 	EXP 	feedback_2: autoDraw = False
+127.4717 	EXP 	feedback_2: autoDraw = False
+127.4717 	EXP 	grating2: ori = 123.72341354159
+127.4717 	EXP 	grating2: sf = array([0.02760376, 0.02760376])
+127.5559 	EXP 	grating2: autoDraw = True
+128.4645 	DATA 	Keypress: left
+128.4734 	EXP 	grating2: autoDraw = False
+128.4734 	EXP 	feedback_2: height = 0.1
+128.4734 	EXP 	feedback_2: height = 0.1
+128.4734 	EXP 	feedback_2: text = '¡Correcto!'
+128.4734 	EXP 	feedback_2: autoDraw = True
+129.4725 	EXP 	New trial (rep=0, index=12): {'Frecuencia': 5.8665988200787, 'Orientation': 125.853730678291, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0293329941003935, 'Orden': 13}
+129.4887 	EXP 	feedback_2: autoDraw = False
+129.4887 	EXP 	feedback_2: autoDraw = False
+129.4887 	EXP 	grating2: ori = 125.853730678291
+129.4887 	EXP 	grating2: sf = array([0.02933299, 0.02933299])
+129.5720 	EXP 	grating2: autoDraw = True
+130.4123 	DATA 	Keypress: right
+130.4223 	EXP 	grating2: autoDraw = False
+130.4223 	EXP 	feedback_2: height = 0.1
+130.4223 	EXP 	feedback_2: height = 0.1
+130.4223 	EXP 	feedback_2: text = 'Segui intentando'
+130.4223 	EXP 	feedback_2: autoDraw = True
+131.4068 	EXP 	New trial (rep=0, index=13): {'Frecuencia': 7.37386481574254, 'Orientation': 126.306325176555, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.036869324078712705, 'Orden': 14}
+131.4226 	EXP 	feedback_2: autoDraw = False
+131.4226 	EXP 	feedback_2: autoDraw = False
+131.4226 	EXP 	grating2: ori = 126.306325176555
+131.4226 	EXP 	grating2: sf = array([0.03686932, 0.03686932])
+131.5060 	EXP 	grating2: autoDraw = True
+132.0615 	DATA 	Keypress: right
+132.0728 	EXP 	grating2: autoDraw = False
+132.0728 	EXP 	feedback_2: height = 0.1
+132.0728 	EXP 	feedback_2: height = 0.1
+132.0728 	EXP 	feedback_2: text = '¡Correcto!'
+132.0728 	EXP 	feedback_2: autoDraw = True
+133.0573 	EXP 	New trial (rep=0, index=14): {'Frecuencia': 5.96688980474568, 'Orientation': 123.797748594863, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0298344490237284, 'Orden': 15}
+133.0732 	EXP 	feedback_2: autoDraw = False
+133.0732 	EXP 	feedback_2: autoDraw = False
+133.0732 	EXP 	grating2: ori = 123.797748594863
+133.0732 	EXP 	grating2: sf = array([0.02983445, 0.02983445])
+133.1563 	EXP 	grating2: autoDraw = True
+133.8973 	DATA 	Keypress: right
+133.9064 	EXP 	grating2: autoDraw = False
+133.9064 	EXP 	feedback_2: height = 0.1
+133.9064 	EXP 	feedback_2: height = 0.1
+133.9064 	EXP 	feedback_2: text = 'Segui intentando'
+133.9064 	EXP 	feedback_2: autoDraw = True
+134.8912 	EXP 	New trial (rep=0, index=15): {'Frecuencia': 5.7013744269325, 'Orientation': 128.137344407076, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.028506872134662502, 'Orden': 16}
+134.9069 	EXP 	feedback_2: autoDraw = False
+134.9069 	EXP 	feedback_2: autoDraw = False
+134.9069 	EXP 	grating2: ori = 128.137344407076
+134.9069 	EXP 	grating2: sf = array([0.02850687, 0.02850687])
+134.9904 	EXP 	grating2: autoDraw = True
+135.9129 	DATA 	Keypress: left
+135.9240 	EXP 	grating2: autoDraw = False
+135.9240 	EXP 	feedback_2: height = 0.1
+135.9240 	EXP 	feedback_2: height = 0.1
+135.9240 	EXP 	feedback_2: text = '¡Correcto!'
+135.9240 	EXP 	feedback_2: autoDraw = True
+136.9081 	EXP 	New trial (rep=0, index=16): {'Frecuencia': 6.58545731939056, 'Orientation': 125.288952448838, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0329272865969528, 'Orden': 17}
+136.9242 	EXP 	feedback_2: autoDraw = False
+136.9242 	EXP 	feedback_2: autoDraw = False
+136.9242 	EXP 	grating2: ori = 125.288952448838
+136.9242 	EXP 	grating2: sf = array([0.03292729, 0.03292729])
+137.0076 	EXP 	grating2: autoDraw = True
+137.6936 	DATA 	Keypress: right
+137.7080 	EXP 	grating2: autoDraw = False
+137.7080 	EXP 	feedback_2: text = '¡Correcto!'
+137.7080 	EXP 	feedback_2: autoDraw = True
+138.6923 	EXP 	New trial (rep=0, index=17): {'Frecuencia': 5.9502117142683, 'Orientation': 130.040868197316, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0297510585713415, 'Orden': 18}
+138.7082 	EXP 	feedback_2: autoDraw = False
+138.7082 	EXP 	feedback_2: autoDraw = False
+138.7082 	EXP 	grating2: ori = 130.040868197316
+138.7082 	EXP 	grating2: sf = array([0.02975106, 0.02975106])
+138.7916 	EXP 	grating2: autoDraw = True
+139.7444 	DATA 	Keypress: left
+139.7585 	EXP 	grating2: autoDraw = False
+139.7585 	EXP 	feedback_2: text = '¡Correcto!'
+139.7585 	EXP 	feedback_2: autoDraw = True
+140.7432 	EXP 	New trial (rep=0, index=18): {'Frecuencia': 6.88953147079655, 'Orientation': 126.051099538978, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03444765735398275, 'Orden': 19}
+140.7590 	EXP 	feedback_2: autoDraw = False
+140.7590 	EXP 	feedback_2: autoDraw = False
+140.7590 	EXP 	grating2: ori = 126.051099538978
+140.7590 	EXP 	grating2: sf = array([0.03444766, 0.03444766])
+140.8425 	EXP 	grating2: autoDraw = True
+141.4616 	DATA 	Keypress: right
+141.4761 	EXP 	grating2: autoDraw = False
+141.4761 	EXP 	feedback_2: text = '¡Correcto!'
+141.4761 	EXP 	feedback_2: autoDraw = True
+142.4605 	EXP 	New trial (rep=0, index=19): {'Frecuencia': 5.91111146124838, 'Orientation': 123.732709570874, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0295555573062419, 'Orden': 20}
+142.4764 	EXP 	feedback_2: autoDraw = False
+142.4764 	EXP 	feedback_2: autoDraw = False
+142.4764 	EXP 	grating2: ori = 123.732709570874
+142.4764 	EXP 	grating2: sf = array([0.02955556, 0.02955556])
+142.5596 	EXP 	grating2: autoDraw = True
+143.4456 	DATA 	Keypress: left
+143.4598 	EXP 	grating2: autoDraw = False
+143.4598 	EXP 	feedback_2: text = '¡Correcto!'
+143.4598 	EXP 	feedback_2: autoDraw = True
+144.4443 	EXP 	New trial (rep=0, index=20): {'Frecuencia': 6.99093214046861, 'Orientation': 123.997920213209, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03495466070234305, 'Orden': 21}
+144.4603 	EXP 	feedback_2: autoDraw = False
+144.4603 	EXP 	feedback_2: autoDraw = False
+144.4603 	EXP 	grating2: ori = 123.997920213209
+144.4603 	EXP 	grating2: sf = array([0.03495466, 0.03495466])
+144.5436 	EXP 	grating2: autoDraw = True
+145.1462 	DATA 	Keypress: right
+145.1606 	EXP 	grating2: autoDraw = False
+145.1606 	EXP 	feedback_2: text = '¡Correcto!'
+145.1606 	EXP 	feedback_2: autoDraw = True
+146.1456 	EXP 	New trial (rep=0, index=21): {'Frecuencia': 5.82216087353878, 'Orientation': 125.36108174198, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0291108043676939, 'Orden': 22}
+146.1609 	EXP 	feedback_2: autoDraw = False
+146.1609 	EXP 	feedback_2: autoDraw = False
+146.1609 	EXP 	grating2: ori = 125.36108174198
+146.1609 	EXP 	grating2: sf = array([0.0291108, 0.0291108])
+146.2442 	EXP 	grating2: autoDraw = True
+146.9967 	DATA 	Keypress: left
+147.0112 	EXP 	grating2: autoDraw = False
+147.0112 	EXP 	feedback_2: text = '¡Correcto!'
+147.0112 	EXP 	feedback_2: autoDraw = True
+147.9953 	EXP 	New trial (rep=0, index=22): {'Frecuencia': 6.16927851208027, 'Orientation': 124.634772531809, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.03084639256040135, 'Orden': 23}
+148.0113 	EXP 	feedback_2: autoDraw = False
+148.0113 	EXP 	feedback_2: autoDraw = False
+148.0113 	EXP 	grating2: ori = 124.634772531809
+148.0113 	EXP 	grating2: sf = array([0.03084639, 0.03084639])
+148.0947 	EXP 	grating2: autoDraw = True
+148.7018 	DATA 	Keypress: right
+148.7117 	EXP 	grating2: autoDraw = False
+148.7117 	EXP 	feedback_2: height = 0.1
+148.7117 	EXP 	feedback_2: height = 0.1
+148.7117 	EXP 	feedback_2: text = 'Segui intentando'
+148.7117 	EXP 	feedback_2: autoDraw = True
+149.6960 	EXP 	New trial (rep=0, index=23): {'Frecuencia': 7.10714202626223, 'Orientation': 125.130423058653, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.035535710131311155, 'Orden': 24}
+149.7117 	EXP 	feedback_2: autoDraw = False
+149.7117 	EXP 	feedback_2: autoDraw = False
+149.7117 	EXP 	grating2: ori = 125.130423058653
+149.7117 	EXP 	grating2: sf = array([0.03553571, 0.03553571])
+149.7952 	EXP 	grating2: autoDraw = True
+150.6012 	DATA 	Keypress: right
+150.6123 	EXP 	grating2: autoDraw = False
+150.6123 	EXP 	feedback_2: height = 0.1
+150.6123 	EXP 	feedback_2: height = 0.1
+150.6123 	EXP 	feedback_2: text = '¡Correcto!'
+150.6123 	EXP 	feedback_2: autoDraw = True
+151.5966 	EXP 	New trial (rep=0, index=24): {'Frecuencia': 6.73265051773132, 'Orientation': 128.52238170251, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0336632525886566, 'Orden': 25}
+151.6124 	EXP 	feedback_2: autoDraw = False
+151.6124 	EXP 	feedback_2: autoDraw = False
+151.6124 	EXP 	grating2: ori = 128.52238170251
+151.6124 	EXP 	grating2: sf = array([0.03366325, 0.03366325])
+151.6959 	EXP 	grating2: autoDraw = True
+152.2985 	DATA 	Keypress: right
+152.3126 	EXP 	grating2: autoDraw = False
+152.3126 	EXP 	feedback_2: text = '¡Correcto!'
+152.3126 	EXP 	feedback_2: autoDraw = True
+153.2970 	EXP 	New trial (rep=0, index=25): {'Frecuencia': 7.02640523744123, 'Orientation': 124.322837810942, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03513202618720615, 'Orden': 26}
+153.3129 	EXP 	feedback_2: autoDraw = False
+153.3129 	EXP 	feedback_2: autoDraw = False
+153.3129 	EXP 	grating2: ori = 124.322837810942
+153.3129 	EXP 	grating2: sf = array([0.03513203, 0.03513203])
+153.3964 	EXP 	grating2: autoDraw = True
+154.0485 	DATA 	Keypress: right
+154.0797 	EXP 	grating2: autoDraw = False
+154.0797 	EXP 	feedback_2: text = '¡Correcto!'
+154.0797 	EXP 	feedback_2: autoDraw = True
+155.0643 	EXP 	New trial (rep=0, index=26): {'Frecuencia': 6.92637689199021, 'Orientation': 121.264987338989, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03463188445995105, 'Orden': 27}
+155.0801 	EXP 	feedback_2: autoDraw = False
+155.0801 	EXP 	feedback_2: autoDraw = False
+155.0801 	EXP 	grating2: ori = 121.264987338989
+155.0801 	EXP 	grating2: sf = array([0.03463188, 0.03463188])
+155.1633 	EXP 	grating2: autoDraw = True
+155.7665 	DATA 	Keypress: right
+155.7804 	EXP 	grating2: autoDraw = False
+155.7804 	EXP 	feedback_2: text = '¡Correcto!'
+155.7804 	EXP 	feedback_2: autoDraw = True
+156.7650 	EXP 	New trial (rep=0, index=27): {'Frecuencia': 6.92771122384602, 'Orientation': 127.420075185906, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0346385561192301, 'Orden': 28}
+156.7804 	EXP 	feedback_2: autoDraw = False
+156.7804 	EXP 	feedback_2: autoDraw = False
+156.7804 	EXP 	grating2: ori = 127.420075185906
+156.7804 	EXP 	grating2: sf = array([0.03463856, 0.03463856])
+156.8639 	EXP 	grating2: autoDraw = True
+157.4172 	DATA 	Keypress: right
+157.4307 	EXP 	grating2: autoDraw = False
+157.4307 	EXP 	feedback_2: text = '¡Correcto!'
+157.4307 	EXP 	feedback_2: autoDraw = True
+158.4153 	EXP 	New trial (rep=0, index=28): {'Frecuencia': 5.82965555515823, 'Orientation': 121.362896245264, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.02914827777579115, 'Orden': 29}
+158.4311 	EXP 	feedback_2: autoDraw = False
+158.4311 	EXP 	feedback_2: autoDraw = False
+158.4311 	EXP 	grating2: ori = 121.362896245264
+158.4311 	EXP 	grating2: sf = array([0.02914828, 0.02914828])
+158.5140 	EXP 	grating2: autoDraw = True
+159.1511 	DATA 	Keypress: left
+159.1647 	EXP 	grating2: autoDraw = False
+159.1647 	EXP 	feedback_2: text = '¡Correcto!'
+159.1647 	EXP 	feedback_2: autoDraw = True
+160.1491 	EXP 	New trial (rep=0, index=29): {'Frecuencia': 6.04573357235965, 'Orientation': 120.789364395402, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.030228667861798248, 'Orden': 30}
+160.1650 	EXP 	feedback_2: autoDraw = False
+160.1650 	EXP 	feedback_2: autoDraw = False
+160.1650 	EXP 	grating2: ori = 120.789364395402
+160.1650 	EXP 	grating2: sf = array([0.03022867, 0.03022867])
+160.2483 	EXP 	grating2: autoDraw = True
+161.1075 	DATA 	Keypress: left
+161.1163 	EXP 	grating2: autoDraw = False
+161.1163 	EXP 	feedback_2: text = '¡Correcto!'
+161.1163 	EXP 	feedback_2: autoDraw = True
+162.1167 	EXP 	New trial (rep=0, index=30): {'Frecuencia': 5.92769951728615, 'Orientation': 125.272196114664, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.02963849758643075, 'Orden': 31}
+162.1319 	EXP 	feedback_2: autoDraw = False
+162.1319 	EXP 	feedback_2: autoDraw = False
+162.1319 	EXP 	grating2: ori = 125.272196114664
+162.1319 	EXP 	grating2: sf = array([0.0296385, 0.0296385])
+162.2152 	EXP 	grating2: autoDraw = True
+163.0029 	DATA 	Keypress: left
+163.0159 	EXP 	grating2: autoDraw = False
+163.0159 	EXP 	feedback_2: text = '¡Correcto!'
+163.0159 	EXP 	feedback_2: autoDraw = True
+164.0005 	EXP 	New trial (rep=0, index=31): {'Frecuencia': 6.19147311049652, 'Orientation': 124.003168840549, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0309573655524826, 'Orden': 32}
+164.0163 	EXP 	feedback_2: autoDraw = False
+164.0163 	EXP 	feedback_2: autoDraw = False
+164.0163 	EXP 	grating2: ori = 124.003168840549
+164.0163 	EXP 	grating2: sf = array([0.03095737, 0.03095737])
+164.0994 	EXP 	grating2: autoDraw = True
+164.8202 	DATA 	Keypress: left
+164.8331 	EXP 	grating2: autoDraw = False
+164.8331 	EXP 	feedback_2: text = '¡Correcto!'
+164.8331 	EXP 	feedback_2: autoDraw = True
+165.8178 	EXP 	New trial (rep=0, index=32): {'Frecuencia': 5.73875841743782, 'Orientation': 122.809304341189, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0286937920871891, 'Orden': 33}
+165.8334 	EXP 	feedback_2: autoDraw = False
+165.8334 	EXP 	feedback_2: autoDraw = False
+165.8334 	EXP 	grating2: ori = 122.809304341189
+165.8334 	EXP 	grating2: sf = array([0.02869379, 0.02869379])
+165.9166 	EXP 	grating2: autoDraw = True
+166.5039 	DATA 	Keypress: left
+166.5170 	EXP 	grating2: autoDraw = False
+166.5170 	EXP 	feedback_2: text = '¡Correcto!'
+166.5170 	EXP 	feedback_2: autoDraw = True
+167.5016 	EXP 	New trial (rep=0, index=33): {'Frecuencia': 5.72907568575406, 'Orientation': 129.000322287173, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0286453784287703, 'Orden': 34}
+167.5172 	EXP 	feedback_2: autoDraw = False
+167.5172 	EXP 	feedback_2: autoDraw = False
+167.5172 	EXP 	grating2: ori = 129.000322287173
+167.5172 	EXP 	grating2: sf = array([0.02864538, 0.02864538])
+167.6005 	EXP 	grating2: autoDraw = True
+168.2876 	DATA 	Keypress: left
+168.3005 	EXP 	grating2: autoDraw = False
+168.3005 	EXP 	feedback_2: text = '¡Correcto!'
+168.3005 	EXP 	feedback_2: autoDraw = True
+169.2854 	EXP 	New trial (rep=0, index=34): {'Frecuencia': 6.7190236530122, 'Orientation': 123.237058412498, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.033595118265061, 'Orden': 35}
+169.3011 	EXP 	feedback_2: autoDraw = False
+169.3011 	EXP 	feedback_2: autoDraw = False
+169.3011 	EXP 	grating2: ori = 123.237058412498
+169.3011 	EXP 	grating2: sf = array([0.03359512, 0.03359512])
+169.3845 	EXP 	grating2: autoDraw = True
+170.0214 	DATA 	Keypress: right
+170.0347 	EXP 	grating2: autoDraw = False
+170.0347 	EXP 	feedback_2: text = '¡Correcto!'
+170.0347 	EXP 	feedback_2: autoDraw = True
+171.0192 	EXP 	New trial (rep=0, index=35): {'Frecuencia': 6.69623359879928, 'Orientation': 121.338799557726, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0334811679939964, 'Orden': 36}
+171.0351 	EXP 	feedback_2: autoDraw = False
+171.0351 	EXP 	feedback_2: autoDraw = False
+171.0351 	EXP 	grating2: ori = 121.338799557726
+171.0351 	EXP 	grating2: sf = array([0.03348117, 0.03348117])
+171.1184 	EXP 	grating2: autoDraw = True
+171.6886 	DATA 	Keypress: right
+171.7018 	EXP 	grating2: autoDraw = False
+171.7018 	EXP 	feedback_2: text = '¡Correcto!'
+171.7018 	EXP 	feedback_2: autoDraw = True
+172.6865 	EXP 	New trial (rep=0, index=36): {'Frecuencia': 7.03435382452649, 'Orientation': 121.214992388902, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03517176912263245, 'Orden': 37}
+172.7022 	EXP 	feedback_2: autoDraw = False
+172.7022 	EXP 	feedback_2: autoDraw = False
+172.7022 	EXP 	grating2: ori = 121.214992388902
+172.7022 	EXP 	grating2: sf = array([0.03517177, 0.03517177])
+172.7856 	EXP 	grating2: autoDraw = True
+173.4558 	DATA 	Keypress: right
+173.4691 	EXP 	grating2: autoDraw = False
+173.4691 	EXP 	feedback_2: text = '¡Correcto!'
+173.4691 	EXP 	feedback_2: autoDraw = True
+174.4537 	EXP 	New trial (rep=0, index=37): {'Frecuencia': 6.01504039044082, 'Orientation': 122.141261329445, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0300752019522041, 'Orden': 38}
+174.4694 	EXP 	feedback_2: autoDraw = False
+174.4694 	EXP 	feedback_2: autoDraw = False
+174.4694 	EXP 	grating2: ori = 122.141261329445
+174.4694 	EXP 	grating2: sf = array([0.0300752, 0.0300752])
+174.5527 	EXP 	grating2: autoDraw = True
+175.3565 	DATA 	Keypress: left
+175.3696 	EXP 	grating2: autoDraw = False
+175.3696 	EXP 	feedback_2: text = '¡Correcto!'
+175.3696 	EXP 	feedback_2: autoDraw = True
+176.3542 	EXP 	New trial (rep=0, index=38): {'Frecuencia': 6.99445550840864, 'Orientation': 124.679166141761, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0349722775420432, 'Orden': 39}
+176.3696 	EXP 	feedback_2: autoDraw = False
+176.3696 	EXP 	feedback_2: autoDraw = False
+176.3696 	EXP 	grating2: ori = 124.679166141761
+176.3696 	EXP 	grating2: sf = array([0.03497228, 0.03497228])
+176.4533 	EXP 	grating2: autoDraw = True
+177.0571 	DATA 	Keypress: right
+177.0702 	EXP 	grating2: autoDraw = False
+177.0702 	EXP 	feedback_2: text = '¡Correcto!'
+177.0702 	EXP 	feedback_2: autoDraw = True
+178.0549 	EXP 	New trial (rep=0, index=39): {'Frecuencia': 6.19298125039768, 'Orientation': 126.10761504368, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0309649062519884, 'Orden': 40}
+178.0705 	EXP 	feedback_2: autoDraw = False
+178.0705 	EXP 	feedback_2: autoDraw = False
+178.0705 	EXP 	grating2: ori = 126.10761504368
+178.0705 	EXP 	grating2: sf = array([0.03096491, 0.03096491])
+178.1538 	EXP 	grating2: autoDraw = True
+179.0409 	DATA 	Keypress: left
+179.0541 	EXP 	grating2: autoDraw = False
+179.0541 	EXP 	feedback_2: text = '¡Correcto!'
+179.0541 	EXP 	feedback_2: autoDraw = True
+180.0387 	EXP 	New trial (rep=0, index=40): {'Frecuencia': 6.86652736200711, 'Orientation': 126.319753297367, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03433263681003555, 'Orden': 41}
+180.0545 	EXP 	feedback_2: autoDraw = False
+180.0545 	EXP 	feedback_2: autoDraw = False
+180.0545 	EXP 	grating2: ori = 126.319753297367
+180.0545 	EXP 	grating2: sf = array([0.03433264, 0.03433264])
+180.1379 	EXP 	grating2: autoDraw = True
+181.0749 	DATA 	Keypress: right
+181.0881 	EXP 	grating2: autoDraw = False
+181.0881 	EXP 	feedback_2: text = '¡Correcto!'
+181.0881 	EXP 	feedback_2: autoDraw = True
+182.0727 	EXP 	New trial (rep=0, index=41): {'Frecuencia': 6.0265706931507, 'Orientation': 120.167692799951, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0301328534657535, 'Orden': 42}
+182.0885 	EXP 	feedback_2: autoDraw = False
+182.0885 	EXP 	feedback_2: autoDraw = False
+182.0885 	EXP 	grating2: ori = 120.167692799951
+182.0885 	EXP 	grating2: sf = array([0.03013285, 0.03013285])
+182.1719 	EXP 	grating2: autoDraw = True
+182.9639 	DATA 	Keypress: left
+182.9727 	EXP 	grating2: autoDraw = False
+182.9727 	EXP 	feedback_2: text = '¡Correcto!'
+182.9727 	EXP 	feedback_2: autoDraw = True
+183.9568 	EXP 	New trial (rep=0, index=42): {'Frecuencia': 7.02088680300604, 'Orientation': 126.27240311488, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0351044340150302, 'Orden': 43}
+183.9720 	EXP 	feedback_2: autoDraw = False
+183.9720 	EXP 	feedback_2: autoDraw = False
+183.9720 	EXP 	grating2: ori = 126.27240311488
+183.9720 	EXP 	grating2: sf = array([0.03510443, 0.03510443])
+184.0554 	EXP 	grating2: autoDraw = True
+184.6076 	DATA 	Keypress: right
+184.6389 	EXP 	grating2: autoDraw = False
+184.6389 	EXP 	feedback_2: text = '¡Correcto!'
+184.6389 	EXP 	feedback_2: autoDraw = True
+185.6239 	EXP 	New trial (rep=0, index=43): {'Frecuencia': 7.00019864445886, 'Orientation': 120.13825962872, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0350009932222943, 'Orden': 44}
+185.6397 	EXP 	feedback_2: autoDraw = False
+185.6397 	EXP 	feedback_2: autoDraw = False
+185.6397 	EXP 	grating2: ori = 120.13825962872
+185.6397 	EXP 	grating2: sf = array([0.03500099, 0.03500099])
+185.7232 	EXP 	grating2: autoDraw = True
+186.2756 	DATA 	Keypress: right
+186.2898 	EXP 	grating2: autoDraw = False
+186.2898 	EXP 	feedback_2: text = '¡Correcto!'
+186.2898 	EXP 	feedback_2: autoDraw = True
+187.2743 	EXP 	New trial (rep=0, index=44): {'Frecuencia': 6.78855301886482, 'Orientation': 123.604426673208, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.033942765094324104, 'Orden': 45}
+187.2904 	EXP 	feedback_2: autoDraw = False
+187.2904 	EXP 	feedback_2: autoDraw = False
+187.2904 	EXP 	grating2: ori = 123.604426673208
+187.2904 	EXP 	grating2: sf = array([0.03394277, 0.03394277])
+187.3736 	EXP 	grating2: autoDraw = True
+187.9094 	DATA 	Keypress: right
+187.9239 	EXP 	grating2: autoDraw = False
+187.9239 	EXP 	feedback_2: text = '¡Correcto!'
+187.9239 	EXP 	feedback_2: autoDraw = True
+188.9083 	EXP 	New trial (rep=0, index=45): {'Frecuencia': 6.91691295700039, 'Orientation': 122.267645826549, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03458456478500195, 'Orden': 46}
+188.9244 	EXP 	feedback_2: autoDraw = False
+188.9244 	EXP 	feedback_2: autoDraw = False
+188.9244 	EXP 	grating2: ori = 122.267645826549
+188.9244 	EXP 	grating2: sf = array([0.03458456, 0.03458456])
+189.0074 	EXP 	grating2: autoDraw = True
+189.5435 	DATA 	Keypress: right
+189.5578 	EXP 	grating2: autoDraw = False
+189.5578 	EXP 	feedback_2: text = '¡Correcto!'
+189.5578 	EXP 	feedback_2: autoDraw = True
+190.5421 	EXP 	New trial (rep=0, index=46): {'Frecuencia': 6.23949990267797, 'Orientation': 128.9771791325, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.03119749951338985, 'Orden': 47}
+190.5581 	EXP 	feedback_2: autoDraw = False
+190.5581 	EXP 	feedback_2: autoDraw = False
+190.5581 	EXP 	grating2: ori = 128.9771791325
+190.5581 	EXP 	grating2: sf = array([0.0311975, 0.0311975])
+190.6415 	EXP 	grating2: autoDraw = True
+191.4106 	DATA 	Keypress: left
+191.4249 	EXP 	grating2: autoDraw = False
+191.4249 	EXP 	feedback_2: text = '¡Correcto!'
+191.4249 	EXP 	feedback_2: autoDraw = True
+192.4093 	EXP 	New trial (rep=0, index=47): {'Frecuencia': 6.01183958654925, 'Orientation': 127.354086641192, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.03005919793274625, 'Orden': 48}
+192.4251 	EXP 	feedback_2: autoDraw = False
+192.4251 	EXP 	feedback_2: autoDraw = False
+192.4251 	EXP 	grating2: ori = 127.354086641192
+192.4251 	EXP 	grating2: sf = array([0.0300592, 0.0300592])
+192.5086 	EXP 	grating2: autoDraw = True
+193.1431 	DATA 	Keypress: left
+193.1755 	EXP 	grating2: autoDraw = False
+193.1755 	EXP 	feedback_2: text = '¡Correcto!'
+193.1755 	EXP 	feedback_2: autoDraw = True
+194.1599 	EXP 	New trial (rep=0, index=48): {'Frecuencia': 6.90234581194862, 'Orientation': 119.515305309963, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0345117290597431, 'Orden': 49}
+194.1760 	EXP 	feedback_2: autoDraw = False
+194.1760 	EXP 	feedback_2: autoDraw = False
+194.1760 	EXP 	grating2: ori = 119.515305309963
+194.1760 	EXP 	grating2: sf = array([0.03451173, 0.03451173])
+194.2592 	EXP 	grating2: autoDraw = True
+194.9344 	DATA 	Keypress: right
+194.9432 	EXP 	grating2: autoDraw = False
+194.9432 	EXP 	feedback_2: text = '¡Correcto!'
+194.9432 	EXP 	feedback_2: autoDraw = True
+195.9286 	EXP 	New trial (rep=0, index=49): {'Frecuencia': 6.97482282425021, 'Orientation': 121.994937831578, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03487411412125105, 'Orden': 50}
+195.9428 	EXP 	feedback_2: autoDraw = False
+195.9428 	EXP 	feedback_2: autoDraw = False
+195.9428 	EXP 	grating2: ori = 121.994937831578
+195.9428 	EXP 	grating2: sf = array([0.03487411, 0.03487411])
+196.0262 	EXP 	grating2: autoDraw = True
+196.5842 	DATA 	Keypress: right
+196.5931 	EXP 	grating2: autoDraw = False
+196.5931 	EXP 	feedback_2: text = '¡Correcto!'
+196.5931 	EXP 	feedback_2: autoDraw = True
+197.5778 	EXP 	New trial (rep=0, index=50): {'Frecuencia': 6.91268726289996, 'Orientation': 125.954656637743, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0345634363144998, 'Orden': 51}
+197.5933 	EXP 	feedback_2: autoDraw = False
+197.5933 	EXP 	feedback_2: autoDraw = False
+197.5933 	EXP 	grating2: ori = 125.954656637743
+197.5933 	EXP 	grating2: sf = array([0.03456344, 0.03456344])
+197.6766 	EXP 	grating2: autoDraw = True
+198.1972 	DATA 	Keypress: right
+198.2100 	EXP 	grating2: autoDraw = False
+198.2100 	EXP 	feedback_2: text = '¡Correcto!'
+198.2100 	EXP 	feedback_2: autoDraw = True
+199.1948 	EXP 	New trial (rep=0, index=51): {'Frecuencia': 5.99184813482006, 'Orientation': 123.00963086321, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0299592406741003, 'Orden': 52}
+199.2105 	EXP 	feedback_2: autoDraw = False
+199.2105 	EXP 	feedback_2: autoDraw = False
+199.2105 	EXP 	grating2: ori = 123.00963086321
+199.2105 	EXP 	grating2: sf = array([0.02995924, 0.02995924])
+199.2937 	EXP 	grating2: autoDraw = True
+199.8476 	DATA 	Keypress: left
+199.8607 	EXP 	grating2: autoDraw = False
+199.8607 	EXP 	feedback_2: text = '¡Correcto!'
+199.8607 	EXP 	feedback_2: autoDraw = True
+200.8453 	EXP 	New trial (rep=0, index=52): {'Frecuencia': 5.77172637679455, 'Orientation': 127.677354138101, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.028858631883972752, 'Orden': 53}
+200.8609 	EXP 	feedback_2: autoDraw = False
+200.8609 	EXP 	feedback_2: autoDraw = False
+200.8609 	EXP 	grating2: ori = 127.677354138101
+200.8609 	EXP 	grating2: sf = array([0.02885863, 0.02885863])
+200.9444 	EXP 	grating2: autoDraw = True
+201.7482 	DATA 	Keypress: left
+201.7609 	EXP 	grating2: autoDraw = False
+201.7609 	EXP 	feedback_2: text = '¡Correcto!'
+201.7609 	EXP 	feedback_2: autoDraw = True
+202.7459 	EXP 	New trial (rep=0, index=53): {'Frecuencia': 5.81687525787871, 'Orientation': 120.965118659011, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.02908437628939355, 'Orden': 54}
+202.7613 	EXP 	feedback_2: autoDraw = False
+202.7613 	EXP 	feedback_2: autoDraw = False
+202.7613 	EXP 	grating2: ori = 120.965118659011
+202.7613 	EXP 	grating2: sf = array([0.02908438, 0.02908438])
+202.8448 	EXP 	grating2: autoDraw = True
+203.4656 	DATA 	Keypress: left
+203.4785 	EXP 	grating2: autoDraw = False
+203.4785 	EXP 	feedback_2: text = '¡Correcto!'
+203.4785 	EXP 	feedback_2: autoDraw = True
+204.4632 	EXP 	New trial (rep=0, index=54): {'Frecuencia': 6.6722371491463, 'Orientation': 125.794801607246, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0333611857457315, 'Orden': 55}
+204.4787 	EXP 	feedback_2: autoDraw = False
+204.4787 	EXP 	feedback_2: autoDraw = False
+204.4787 	EXP 	grating2: ori = 125.794801607246
+204.4787 	EXP 	grating2: sf = array([0.03336119, 0.03336119])
+204.5621 	EXP 	grating2: autoDraw = True
+205.2662 	DATA 	Keypress: right
+205.2790 	EXP 	grating2: autoDraw = False
+205.2790 	EXP 	feedback_2: text = '¡Correcto!'
+205.2790 	EXP 	feedback_2: autoDraw = True
+206.2638 	EXP 	New trial (rep=0, index=55): {'Frecuencia': 6.10024624735304, 'Orientation': 130.947377281703, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.030501231236765198, 'Orden': 56}
+206.2793 	EXP 	feedback_2: autoDraw = False
+206.2793 	EXP 	feedback_2: autoDraw = False
+206.2793 	EXP 	grating2: ori = 130.947377281703
+206.2793 	EXP 	grating2: sf = array([0.03050123, 0.03050123])
+206.3627 	EXP 	grating2: autoDraw = True
+207.0668 	DATA 	Keypress: left
+207.0795 	EXP 	grating2: autoDraw = False
+207.0795 	EXP 	feedback_2: text = '¡Correcto!'
+207.0795 	EXP 	feedback_2: autoDraw = True
+208.0643 	EXP 	New trial (rep=0, index=56): {'Frecuencia': 6.83118688971373, 'Orientation': 123.385744243575, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03415593444856865, 'Orden': 57}
+208.0798 	EXP 	feedback_2: autoDraw = False
+208.0798 	EXP 	feedback_2: autoDraw = False
+208.0798 	EXP 	grating2: ori = 123.385744243575
+208.0798 	EXP 	grating2: sf = array([0.03415593, 0.03415593])
+208.1632 	EXP 	grating2: autoDraw = True
+209.1006 	DATA 	Keypress: right
+209.1136 	EXP 	grating2: autoDraw = False
+209.1136 	EXP 	feedback_2: text = '¡Correcto!'
+209.1136 	EXP 	feedback_2: autoDraw = True
+210.0982 	EXP 	New trial (rep=0, index=57): {'Frecuencia': 5.8368319370317, 'Orientation': 125.549645514443, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0291841596851585, 'Orden': 58}
+210.1138 	EXP 	feedback_2: autoDraw = False
+210.1138 	EXP 	feedback_2: autoDraw = False
+210.1138 	EXP 	grating2: ori = 125.549645514443
+210.1138 	EXP 	grating2: sf = array([0.02918416, 0.02918416])
+210.1972 	EXP 	grating2: autoDraw = True
+210.8013 	DATA 	Keypress: left
+210.8141 	EXP 	grating2: autoDraw = False
+210.8141 	EXP 	feedback_2: text = '¡Correcto!'
+210.8141 	EXP 	feedback_2: autoDraw = True
+211.7989 	EXP 	New trial (rep=0, index=58): {'Frecuencia': 5.95100882503604, 'Orientation': 127.432257063602, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0297550441251802, 'Orden': 59}
+211.8145 	EXP 	feedback_2: autoDraw = False
+211.8145 	EXP 	feedback_2: autoDraw = False
+211.8145 	EXP 	grating2: ori = 127.432257063602
+211.8145 	EXP 	grating2: sf = array([0.02975504, 0.02975504])
+211.8978 	EXP 	grating2: autoDraw = True
+213.0685 	DATA 	Keypress: left
+213.0814 	EXP 	grating2: autoDraw = False
+213.0814 	EXP 	feedback_2: text = '¡Correcto!'
+213.0814 	EXP 	feedback_2: autoDraw = True
+214.0661 	EXP 	New trial (rep=0, index=59): {'Frecuencia': 5.98250552316154, 'Orientation': 127.92025992781, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.029912527615807698, 'Orden': 60}
+214.0819 	EXP 	feedback_2: autoDraw = False
+214.0819 	EXP 	feedback_2: autoDraw = False
+214.0819 	EXP 	grating2: ori = 127.92025992781
+214.0819 	EXP 	grating2: sf = array([0.02991253, 0.02991253])
+214.1648 	EXP 	grating2: autoDraw = True
+214.8192 	DATA 	Keypress: left
+214.8320 	EXP 	grating2: autoDraw = False
+214.8320 	EXP 	feedback_2: text = '¡Correcto!'
+214.8320 	EXP 	feedback_2: autoDraw = True
+215.8166 	EXP 	New trial (rep=0, index=60): {'Frecuencia': 6.47093029057188, 'Orientation': 130.277049532513, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0323546514528594, 'Orden': 61}
+215.8324 	EXP 	feedback_2: autoDraw = False
+215.8324 	EXP 	feedback_2: autoDraw = False
+215.8324 	EXP 	grating2: ori = 130.277049532513
+215.8324 	EXP 	grating2: sf = array([0.03235465, 0.03235465])
+215.9156 	EXP 	grating2: autoDraw = True
+216.6027 	DATA 	Keypress: right
+216.6158 	EXP 	grating2: autoDraw = False
+216.6158 	EXP 	feedback_2: text = '¡Correcto!'
+216.6158 	EXP 	feedback_2: autoDraw = True
+217.6003 	EXP 	New trial (rep=0, index=61): {'Frecuencia': 5.92590084284648, 'Orientation': 129.044650259268, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0296295042142324, 'Orden': 62}
+217.6164 	EXP 	feedback_2: autoDraw = False
+217.6164 	EXP 	feedback_2: autoDraw = False
+217.6164 	EXP 	grating2: ori = 129.044650259268
+217.6164 	EXP 	grating2: sf = array([0.0296295, 0.0296295])
+217.6996 	EXP 	grating2: autoDraw = True
+218.2696 	DATA 	Keypress: left
+218.2832 	EXP 	grating2: autoDraw = False
+218.2832 	EXP 	feedback_2: text = '¡Correcto!'
+218.2832 	EXP 	feedback_2: autoDraw = True
+219.2677 	EXP 	New trial (rep=0, index=62): {'Frecuencia': 6.83891159438045, 'Orientation': 125.532370569108, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.034194557971902254, 'Orden': 63}
+219.2836 	EXP 	feedback_2: autoDraw = False
+219.2836 	EXP 	feedback_2: autoDraw = False
+219.2836 	EXP 	grating2: ori = 125.532370569108
+219.2836 	EXP 	grating2: sf = array([0.03419456, 0.03419456])
+219.3670 	EXP 	grating2: autoDraw = True
+219.9518 	DATA 	Keypress: right
+219.9839 	EXP 	grating2: autoDraw = False
+219.9839 	EXP 	feedback_2: text = '¡Correcto!'
+219.9839 	EXP 	feedback_2: autoDraw = True
+220.9683 	EXP 	New trial (rep=0, index=63): {'Frecuencia': 7.02484224758622, 'Orientation': 125.928257615561, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0351242112379311, 'Orden': 64}
+220.9841 	EXP 	feedback_2: autoDraw = False
+220.9841 	EXP 	feedback_2: autoDraw = False
+220.9841 	EXP 	grating2: ori = 125.928257615561
+220.9841 	EXP 	grating2: sf = array([0.03512421, 0.03512421])
+221.0675 	EXP 	grating2: autoDraw = True
+221.6868 	DATA 	Keypress: right
+221.7011 	EXP 	grating2: autoDraw = False
+221.7011 	EXP 	feedback_2: text = '¡Correcto!'
+221.7011 	EXP 	feedback_2: autoDraw = True
+222.6854 	EXP 	New trial (rep=0, index=64): {'Frecuencia': 5.7211608488032, 'Orientation': 125.80287459089, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.028605804244016, 'Orden': 65}
+222.7014 	EXP 	feedback_2: autoDraw = False
+222.7014 	EXP 	feedback_2: autoDraw = False
+222.7014 	EXP 	grating2: ori = 125.80287459089
+222.7014 	EXP 	grating2: sf = array([0.0286058, 0.0286058])
+222.7849 	EXP 	grating2: autoDraw = True
+223.3374 	DATA 	Keypress: left
+223.3515 	EXP 	grating2: autoDraw = False
+223.3515 	EXP 	feedback_2: text = '¡Correcto!'
+223.3515 	EXP 	feedback_2: autoDraw = True
+224.3359 	EXP 	New trial (rep=0, index=65): {'Frecuencia': 6.73415485600811, 'Orientation': 122.846303018576, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03367077428004055, 'Orden': 66}
+224.3520 	EXP 	feedback_2: autoDraw = False
+224.3520 	EXP 	feedback_2: autoDraw = False
+224.3520 	EXP 	grating2: ori = 122.846303018576
+224.3520 	EXP 	grating2: sf = array([0.03367077, 0.03367077])
+224.4352 	EXP 	grating2: autoDraw = True
+225.0378 	DATA 	Keypress: right
+225.0520 	EXP 	grating2: autoDraw = False
+225.0520 	EXP 	feedback_2: text = '¡Correcto!'
+225.0520 	EXP 	feedback_2: autoDraw = True
+226.0364 	EXP 	New trial (rep=0, index=66): {'Frecuencia': 6.9512019778111, 'Orientation': 124.498524996137, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0347560098890555, 'Orden': 67}
+226.0524 	EXP 	feedback_2: autoDraw = False
+226.0524 	EXP 	feedback_2: autoDraw = False
+226.0524 	EXP 	grating2: ori = 124.498524996137
+226.0524 	EXP 	grating2: sf = array([0.03475601, 0.03475601])
+226.1357 	EXP 	grating2: autoDraw = True
+226.6551 	DATA 	Keypress: right
+226.6694 	EXP 	grating2: autoDraw = False
+226.6694 	EXP 	feedback_2: text = '¡Correcto!'
+226.6694 	EXP 	feedback_2: autoDraw = True
+227.6537 	EXP 	New trial (rep=0, index=67): {'Frecuencia': 6.92531715916932, 'Orientation': 128.309224105459, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0346265857958466, 'Orden': 68}
+227.6697 	EXP 	feedback_2: autoDraw = False
+227.6697 	EXP 	feedback_2: autoDraw = False
+227.6697 	EXP 	grating2: ori = 128.309224105459
+227.6697 	EXP 	grating2: sf = array([0.03462659, 0.03462659])
+227.7529 	EXP 	grating2: autoDraw = True
+228.4555 	DATA 	Keypress: right
+228.4698 	EXP 	grating2: autoDraw = False
+228.4698 	EXP 	feedback_2: text = '¡Correcto!'
+228.4698 	EXP 	feedback_2: autoDraw = True
+229.4543 	EXP 	New trial (rep=0, index=68): {'Frecuencia': 5.95605583737357, 'Orientation': 124.65090693016, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.029780279186867847, 'Orden': 69}
+229.4702 	EXP 	feedback_2: autoDraw = False
+229.4702 	EXP 	feedback_2: autoDraw = False
+229.4702 	EXP 	grating2: ori = 124.65090693016
+229.4702 	EXP 	grating2: sf = array([0.02978028, 0.02978028])
+229.5535 	EXP 	grating2: autoDraw = True
+230.2394 	DATA 	Keypress: left
+230.2540 	EXP 	grating2: autoDraw = False
+230.2540 	EXP 	feedback_2: text = '¡Correcto!'
+230.2540 	EXP 	feedback_2: autoDraw = True
+231.2384 	EXP 	New trial (rep=0, index=69): {'Frecuencia': 6.39964358711914, 'Orientation': 123.888931611966, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0319982179355957, 'Orden': 70}
+231.2541 	EXP 	feedback_2: autoDraw = False
+231.2541 	EXP 	feedback_2: autoDraw = False
+231.2541 	EXP 	grating2: ori = 123.888931611966
+231.2541 	EXP 	grating2: sf = array([0.03199822, 0.03199822])
+231.3373 	EXP 	grating2: autoDraw = True
+232.0068 	DATA 	Keypress: right
+232.0209 	EXP 	grating2: autoDraw = False
+232.0209 	EXP 	feedback_2: text = '¡Correcto!'
+232.0209 	EXP 	feedback_2: autoDraw = True
+233.0054 	EXP 	New trial (rep=0, index=70): {'Frecuencia': 6.79614382213373, 'Orientation': 128.195309932533, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03398071911066865, 'Orden': 71}
+233.0212 	EXP 	feedback_2: autoDraw = False
+233.0212 	EXP 	feedback_2: autoDraw = False
+233.0212 	EXP 	grating2: ori = 128.195309932533
+233.0212 	EXP 	grating2: sf = array([0.03398072, 0.03398072])
+233.1047 	EXP 	grating2: autoDraw = True
+233.7404 	DATA 	Keypress: right
+233.7547 	EXP 	grating2: autoDraw = False
+233.7547 	EXP 	feedback_2: text = '¡Correcto!'
+233.7547 	EXP 	feedback_2: autoDraw = True
+234.7395 	EXP 	New trial (rep=0, index=71): {'Frecuencia': 5.8727902801655, 'Orientation': 122.569326878337, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0293639514008275, 'Orden': 72}
+234.7551 	EXP 	feedback_2: autoDraw = False
+234.7551 	EXP 	feedback_2: autoDraw = False
+234.7551 	EXP 	grating2: ori = 122.569326878337
+234.7551 	EXP 	grating2: sf = array([0.02936395, 0.02936395])
+234.8386 	EXP 	grating2: autoDraw = True
+235.4243 	DATA 	Keypress: left
+235.4389 	EXP 	grating2: autoDraw = False
+235.4389 	EXP 	feedback_2: text = '¡Correcto!'
+235.4389 	EXP 	feedback_2: autoDraw = True
+236.4232 	EXP 	New trial (rep=0, index=72): {'Frecuencia': 6.91217159505499, 'Orientation': 126.198046923528, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03456085797527495, 'Orden': 73}
+236.4390 	EXP 	feedback_2: autoDraw = False
+236.4390 	EXP 	feedback_2: autoDraw = False
+236.4390 	EXP 	grating2: ori = 126.198046923528
+236.4390 	EXP 	grating2: sf = array([0.03456086, 0.03456086])
+236.5225 	EXP 	grating2: autoDraw = True
+237.0581 	DATA 	Keypress: right
+237.0726 	EXP 	grating2: autoDraw = False
+237.0726 	EXP 	feedback_2: text = '¡Correcto!'
+237.0726 	EXP 	feedback_2: autoDraw = True
+238.0569 	EXP 	New trial (rep=0, index=73): {'Frecuencia': 6.00740511029368, 'Orientation': 128.508014703594, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.0300370255514684, 'Orden': 74}
+238.0729 	EXP 	feedback_2: autoDraw = False
+238.0729 	EXP 	feedback_2: autoDraw = False
+238.0729 	EXP 	grating2: ori = 128.508014703594
+238.0729 	EXP 	grating2: sf = array([0.03003703, 0.03003703])
+238.1562 	EXP 	grating2: autoDraw = True
+239.1087 	DATA 	Keypress: left
+239.1232 	EXP 	grating2: autoDraw = False
+239.1232 	EXP 	feedback_2: text = '¡Correcto!'
+239.1232 	EXP 	feedback_2: autoDraw = True
+240.1075 	EXP 	New trial (rep=0, index=74): {'Frecuencia': 6.64834452440136, 'Orientation': 125.767035799312, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0332417226220068, 'Orden': 75}
+240.1236 	EXP 	feedback_2: autoDraw = False
+240.1236 	EXP 	feedback_2: autoDraw = False
+240.1236 	EXP 	grating2: ori = 125.767035799312
+240.1236 	EXP 	grating2: sf = array([0.03324172, 0.03324172])
+240.2069 	EXP 	grating2: autoDraw = True
+240.7094 	DATA 	Keypress: right
+240.7238 	EXP 	grating2: autoDraw = False
+240.7238 	EXP 	feedback_2: text = '¡Correcto!'
+240.7238 	EXP 	feedback_2: autoDraw = True
+241.7081 	EXP 	New trial (rep=0, index=75): {'Frecuencia': 6.06922945023306, 'Orientation': 129.213994206218, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.030346147251165297, 'Orden': 76}
+241.7241 	EXP 	feedback_2: autoDraw = False
+241.7241 	EXP 	feedback_2: autoDraw = False
+241.7241 	EXP 	grating2: ori = 129.213994206218
+241.7241 	EXP 	grating2: sf = array([0.03034615, 0.03034615])
+241.8075 	EXP 	grating2: autoDraw = True
+242.6269 	DATA 	Keypress: left
+242.6410 	EXP 	grating2: autoDraw = False
+242.6410 	EXP 	feedback_2: text = '¡Correcto!'
+242.6410 	EXP 	feedback_2: autoDraw = True
+243.6251 	EXP 	New trial (rep=0, index=76): {'Frecuencia': 6.69940944874616, 'Orientation': 124.102970980877, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.0334970472437308, 'Orden': 77}
+243.6410 	EXP 	feedback_2: autoDraw = False
+243.6410 	EXP 	feedback_2: autoDraw = False
+243.6410 	EXP 	grating2: ori = 124.102970980877
+243.6410 	EXP 	grating2: sf = array([0.03349705, 0.03349705])
+243.7247 	EXP 	grating2: autoDraw = True
+244.2107 	DATA 	Keypress: right
+244.2247 	EXP 	grating2: autoDraw = False
+244.2247 	EXP 	feedback_2: text = '¡Correcto!'
+244.2247 	EXP 	feedback_2: autoDraw = True
+245.2093 	EXP 	New trial (rep=0, index=77): {'Frecuencia': 6.82954088763419, 'Orientation': 122.046614678865, 'Categoria': 'F', 'tecla': 'right', 'FrecuenciaEspacial': 0.03414770443817095, 'Orden': 78}
+245.2251 	EXP 	feedback_2: autoDraw = False
+245.2251 	EXP 	feedback_2: autoDraw = False
+245.2251 	EXP 	grating2: ori = 122.046614678865
+245.2251 	EXP 	grating2: sf = array([0.0341477, 0.0341477])
+245.3086 	EXP 	grating2: autoDraw = True
+245.9443 	DATA 	Keypress: right
+245.9586 	EXP 	grating2: autoDraw = False
+245.9586 	EXP 	feedback_2: text = '¡Correcto!'
+245.9586 	EXP 	feedback_2: autoDraw = True
+246.9432 	EXP 	New trial (rep=0, index=78): {'Frecuencia': 6.05371773833515, 'Orientation': 123.632055109417, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.03026858869167575, 'Orden': 79}
+246.9590 	EXP 	feedback_2: autoDraw = False
+246.9590 	EXP 	feedback_2: autoDraw = False
+246.9590 	EXP 	grating2: ori = 123.632055109417
+246.9590 	EXP 	grating2: sf = array([0.03026859, 0.03026859])
+247.0422 	EXP 	grating2: autoDraw = True
+247.7122 	DATA 	Keypress: left
+247.7259 	EXP 	grating2: autoDraw = False
+247.7259 	EXP 	feedback_2: text = '¡Correcto!'
+247.7259 	EXP 	feedback_2: autoDraw = True
+248.7104 	EXP 	New trial (rep=0, index=79): {'Frecuencia': 5.91829071551083, 'Orientation': 119.511652627613, 'Categoria': 'E', 'tecla': 'left', 'FrecuenciaEspacial': 0.02959145357755415, 'Orden': 80}
+248.7263 	EXP 	feedback_2: autoDraw = False
+248.7263 	EXP 	feedback_2: autoDraw = False
+248.7263 	EXP 	grating2: ori = 119.511652627613
+248.7263 	EXP 	grating2: sf = array([0.02959145, 0.02959145])
+248.8096 	EXP 	grating2: autoDraw = True
+249.5454 	DATA 	Keypress: left
+249.5596 	EXP 	grating2: autoDraw = False
+249.5596 	EXP 	feedback_2: text = '¡Correcto!'
+249.5596 	EXP 	feedback_2: autoDraw = True
+250.6133 	EXP 	feedback_2: autoDraw = False
+250.6133 	EXP 	feedback_2: autoDraw = False
+251.1101 	EXP 	Gracias: autoDraw = True
+251.1101 	EXP 	image: autoDraw = True
+255.1116 	EXP 	Gracias: autoDraw = False
+255.1116 	EXP 	image: autoDraw = False
+255.1116 	EXP 	Gracias: autoDraw = False
+255.1116 	EXP 	image: autoDraw = False
+255.2199 	EXP 	window1: mouseVisible = True

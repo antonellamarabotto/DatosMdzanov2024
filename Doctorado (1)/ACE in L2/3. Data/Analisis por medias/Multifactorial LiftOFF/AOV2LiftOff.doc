@@ -1,0 +1,10 @@
+                                 Df    Sum Sq  Mean Sq F value Pr(>F)    
+CueDirection                      1    227241   227241   0.709  0.400    
+SentenceDirection                 1    420549   420549   1.313  0.252    
+Grupo                             1  91066247 91066247 284.286 <2e-16 ***
+CueDirection:SentenceDirection    1    137545   137545   0.429  0.512    
+CueDirection:Grupo                1    114710   114710   0.358  0.550    
+SentenceDirection:Grupo           1    171397   171397   0.535  0.465    
+Residuals                      1712 548410808   320333                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

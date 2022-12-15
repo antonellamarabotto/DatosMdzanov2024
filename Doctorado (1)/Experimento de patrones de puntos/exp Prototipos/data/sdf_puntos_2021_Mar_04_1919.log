@@ -1,0 +1,18 @@
+0.4942 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.6918 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001B85B45E278>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001B85B4B8940>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='pix', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.6924 	EXP 	window1: mouseVisible = True
+6.6925 	EXP 	window1: recordFrameIntervals = False
+6.8573 	EXP 	window1: recordFrameIntervals = True
+7.0417 	EXP 	window1: recordFrameIntervals = False
+7.2497 	EXP 	Created poli1 = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([ 1, -1, -1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='poli1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+7.2548 	EXP 	Created poli2 = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([ 1, -1, -1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='poli2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+7.2717 	EXP 	Imported parametrospuntos.xlsx as conditions, 1 conditions, 9 params
+7.2722 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+7.2726 	EXP 	New trial (rep=0, index=0): {'punto1': [0, 0], 'punto2': [-0.7, 0.1], 'punto3': [0.1, 0.3], 'punto4': [0, -0.4], 'punto5': [0.5, 0.5], 'punto6': [50, 50], 'punto7': [50, 50], 'punto8': [50, 50], 'punto9': [50, 50]}
+7.3061 	EXP 	poli1: pos = array([[0., 0.]])
+7.3061 	EXP 	poli2: pos = array([[-0.7,  0.1]])
+7.3061 	EXP 	poli1: autoDraw = True
+7.3061 	EXP 	poli2: autoDraw = True
+9.2858 	EXP 	poli1: autoDraw = False
+9.2858 	EXP 	poli2: autoDraw = False
+9.5360 	EXP 	window1: mouseVisible = True

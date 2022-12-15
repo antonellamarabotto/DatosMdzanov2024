@@ -1,0 +1,1042 @@
+0.5740 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.0140 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002CD2D95C7F0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002CD2D9BCEB8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.0144 	EXP 	window1: mouseVisible = True
+9.0145 	EXP 	window1: recordFrameIntervals = False
+9.1807 	EXP 	window1: recordFrameIntervals = True
+9.3644 	EXP 	window1: recordFrameIntervals = False
+9.6563 	EXP 	Created InstruccionesGabor = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='InstruccionesGabor', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.6613 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, autoDraw=False, autoLog=True, blendmode='avg', color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask='circle', maskParams=None, name='grating', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([200., 200.]), tex='sin', texRes=128, units='pix', win=Window(...))
+9.6752 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='default text', units='height', win=Window(...), wrapWidth=1)
+9.6920 	EXP 	Created Gracias = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Gracias', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='¡Muchas gracias por participar!', units='height', win=Window(...), wrapWidth=1)
+10.2076 	EXP 	InstruccionesGabor: autoDraw = True
+11.6149 	DATA 	Keypress: space
+11.6811 	EXP 	Imported Gaborparametros1.csv as conditions, 160 conditions, 6 params
+11.6818 	EXP 	Created sequence: sequential, trialTypes=160, nReps=1, seed=None
+11.6821 	EXP 	New trial (rep=0, index=0): OrderedDict([('FrecEspacial', 5.965191687028903), ('Orientation', 121.37776775169195), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+11.6872 	EXP 	InstruccionesGabor: autoDraw = False
+11.6872 	EXP 	grating: ori = 121.37776775169195
+11.6872 	EXP 	grating: sf = array([5.96519169, 5.96519169])
+11.8271 	EXP 	grating: autoDraw = True
+11.8271 	EXP 	grating: tex = 'sin'
+14.7306 	DATA 	Keypress: left
+14.7332 	EXP 	grating: autoDraw = False
+14.7332 	EXP 	feedback_2: text = 'Correct!'
+14.7332 	EXP 	feedback_2: autoDraw = True
+15.7236 	EXP 	New trial (rep=0, index=1): OrderedDict([('FrecEspacial', 5.9771699046133495), ('Orientation', 125.4605635849509), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+15.7365 	EXP 	feedback_2: autoDraw = False
+15.7365 	EXP 	feedback_2: autoDraw = False
+15.7365 	EXP 	grating: ori = 125.4605635849509
+15.7365 	EXP 	grating: sf = array([5.9771699, 5.9771699])
+15.8223 	EXP 	grating: autoDraw = True
+18.0906 	DATA 	Keypress: right
+18.1280 	EXP 	grating: autoDraw = False
+18.1280 	EXP 	feedback_2: text = 'Oops! That was wrong'
+18.1280 	EXP 	feedback_2: autoDraw = True
+19.1174 	EXP 	New trial (rep=0, index=2): OrderedDict([('FrecEspacial', 5.858130921409005), ('Orientation', 122.23532000688499), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+19.1310 	EXP 	feedback_2: autoDraw = False
+19.1310 	EXP 	feedback_2: autoDraw = False
+19.1310 	EXP 	grating: ori = 122.23532000688499
+19.1310 	EXP 	grating: sf = array([5.85813092, 5.85813092])
+19.2175 	EXP 	grating: autoDraw = True
+20.8562 	DATA 	Keypress: left
+20.8609 	EXP 	grating: autoDraw = False
+20.8609 	EXP 	feedback_2: text = 'Correct!'
+20.8609 	EXP 	feedback_2: autoDraw = True
+21.8631 	EXP 	New trial (rep=0, index=3): OrderedDict([('FrecEspacial', 5.920320118296704), ('Orientation', 124.67725486490627), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+21.8767 	EXP 	feedback_2: autoDraw = False
+21.8767 	EXP 	feedback_2: autoDraw = False
+21.8767 	EXP 	grating: ori = 124.67725486490627
+21.8767 	EXP 	grating: sf = array([5.92032012, 5.92032012])
+21.9598 	EXP 	grating: autoDraw = True
+23.1912 	DATA 	Keypress: left
+23.1941 	EXP 	grating: autoDraw = False
+23.1941 	EXP 	feedback_2: text = 'Correct!'
+23.1941 	EXP 	feedback_2: autoDraw = True
+24.1959 	EXP 	New trial (rep=0, index=4): OrderedDict([('FrecEspacial', 6.260601388909613), ('Orientation', 130.717332789681), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+24.2077 	EXP 	feedback_2: autoDraw = False
+24.2077 	EXP 	feedback_2: autoDraw = False
+24.2077 	EXP 	grating: ori = 130.717332789681
+24.2077 	EXP 	grating: sf = array([6.26060139, 6.26060139])
+24.2907 	EXP 	grating: autoDraw = True
+25.5843 	DATA 	Keypress: right
+25.5869 	EXP 	grating: autoDraw = False
+25.5869 	EXP 	feedback_2: text = 'Oops! That was wrong'
+25.5869 	EXP 	feedback_2: autoDraw = True
+26.5880 	EXP 	New trial (rep=0, index=5): OrderedDict([('FrecEspacial', 6.030508118502993), ('Orientation', 126.64620091918304), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+26.6037 	EXP 	feedback_2: autoDraw = False
+26.6037 	EXP 	feedback_2: autoDraw = False
+26.6037 	EXP 	grating: ori = 126.64620091918304
+26.6037 	EXP 	grating: sf = array([6.03050812, 6.03050812])
+26.6874 	EXP 	grating: autoDraw = True
+28.3057 	DATA 	Keypress: left
+28.3079 	EXP 	grating: autoDraw = False
+28.3079 	EXP 	feedback_2: text = 'Correct!'
+28.3079 	EXP 	feedback_2: autoDraw = True
+29.3019 	EXP 	New trial (rep=0, index=6): OrderedDict([('FrecEspacial', 6.120209084653357), ('Orientation', 127.47182322439687), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+29.3162 	EXP 	feedback_2: autoDraw = False
+29.3162 	EXP 	feedback_2: autoDraw = False
+29.3162 	EXP 	grating: ori = 127.47182322439687
+29.3162 	EXP 	grating: sf = array([6.12020908, 6.12020908])
+29.3990 	EXP 	grating: autoDraw = True
+30.2725 	DATA 	Keypress: left
+30.3001 	EXP 	grating: autoDraw = False
+30.3001 	EXP 	feedback_2: text = 'Correct!'
+30.3001 	EXP 	feedback_2: autoDraw = True
+31.2995 	EXP 	New trial (rep=0, index=7): OrderedDict([('FrecEspacial', 6.135607964335728), ('Orientation', 125.93193915936888), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+31.3129 	EXP 	feedback_2: autoDraw = False
+31.3129 	EXP 	feedback_2: autoDraw = False
+31.3129 	EXP 	grating: ori = 125.93193915936888
+31.3129 	EXP 	grating: sf = array([6.13560796, 6.13560796])
+31.3959 	EXP 	grating: autoDraw = True
+32.3042 	DATA 	Keypress: left
+32.3096 	EXP 	grating: autoDraw = False
+32.3096 	EXP 	feedback_2: text = 'Correct!'
+32.3096 	EXP 	feedback_2: autoDraw = True
+33.2964 	EXP 	New trial (rep=0, index=8): OrderedDict([('FrecEspacial', 5.926470973195412), ('Orientation', 126.00148315105969), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+33.3093 	EXP 	feedback_2: autoDraw = False
+33.3093 	EXP 	feedback_2: autoDraw = False
+33.3093 	EXP 	grating: ori = 126.00148315105969
+33.3093 	EXP 	grating: sf = array([5.92647097, 5.92647097])
+33.3928 	EXP 	grating: autoDraw = True
+33.7805 	DATA 	Keypress: left
+33.8090 	EXP 	grating: autoDraw = False
+33.8090 	EXP 	feedback_2: text = 'Correct!'
+33.8090 	EXP 	feedback_2: autoDraw = True
+34.8216 	EXP 	New trial (rep=0, index=9): OrderedDict([('FrecEspacial', 5.970555023217761), ('Orientation', 129.69368977286334), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+34.8381 	EXP 	feedback_2: autoDraw = False
+34.8381 	EXP 	feedback_2: autoDraw = False
+34.8381 	EXP 	grating: ori = 129.69368977286334
+34.8381 	EXP 	grating: sf = array([5.97055502, 5.97055502])
+34.9234 	EXP 	grating: autoDraw = True
+36.3209 	DATA 	Keypress: left
+36.3238 	EXP 	grating: autoDraw = False
+36.3238 	EXP 	feedback_2: text = 'Correct!'
+36.3238 	EXP 	feedback_2: autoDraw = True
+37.3228 	EXP 	New trial (rep=0, index=10): OrderedDict([('FrecEspacial', 6.012502960806838), ('Orientation', 124.26800688591406), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+37.3360 	EXP 	feedback_2: autoDraw = False
+37.3360 	EXP 	feedback_2: autoDraw = False
+37.3360 	EXP 	grating: ori = 124.26800688591406
+37.3360 	EXP 	grating: sf = array([6.01250296, 6.01250296])
+37.4194 	EXP 	grating: autoDraw = True
+40.4319 	EXP 	grating: autoDraw = False
+40.5489 	EXP 	grating: autoDraw = False
+40.5489 	EXP 	feedback_2: text = 'Oops! That was wrong'
+40.5489 	EXP 	feedback_2: autoDraw = True
+41.5499 	EXP 	New trial (rep=0, index=11): OrderedDict([('FrecEspacial', 5.895699191201937), ('Orientation', 124.24631201483506), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+41.5631 	EXP 	feedback_2: autoDraw = False
+41.5631 	EXP 	feedback_2: autoDraw = False
+41.5631 	EXP 	grating: ori = 124.24631201483506
+41.5631 	EXP 	grating: sf = array([5.89569919, 5.89569919])
+41.6468 	EXP 	grating: autoDraw = True
+42.9825 	DATA 	Keypress: left
+42.9851 	EXP 	grating: autoDraw = False
+42.9851 	EXP 	feedback_2: text = 'Correct!'
+42.9851 	EXP 	feedback_2: autoDraw = True
+43.9801 	EXP 	New trial (rep=0, index=12): OrderedDict([('FrecEspacial', 6.163869829576473), ('Orientation', 128.3814816860336), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+43.9928 	EXP 	feedback_2: autoDraw = False
+43.9928 	EXP 	feedback_2: autoDraw = False
+43.9928 	EXP 	grating: ori = 128.3814816860336
+43.9928 	EXP 	grating: sf = array([6.16386983, 6.16386983])
+44.0762 	EXP 	grating: autoDraw = True
+44.7569 	DATA 	Keypress: left
+44.7596 	EXP 	grating: autoDraw = False
+44.7596 	EXP 	feedback_2: text = 'Correct!'
+44.7596 	EXP 	feedback_2: autoDraw = True
+45.7591 	EXP 	New trial (rep=0, index=13): OrderedDict([('FrecEspacial', 5.962182800432753), ('Orientation', 124.45549451856752), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+45.7727 	EXP 	feedback_2: autoDraw = False
+45.7727 	EXP 	feedback_2: autoDraw = False
+45.7727 	EXP 	grating: ori = 124.45549451856752
+45.7727 	EXP 	grating: sf = array([5.9621828, 5.9621828])
+45.8585 	EXP 	grating: autoDraw = True
+47.0682 	DATA 	Keypress: left
+47.0723 	EXP 	grating: autoDraw = False
+47.0723 	EXP 	feedback_2: text = 'Correct!'
+47.0723 	EXP 	feedback_2: autoDraw = True
+48.0724 	EXP 	New trial (rep=0, index=14): OrderedDict([('FrecEspacial', 6.443626275193112), ('Orientation', 128.79395002535878), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+48.0859 	EXP 	feedback_2: autoDraw = False
+48.0859 	EXP 	feedback_2: autoDraw = False
+48.0859 	EXP 	grating: ori = 128.79395002535878
+48.0859 	EXP 	grating: sf = array([6.44362628, 6.44362628])
+48.1694 	EXP 	grating: autoDraw = True
+48.8615 	DATA 	Keypress: left
+48.8682 	EXP 	grating: autoDraw = False
+48.8682 	EXP 	feedback_2: text = 'Correct!'
+48.8682 	EXP 	feedback_2: autoDraw = True
+49.8700 	EXP 	New trial (rep=0, index=15): OrderedDict([('FrecEspacial', 6.1464906139882896), ('Orientation', 121.28119186264692), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+49.8833 	EXP 	feedback_2: autoDraw = False
+49.8833 	EXP 	feedback_2: autoDraw = False
+49.8833 	EXP 	grating: ori = 121.28119186264692
+49.8833 	EXP 	grating: sf = array([6.14649061, 6.14649061])
+49.9679 	EXP 	grating: autoDraw = True
+50.5572 	DATA 	Keypress: left
+50.5602 	EXP 	grating: autoDraw = False
+50.5602 	EXP 	feedback_2: text = 'Correct!'
+50.5602 	EXP 	feedback_2: autoDraw = True
+51.5537 	EXP 	New trial (rep=0, index=16): OrderedDict([('FrecEspacial', 6.003707569187296), ('Orientation', 125.84531970128613), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+51.5662 	EXP 	feedback_2: autoDraw = False
+51.5662 	EXP 	feedback_2: autoDraw = False
+51.5662 	EXP 	grating: ori = 125.84531970128613
+51.5662 	EXP 	grating: sf = array([6.00370757, 6.00370757])
+51.6478 	EXP 	grating: autoDraw = True
+52.1092 	DATA 	Keypress: left
+52.1141 	EXP 	grating: autoDraw = False
+52.1141 	EXP 	feedback_2: text = 'Correct!'
+52.1141 	EXP 	feedback_2: autoDraw = True
+53.1148 	EXP 	New trial (rep=0, index=17): OrderedDict([('FrecEspacial', 5.8900686487152925), ('Orientation', 130.12481230817104), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+53.1280 	EXP 	feedback_2: autoDraw = False
+53.1280 	EXP 	feedback_2: autoDraw = False
+53.1280 	EXP 	grating: ori = 130.12481230817104
+53.1280 	EXP 	grating: sf = array([5.89006865, 5.89006865])
+53.2140 	EXP 	grating: autoDraw = True
+53.4804 	DATA 	Keypress: left
+53.4829 	EXP 	grating: autoDraw = False
+53.4829 	EXP 	feedback_2: text = 'Correct!'
+53.4829 	EXP 	feedback_2: autoDraw = True
+54.4827 	EXP 	New trial (rep=0, index=18): OrderedDict([('FrecEspacial', 6.032897344901398), ('Orientation', 125.58396234825749), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+54.4956 	EXP 	feedback_2: autoDraw = False
+54.4956 	EXP 	feedback_2: autoDraw = False
+54.4956 	EXP 	grating: ori = 125.58396234825749
+54.4956 	EXP 	grating: sf = array([6.03289734, 6.03289734])
+54.5768 	EXP 	grating: autoDraw = True
+54.8450 	DATA 	Keypress: left
+54.8477 	EXP 	grating: autoDraw = False
+54.8477 	EXP 	feedback_2: text = 'Correct!'
+54.8477 	EXP 	feedback_2: autoDraw = True
+55.8434 	EXP 	New trial (rep=0, index=19): OrderedDict([('FrecEspacial', 6.005021651497197), ('Orientation', 123.41664272104099), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+55.8569 	EXP 	feedback_2: autoDraw = False
+55.8569 	EXP 	feedback_2: autoDraw = False
+55.8569 	EXP 	grating: ori = 123.41664272104099
+55.8569 	EXP 	grating: sf = array([6.00502165, 6.00502165])
+55.8947 	DATA 	Keypress: left
+55.9421 	EXP 	grating: autoDraw = True
+56.1417 	DATA 	Keypress: left
+56.1445 	EXP 	grating: autoDraw = False
+56.1445 	EXP 	feedback_2: text = 'Correct!'
+56.1445 	EXP 	feedback_2: autoDraw = True
+56.3287 	DATA 	Keypress: left
+56.5122 	DATA 	Keypress: left
+56.7291 	DATA 	Keypress: left
+56.9444 	DATA 	Keypress: left
+57.1460 	EXP 	New trial (rep=0, index=20): OrderedDict([('FrecEspacial', 5.611771841856299), ('Orientation', 123.69266850986178), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+57.1548 	DATA 	Keypress: left
+57.1593 	EXP 	feedback_2: autoDraw = False
+57.1593 	EXP 	feedback_2: autoDraw = False
+57.1593 	EXP 	grating: ori = 123.69266850986178
+57.1593 	EXP 	grating: sf = array([5.61177184, 5.61177184])
+57.2385 	EXP 	grating: autoDraw = True
+57.3651 	DATA 	Keypress: left
+57.3719 	EXP 	grating: autoDraw = False
+57.3719 	EXP 	feedback_2: text = 'Correct!'
+57.3719 	EXP 	feedback_2: autoDraw = True
+57.5936 	DATA 	Keypress: left
+57.7941 	DATA 	Keypress: left
+58.0103 	DATA 	Keypress: left
+58.2235 	DATA 	Keypress: left
+58.3744 	EXP 	New trial (rep=0, index=21): OrderedDict([('FrecEspacial', 6.093990497041856), ('Orientation', 122.31901167984968), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+58.3871 	EXP 	feedback_2: autoDraw = False
+58.3871 	EXP 	feedback_2: autoDraw = False
+58.3871 	EXP 	grating: ori = 122.31901167984968
+58.3871 	EXP 	grating: sf = array([6.0939905, 6.0939905])
+58.4231 	DATA 	Keypress: left
+58.4701 	EXP 	grating: autoDraw = True
+58.6173 	DATA 	Keypress: left
+58.6210 	EXP 	grating: autoDraw = False
+58.6210 	EXP 	feedback_2: text = 'Correct!'
+58.6210 	EXP 	feedback_2: autoDraw = True
+58.8079 	DATA 	Keypress: left
+59.0236 	DATA 	Keypress: left
+59.2409 	DATA 	Keypress: left
+59.4295 	DATA 	Keypress: left
+59.5425 	DATA 	Keypress: left
+59.6226 	EXP 	New trial (rep=0, index=22): OrderedDict([('FrecEspacial', 5.958173386199925), ('Orientation', 123.23861880251528), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+59.6351 	EXP 	feedback_2: autoDraw = False
+59.6351 	EXP 	feedback_2: autoDraw = False
+59.6351 	EXP 	grating: ori = 123.23861880251528
+59.6351 	EXP 	grating: sf = array([5.95817339, 5.95817339])
+59.7177 	EXP 	grating: autoDraw = True
+59.7411 	DATA 	Keypress: left
+59.9137 	DATA 	Keypress: left
+59.9179 	EXP 	grating: autoDraw = False
+59.9179 	EXP 	feedback_2: text = 'Correct!'
+59.9179 	EXP 	feedback_2: autoDraw = True
+60.0737 	DATA 	Keypress: left
+60.2563 	DATA 	Keypress: left
+60.4068 	DATA 	Keypress: left
+60.5891 	DATA 	Keypress: left
+60.7306 	DATA 	Keypress: left
+60.9192 	EXP 	New trial (rep=0, index=23): OrderedDict([('FrecEspacial', 6.1850295429194055), ('Orientation', 122.72483211656645), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+60.9227 	DATA 	Keypress: left
+60.9329 	EXP 	feedback_2: autoDraw = False
+60.9329 	EXP 	feedback_2: autoDraw = False
+60.9329 	EXP 	grating: ori = 122.72483211656645
+60.9329 	EXP 	grating: sf = array([6.18502954, 6.18502954])
+61.0164 	EXP 	grating: autoDraw = True
+61.1246 	DATA 	Keypress: left
+61.3107 	DATA 	Keypress: left
+61.3157 	EXP 	grating: autoDraw = False
+61.3157 	EXP 	feedback_2: text = 'Correct!'
+61.3157 	EXP 	feedback_2: autoDraw = True
+61.4941 	DATA 	Keypress: left
+61.7039 	DATA 	Keypress: left
+61.8873 	DATA 	Keypress: left
+62.1036 	DATA 	Keypress: left
+62.3173 	EXP 	New trial (rep=0, index=24): OrderedDict([('FrecEspacial', 5.850020804935168), ('Orientation', 121.04972985311512), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+62.3212 	DATA 	Keypress: left
+62.3309 	EXP 	feedback_2: autoDraw = False
+62.3309 	EXP 	feedback_2: autoDraw = False
+62.3309 	EXP 	grating: ori = 121.04972985311512
+62.3309 	EXP 	grating: sf = array([5.8500208, 5.8500208])
+62.4140 	EXP 	grating: autoDraw = True
+62.5412 	DATA 	Keypress: left
+62.5703 	EXP 	grating: autoDraw = False
+62.5703 	EXP 	feedback_2: text = 'Correct!'
+62.5703 	EXP 	feedback_2: autoDraw = True
+62.7874 	DATA 	Keypress: left
+63.5653 	EXP 	New trial (rep=0, index=25): OrderedDict([('FrecEspacial', 5.9151584240975055), ('Orientation', 124.85882852690685), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+63.5784 	EXP 	feedback_2: autoDraw = False
+63.5784 	EXP 	feedback_2: autoDraw = False
+63.5784 	EXP 	grating: ori = 124.85882852690685
+63.5784 	EXP 	grating: sf = array([5.91515842, 5.91515842])
+63.5810 	DATA 	Keypress: left
+63.6642 	EXP 	grating: autoDraw = True
+64.2497 	DATA 	Keypress: left
+64.2775 	EXP 	grating: autoDraw = False
+64.2775 	EXP 	feedback_2: text = 'Correct!'
+64.2775 	EXP 	feedback_2: autoDraw = True
+65.2787 	EXP 	New trial (rep=0, index=26): OrderedDict([('FrecEspacial', 5.770861056196457), ('Orientation', 126.43415251689704), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+65.2928 	EXP 	feedback_2: autoDraw = False
+65.2928 	EXP 	feedback_2: autoDraw = False
+65.2928 	EXP 	grating: ori = 126.43415251689704
+65.2928 	EXP 	grating: sf = array([5.77086106, 5.77086106])
+65.3773 	EXP 	grating: autoDraw = True
+65.5511 	DATA 	Keypress: left
+65.5584 	EXP 	grating: autoDraw = False
+65.5584 	EXP 	feedback_2: text = 'Correct!'
+65.5584 	EXP 	feedback_2: autoDraw = True
+66.5446 	EXP 	New trial (rep=0, index=27): OrderedDict([('FrecEspacial', 5.8271013246939205), ('Orientation', 126.346326327921), ('Fase', 0.0), ('Respuesta', 'Correcta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+66.5574 	EXP 	feedback_2: autoDraw = False
+66.5574 	EXP 	feedback_2: autoDraw = False
+66.5574 	EXP 	grating: ori = 126.346326327921
+66.5574 	EXP 	grating: sf = array([5.82710132, 5.82710132])
+66.6408 	EXP 	grating: autoDraw = True
+67.0972 	DATA 	Keypress: left
+67.1058 	EXP 	grating: autoDraw = False
+67.1058 	EXP 	feedback_2: text = 'Correct!'
+67.1058 	EXP 	feedback_2: autoDraw = True
+68.0917 	EXP 	New trial (rep=0, index=28): OrderedDict([('FrecEspacial', 5.92168316346409), ('Orientation', 127.53910574069113), ('Fase', 0.0), ('Respuesta', 'Incorrecta'), ('CorrectAns', 'left'), ('Categoria', 'A')])
+68.1054 	EXP 	feedback_2: autoDraw = False
+68.1054 	EXP 	feedback_2: autoDraw = False
+68.1054 	EXP 	grating: ori = 127.53910574069113
+68.1054 	EXP 	grating: sf = array([5.92168316, 5.92168316])
+68.1883 	EXP 	grating: autoDraw = True
+68.4354 	DATA 	Keypress: left
+68.4388 	EXP 	grating: autoDraw = False
+68.4388 	EXP 	feedback_2: text = 'Correct!'
+68.4388 	EXP 	feedback_2: autoDraw = True
+69.4306 	DATA 	Keypress: left
+69.4402 	EXP 	New trial (rep=0, index=29): OrderedDict([('FrecEspacial', 5.977828823635916), ('Orientation', 121.778911774797), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+69.4533 	EXP 	feedback_2: autoDraw = False
+69.4533 	EXP 	feedback_2: autoDraw = False
+69.4533 	EXP 	grating: ori = 121.778911774797
+69.4533 	EXP 	grating: sf = array([5.97782882, 5.97782882])
+69.5366 	EXP 	grating: autoDraw = True
+69.7486 	DATA 	Keypress: left
+69.7540 	EXP 	grating: autoDraw = False
+69.7540 	EXP 	feedback_2: text = 'Correct!'
+69.7540 	EXP 	feedback_2: autoDraw = True
+70.1255 	DATA 	Keypress: left
+70.6573 	DATA 	Keypress: left
+70.7545 	EXP 	New trial (rep=0, index=30): OrderedDict([('FrecEspacial', 6.01254832146485), ('Orientation', 126.05225589103381), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+70.7674 	EXP 	feedback_2: autoDraw = False
+70.7674 	EXP 	feedback_2: autoDraw = False
+70.7674 	EXP 	grating: ori = 126.05225589103381
+70.7674 	EXP 	grating: sf = array([6.01254832, 6.01254832])
+70.8528 	EXP 	grating: autoDraw = True
+71.0453 	DATA 	Keypress: left
+71.0504 	EXP 	grating: autoDraw = False
+71.0504 	EXP 	feedback_2: text = 'Correct!'
+71.0504 	EXP 	feedback_2: autoDraw = True
+71.6239 	DATA 	Keypress: left
+71.8906 	DATA 	Keypress: left
+72.0368 	EXP 	New trial (rep=0, index=31): OrderedDict([('FrecEspacial', 5.905565652958554), ('Orientation', 127.30079088126455), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+72.0510 	EXP 	feedback_2: autoDraw = False
+72.0510 	EXP 	feedback_2: autoDraw = False
+72.0510 	EXP 	grating: ori = 127.30079088126455
+72.0510 	EXP 	grating: sf = array([5.90556565, 5.90556565])
+72.1205 	DATA 	Keypress: left
+72.1327 	EXP 	grating: autoDraw = True
+72.3232 	DATA 	Keypress: left
+72.3481 	EXP 	grating: autoDraw = False
+72.3481 	EXP 	feedback_2: text = 'Correct!'
+72.3481 	EXP 	feedback_2: autoDraw = True
+72.5409 	DATA 	Keypress: left
+72.7569 	DATA 	Keypress: left
+72.9560 	DATA 	Keypress: left
+73.1541 	DATA 	Keypress: left
+73.3351 	EXP 	New trial (rep=0, index=32): OrderedDict([('FrecEspacial', 5.9965774627028905), ('Orientation', 125.49926610808537), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+73.3474 	EXP 	feedback_2: autoDraw = False
+73.3474 	EXP 	feedback_2: autoDraw = False
+73.3474 	EXP 	grating: ori = 125.49926610808537
+73.3474 	EXP 	grating: sf = array([5.99657746, 5.99657746])
+73.3684 	DATA 	Keypress: left
+73.4310 	EXP 	grating: autoDraw = True
+73.5401 	DATA 	Keypress: left
+73.5640 	EXP 	grating: autoDraw = False
+73.5640 	EXP 	feedback_2: text = 'Correct!'
+73.5640 	EXP 	feedback_2: autoDraw = True
+73.7400 	DATA 	Keypress: left
+73.9187 	DATA 	Keypress: left
+74.0685 	DATA 	Keypress: left
+74.2508 	DATA 	Keypress: left
+74.5346 	DATA 	Keypress: left
+74.5653 	EXP 	New trial (rep=0, index=33): OrderedDict([('FrecEspacial', 6.077362276927844), ('Orientation', 126.56223903903823), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+74.5786 	EXP 	feedback_2: autoDraw = False
+74.5786 	EXP 	feedback_2: autoDraw = False
+74.5786 	EXP 	grating: ori = 126.56223903903823
+74.5786 	EXP 	grating: sf = array([6.07736228, 6.07736228])
+74.6619 	EXP 	grating: autoDraw = True
+74.7152 	DATA 	Keypress: left
+74.9022 	DATA 	Keypress: left
+74.9285 	EXP 	grating: autoDraw = False
+74.9285 	EXP 	feedback_2: text = 'Correct!'
+74.9285 	EXP 	feedback_2: autoDraw = True
+75.1220 	DATA 	Keypress: left
+75.3159 	DATA 	Keypress: left
+75.5321 	DATA 	Keypress: left
+75.7337 	DATA 	Keypress: left
+75.9294 	EXP 	New trial (rep=0, index=34): OrderedDict([('FrecEspacial', 5.984208145365992), ('Orientation', 120.83040256965737), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+75.9429 	EXP 	feedback_2: autoDraw = False
+75.9429 	EXP 	feedback_2: autoDraw = False
+75.9429 	EXP 	grating: ori = 120.83040256965737
+75.9429 	EXP 	grating: sf = array([5.98420815, 5.98420815])
+76.0259 	EXP 	grating: autoDraw = True
+76.0460 	DATA 	Keypress: left
+76.5015 	DATA 	Keypress: left
+76.5375 	EXP 	grating: autoDraw = False
+76.5375 	EXP 	feedback_2: text = 'Correct!'
+76.5375 	EXP 	feedback_2: autoDraw = True
+77.5290 	EXP 	New trial (rep=0, index=35): OrderedDict([('FrecEspacial', 5.814898618698361), ('Orientation', 129.1691376137087), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+77.5419 	EXP 	feedback_2: autoDraw = False
+77.5419 	EXP 	feedback_2: autoDraw = False
+77.5419 	EXP 	grating: ori = 129.1691376137087
+77.5419 	EXP 	grating: sf = array([5.81489862, 5.81489862])
+77.6236 	EXP 	grating: autoDraw = True
+77.9786 	DATA 	Keypress: left
+78.0072 	EXP 	grating: autoDraw = False
+78.0072 	EXP 	feedback_2: text = 'Correct!'
+78.0072 	EXP 	feedback_2: autoDraw = True
+79.0083 	EXP 	New trial (rep=0, index=36): OrderedDict([('FrecEspacial', 5.959512964192357), ('Orientation', 120.04174989264773), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+79.0221 	EXP 	feedback_2: autoDraw = False
+79.0221 	EXP 	feedback_2: autoDraw = False
+79.0221 	EXP 	grating: ori = 120.04174989264773
+79.0221 	EXP 	grating: sf = array([5.95951296, 5.95951296])
+79.1049 	EXP 	grating: autoDraw = True
+79.8452 	DATA 	Keypress: left
+79.8712 	EXP 	grating: autoDraw = False
+79.8712 	EXP 	feedback_2: text = 'Correct!'
+79.8712 	EXP 	feedback_2: autoDraw = True
+80.8710 	EXP 	New trial (rep=0, index=37): OrderedDict([('FrecEspacial', 6.001518148163595), ('Orientation', 120.67458537852329), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+80.8848 	EXP 	feedback_2: autoDraw = False
+80.8848 	EXP 	feedback_2: autoDraw = False
+80.8848 	EXP 	grating: ori = 120.67458537852329
+80.8848 	EXP 	grating: sf = array([6.00151815, 6.00151815])
+80.9676 	EXP 	grating: autoDraw = True
+81.9493 	DATA 	Keypress: left
+81.9520 	EXP 	grating: autoDraw = False
+81.9520 	EXP 	feedback_2: text = 'Correct!'
+81.9520 	EXP 	feedback_2: autoDraw = True
+82.9544 	EXP 	New trial (rep=0, index=38): OrderedDict([('FrecEspacial', 5.931234238240233), ('Orientation', 125.61762043030652), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+82.9665 	EXP 	feedback_2: autoDraw = False
+82.9665 	EXP 	feedback_2: autoDraw = False
+82.9665 	EXP 	grating: ori = 125.61762043030652
+82.9665 	EXP 	grating: sf = array([5.93123424, 5.93123424])
+83.0507 	EXP 	grating: autoDraw = True
+83.9115 	DATA 	Keypress: left
+83.9157 	EXP 	grating: autoDraw = False
+83.9157 	EXP 	feedback_2: text = 'Correct!'
+83.9157 	EXP 	feedback_2: autoDraw = True
+84.9138 	EXP 	New trial (rep=0, index=39): OrderedDict([('FrecEspacial', 5.912383333787341), ('Orientation', 124.51380653897436), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+84.9284 	EXP 	feedback_2: autoDraw = False
+84.9284 	EXP 	feedback_2: autoDraw = False
+84.9284 	EXP 	grating: ori = 124.51380653897436
+84.9284 	EXP 	grating: sf = array([5.91238333, 5.91238333])
+85.0139 	EXP 	grating: autoDraw = True
+85.6899 	DATA 	Keypress: left
+85.7111 	EXP 	grating: autoDraw = False
+85.7111 	EXP 	feedback_2: text = 'Correct!'
+85.7111 	EXP 	feedback_2: autoDraw = True
+86.6996 	EXP 	New trial (rep=0, index=40): OrderedDict([('FrecEspacial', 5.878812410818808), ('Orientation', 126.07274096787347), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+86.7121 	EXP 	feedback_2: autoDraw = False
+86.7121 	EXP 	feedback_2: autoDraw = False
+86.7121 	EXP 	grating: ori = 126.07274096787347
+86.7121 	EXP 	grating: sf = array([5.87881241, 5.87881241])
+86.7921 	EXP 	grating: autoDraw = True
+87.9288 	DATA 	Keypress: left
+87.9570 	EXP 	grating: autoDraw = False
+87.9570 	EXP 	feedback_2: text = 'Correct!'
+87.9570 	EXP 	feedback_2: autoDraw = True
+88.9437 	EXP 	New trial (rep=0, index=41): OrderedDict([('FrecEspacial', 6.18685652908362), ('Orientation', 121.78054522863223), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+88.9571 	EXP 	feedback_2: autoDraw = False
+88.9571 	EXP 	feedback_2: autoDraw = False
+88.9571 	EXP 	grating: ori = 121.78054522863223
+88.9571 	EXP 	grating: sf = array([6.18685653, 6.18685653])
+89.0402 	EXP 	grating: autoDraw = True
+89.3897 	DATA 	Keypress: left
+89.3922 	EXP 	grating: autoDraw = False
+89.3922 	EXP 	feedback_2: text = 'Correct!'
+89.3922 	EXP 	feedback_2: autoDraw = True
+90.3915 	EXP 	New trial (rep=0, index=42): OrderedDict([('FrecEspacial', 5.960444438778957), ('Orientation', 122.13431547090923), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+90.4049 	EXP 	feedback_2: autoDraw = False
+90.4049 	EXP 	feedback_2: autoDraw = False
+90.4049 	EXP 	grating: ori = 122.13431547090923
+90.4049 	EXP 	grating: sf = array([5.96044444, 5.96044444])
+90.4892 	EXP 	grating: autoDraw = True
+90.8778 	DATA 	Keypress: left
+90.8855 	EXP 	grating: autoDraw = False
+90.8855 	EXP 	feedback_2: text = 'Correct!'
+90.8855 	EXP 	feedback_2: autoDraw = True
+91.8718 	EXP 	New trial (rep=0, index=43): OrderedDict([('FrecEspacial', 5.864748494930706), ('Orientation', 121.21362018195559), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+91.8854 	EXP 	feedback_2: autoDraw = False
+91.8854 	EXP 	feedback_2: autoDraw = False
+91.8854 	EXP 	grating: ori = 121.21362018195559
+91.8854 	EXP 	grating: sf = array([5.86474849, 5.86474849])
+91.9689 	EXP 	grating: autoDraw = True
+92.5308 	DATA 	Keypress: left
+92.5349 	EXP 	grating: autoDraw = False
+92.5349 	EXP 	feedback_2: text = 'Correct!'
+92.5349 	EXP 	feedback_2: autoDraw = True
+93.5367 	EXP 	New trial (rep=0, index=44): OrderedDict([('FrecEspacial', 5.801390826633642), ('Orientation', 121.21607669685132), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+93.5496 	EXP 	feedback_2: autoDraw = False
+93.5496 	EXP 	feedback_2: autoDraw = False
+93.5496 	EXP 	grating: ori = 121.21607669685132
+93.5496 	EXP 	grating: sf = array([5.80139083, 5.80139083])
+93.6342 	EXP 	grating: autoDraw = True
+94.1581 	DATA 	Keypress: left
+94.1649 	EXP 	grating: autoDraw = False
+94.1649 	EXP 	feedback_2: text = 'Correct!'
+94.1649 	EXP 	feedback_2: autoDraw = True
+95.1641 	EXP 	New trial (rep=0, index=45): OrderedDict([('FrecEspacial', 5.978045325547336), ('Orientation', 124.00315471853895), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+95.1790 	EXP 	feedback_2: autoDraw = False
+95.1790 	EXP 	feedback_2: autoDraw = False
+95.1790 	EXP 	grating: ori = 124.00315471853895
+95.1790 	EXP 	grating: sf = array([5.97804533, 5.97804533])
+95.2625 	EXP 	grating: autoDraw = True
+95.6065 	DATA 	Keypress: left
+95.6340 	EXP 	grating: autoDraw = False
+95.6340 	EXP 	feedback_2: text = 'Correct!'
+95.6340 	EXP 	feedback_2: autoDraw = True
+96.6311 	EXP 	New trial (rep=0, index=46): OrderedDict([('FrecEspacial', 6.096006909991538), ('Orientation', 123.45098640374857), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+96.6447 	EXP 	feedback_2: autoDraw = False
+96.6447 	EXP 	feedback_2: autoDraw = False
+96.6447 	EXP 	grating: ori = 123.45098640374857
+96.6447 	EXP 	grating: sf = array([6.09600691, 6.09600691])
+96.7312 	EXP 	grating: autoDraw = True
+97.4425 	DATA 	Keypress: left
+97.4453 	EXP 	grating: autoDraw = False
+97.4453 	EXP 	feedback_2: text = 'Correct!'
+97.4453 	EXP 	feedback_2: autoDraw = True
+98.4451 	EXP 	New trial (rep=0, index=47): OrderedDict([('FrecEspacial', 6.1999663883178355), ('Orientation', 130.47788682534747), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+98.4579 	EXP 	feedback_2: autoDraw = False
+98.4579 	EXP 	feedback_2: autoDraw = False
+98.4579 	EXP 	grating: ori = 130.47788682534747
+98.4579 	EXP 	grating: sf = array([6.19996639, 6.19996639])
+98.5416 	EXP 	grating: autoDraw = True
+98.9174 	DATA 	Keypress: left
+98.9243 	EXP 	grating: autoDraw = False
+98.9243 	EXP 	feedback_2: text = 'Correct!'
+98.9243 	EXP 	feedback_2: autoDraw = True
+99.9245 	EXP 	New trial (rep=0, index=48): OrderedDict([('FrecEspacial', 6.061874414514897), ('Orientation', 121.064495450235), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+99.9388 	EXP 	feedback_2: autoDraw = False
+99.9388 	EXP 	feedback_2: autoDraw = False
+99.9388 	EXP 	grating: ori = 121.064495450235
+99.9388 	EXP 	grating: sf = array([6.06187441, 6.06187441])
+100.0238 	EXP 	grating: autoDraw = True
+100.6377 	DATA 	Keypress: left
+100.6404 	EXP 	grating: autoDraw = False
+100.6404 	EXP 	feedback_2: text = 'Correct!'
+100.6404 	EXP 	feedback_2: autoDraw = True
+101.6398 	EXP 	New trial (rep=0, index=49): OrderedDict([('FrecEspacial', 5.9227113418357975), ('Orientation', 125.55272831255722), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+101.6535 	EXP 	feedback_2: autoDraw = False
+101.6535 	EXP 	feedback_2: autoDraw = False
+101.6535 	EXP 	grating: ori = 125.55272831255722
+101.6535 	EXP 	grating: sf = array([5.92271134, 5.92271134])
+101.7400 	EXP 	grating: autoDraw = True
+102.2481 	DATA 	Keypress: left
+102.2524 	EXP 	grating: autoDraw = False
+102.2524 	EXP 	feedback_2: text = 'Correct!'
+102.2524 	EXP 	feedback_2: autoDraw = True
+103.2539 	EXP 	New trial (rep=0, index=50): OrderedDict([('FrecEspacial', 6.17023193330709), ('Orientation', 126.71563013401516), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+103.2674 	EXP 	feedback_2: autoDraw = False
+103.2674 	EXP 	feedback_2: autoDraw = False
+103.2674 	EXP 	grating: ori = 126.71563013401516
+103.2674 	EXP 	grating: sf = array([6.17023193, 6.17023193])
+103.3510 	EXP 	grating: autoDraw = True
+104.1508 	DATA 	Keypress: left
+104.1535 	EXP 	grating: autoDraw = False
+104.1535 	EXP 	feedback_2: text = 'Correct!'
+104.1535 	EXP 	feedback_2: autoDraw = True
+105.1547 	EXP 	New trial (rep=0, index=51): OrderedDict([('FrecEspacial', 6.064906018540696), ('Orientation', 124.2657820761449), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+105.1645 	EXP 	feedback_2: autoDraw = False
+105.1645 	EXP 	feedback_2: autoDraw = False
+105.1645 	EXP 	grating: ori = 124.2657820761449
+105.1645 	EXP 	grating: sf = array([6.06490602, 6.06490602])
+105.2482 	EXP 	grating: autoDraw = True
+105.7393 	DATA 	Keypress: left
+105.7471 	EXP 	grating: autoDraw = False
+105.7471 	EXP 	feedback_2: text = 'Correct!'
+105.7471 	EXP 	feedback_2: autoDraw = True
+106.7485 	EXP 	New trial (rep=0, index=52): OrderedDict([('FrecEspacial', 6.001123935471338), ('Orientation', 129.84006655495642), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+106.7625 	EXP 	feedback_2: autoDraw = False
+106.7625 	EXP 	feedback_2: autoDraw = False
+106.7625 	EXP 	grating: ori = 129.84006655495642
+106.7625 	EXP 	grating: sf = array([6.00112394, 6.00112394])
+106.8473 	EXP 	grating: autoDraw = True
+107.9278 	DATA 	Keypress: left
+107.9306 	EXP 	grating: autoDraw = False
+107.9306 	EXP 	feedback_2: text = 'Correct!'
+107.9306 	EXP 	feedback_2: autoDraw = True
+108.9293 	EXP 	New trial (rep=0, index=53): OrderedDict([('FrecEspacial', 5.749749875933107), ('Orientation', 124.42519345677113), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+108.9428 	EXP 	feedback_2: autoDraw = False
+108.9428 	EXP 	feedback_2: autoDraw = False
+108.9428 	EXP 	grating: ori = 124.42519345677113
+108.9428 	EXP 	grating: sf = array([5.74974988, 5.74974988])
+109.0270 	EXP 	grating: autoDraw = True
+109.2862 	DATA 	Keypress: left
+109.2920 	EXP 	grating: autoDraw = False
+109.2920 	EXP 	feedback_2: text = 'Correct!'
+109.2920 	EXP 	feedback_2: autoDraw = True
+110.2928 	EXP 	New trial (rep=0, index=54): OrderedDict([('FrecEspacial', 5.94839791774277), ('Orientation', 125.35253524629377), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+110.3065 	EXP 	feedback_2: autoDraw = False
+110.3065 	EXP 	feedback_2: autoDraw = False
+110.3065 	EXP 	grating: ori = 125.35253524629377
+110.3065 	EXP 	grating: sf = array([5.94839792, 5.94839792])
+110.3898 	EXP 	grating: autoDraw = True
+110.5837 	DATA 	Keypress: left
+110.6126 	EXP 	grating: autoDraw = False
+110.6126 	EXP 	feedback_2: text = 'Correct!'
+110.6126 	EXP 	feedback_2: autoDraw = True
+111.6082 	EXP 	New trial (rep=0, index=55): OrderedDict([('FrecEspacial', 5.95700986152008), ('Orientation', 119.9682558876706), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+111.6214 	EXP 	feedback_2: autoDraw = False
+111.6214 	EXP 	feedback_2: autoDraw = False
+111.6214 	EXP 	grating: ori = 119.9682558876706
+111.6214 	EXP 	grating: sf = array([5.95700986, 5.95700986])
+111.7044 	EXP 	grating: autoDraw = True
+111.8839 	DATA 	Keypress: left
+111.8879 	EXP 	grating: autoDraw = False
+111.8879 	EXP 	feedback_2: text = 'Correct!'
+111.8879 	EXP 	feedback_2: autoDraw = True
+112.8899 	EXP 	New trial (rep=0, index=56): OrderedDict([('FrecEspacial', 5.854677255769715), ('Orientation', 126.03953678756949), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+112.9030 	EXP 	feedback_2: autoDraw = False
+112.9030 	EXP 	feedback_2: autoDraw = False
+112.9030 	EXP 	grating: ori = 126.03953678756949
+112.9030 	EXP 	grating: sf = array([5.85467726, 5.85467726])
+112.9572 	DATA 	Keypress: left
+112.9863 	EXP 	grating: autoDraw = True
+113.5804 	DATA 	Keypress: left
+113.5849 	EXP 	grating: autoDraw = False
+113.5849 	EXP 	feedback_2: text = 'Correct!'
+113.5849 	EXP 	feedback_2: autoDraw = True
+114.5871 	EXP 	New trial (rep=0, index=57): OrderedDict([('FrecEspacial', 5.848234343187242), ('Orientation', 129.76544980828749), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+114.5991 	EXP 	feedback_2: autoDraw = False
+114.5991 	EXP 	feedback_2: autoDraw = False
+114.5991 	EXP 	grating: ori = 129.76544980828749
+114.5991 	EXP 	grating: sf = array([5.84823434, 5.84823434])
+114.6837 	EXP 	grating: autoDraw = True
+114.7706 	DATA 	Keypress: left
+115.2770 	DATA 	Keypress: left
+115.2822 	EXP 	grating: autoDraw = False
+115.2822 	EXP 	feedback_2: text = 'Correct!'
+115.2822 	EXP 	feedback_2: autoDraw = True
+116.2362 	DATA 	Keypress: left
+116.2841 	EXP 	New trial (rep=0, index=58): OrderedDict([('FrecEspacial', 5.859159326869026), ('Orientation', 127.73997334079571), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+116.2975 	EXP 	feedback_2: autoDraw = False
+116.2975 	EXP 	feedback_2: autoDraw = False
+116.2975 	EXP 	grating: ori = 127.73997334079571
+116.2975 	EXP 	grating: sf = array([5.85915933, 5.85915933])
+116.3829 	EXP 	grating: autoDraw = True
+116.8962 	DATA 	Keypress: left
+116.8990 	EXP 	grating: autoDraw = False
+116.8990 	EXP 	feedback_2: text = 'Correct!'
+116.8990 	EXP 	feedback_2: autoDraw = True
+117.8992 	EXP 	New trial (rep=0, index=59): OrderedDict([('FrecEspacial', 5.8638184947280685), ('Orientation', 123.65926556262156), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+117.9124 	EXP 	feedback_2: autoDraw = False
+117.9124 	EXP 	feedback_2: autoDraw = False
+117.9124 	EXP 	grating: ori = 123.65926556262156
+117.9124 	EXP 	grating: sf = array([5.86381849, 5.86381849])
+117.9965 	EXP 	grating: autoDraw = True
+118.3408 	DATA 	Keypress: left
+118.3449 	EXP 	grating: autoDraw = False
+118.3449 	EXP 	feedback_2: text = 'Correct!'
+118.3449 	EXP 	feedback_2: autoDraw = True
+119.3457 	EXP 	New trial (rep=0, index=60): OrderedDict([('FrecEspacial', 5.985786106797358), ('Orientation', 130.667825847701), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+119.3590 	EXP 	feedback_2: autoDraw = False
+119.3590 	EXP 	feedback_2: autoDraw = False
+119.3590 	EXP 	grating: ori = 130.667825847701
+119.3590 	EXP 	grating: sf = array([5.98578611, 5.98578611])
+119.4447 	EXP 	grating: autoDraw = True
+119.6902 	DATA 	Keypress: left
+119.6942 	EXP 	grating: autoDraw = False
+119.6942 	EXP 	feedback_2: text = 'Correct!'
+119.6942 	EXP 	feedback_2: autoDraw = True
+120.6933 	EXP 	New trial (rep=0, index=61): OrderedDict([('FrecEspacial', 5.83024035495396), ('Orientation', 125.72334408139616), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+120.7089 	EXP 	feedback_2: autoDraw = False
+120.7089 	EXP 	feedback_2: autoDraw = False
+120.7089 	EXP 	grating: ori = 125.72334408139616
+120.7089 	EXP 	grating: sf = array([5.83024035, 5.83024035])
+120.7931 	EXP 	grating: autoDraw = True
+121.1663 	DATA 	Keypress: left
+121.1907 	EXP 	grating: autoDraw = False
+121.1907 	EXP 	feedback_2: text = 'Correct!'
+121.1907 	EXP 	feedback_2: autoDraw = True
+122.1922 	EXP 	New trial (rep=0, index=62): OrderedDict([('FrecEspacial', 5.641738160873581), ('Orientation', 127.00666462582537), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+122.2038 	EXP 	feedback_2: autoDraw = False
+122.2038 	EXP 	feedback_2: autoDraw = False
+122.2038 	EXP 	grating: ori = 127.00666462582537
+122.2038 	EXP 	grating: sf = array([5.64173816, 5.64173816])
+122.2882 	EXP 	grating: autoDraw = True
+122.5279 	DATA 	Keypress: left
+122.5544 	EXP 	grating: autoDraw = False
+122.5544 	EXP 	feedback_2: text = 'Correct!'
+122.5544 	EXP 	feedback_2: autoDraw = True
+123.5570 	EXP 	New trial (rep=0, index=63): OrderedDict([('FrecEspacial', 5.8659850425870825), ('Orientation', 129.8686482984548), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+123.5700 	EXP 	feedback_2: autoDraw = False
+123.5700 	EXP 	feedback_2: autoDraw = False
+123.5700 	EXP 	grating: ori = 129.8686482984548
+123.5700 	EXP 	grating: sf = array([5.86598504, 5.86598504])
+123.6540 	EXP 	grating: autoDraw = True
+123.9768 	DATA 	Keypress: left
+124.0039 	EXP 	grating: autoDraw = False
+124.0039 	EXP 	feedback_2: text = 'Correct!'
+124.0039 	EXP 	feedback_2: autoDraw = True
+125.0057 	EXP 	New trial (rep=0, index=64): OrderedDict([('FrecEspacial', 5.912542998532741), ('Orientation', 124.62845088897177), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+125.0194 	EXP 	feedback_2: autoDraw = False
+125.0194 	EXP 	feedback_2: autoDraw = False
+125.0194 	EXP 	grating: ori = 124.62845088897177
+125.0194 	EXP 	grating: sf = array([5.912543, 5.912543])
+125.0996 	EXP 	grating: autoDraw = True
+125.3337 	DATA 	Keypress: left
+125.3363 	EXP 	grating: autoDraw = False
+125.3363 	EXP 	feedback_2: text = 'Correct!'
+125.3363 	EXP 	feedback_2: autoDraw = True
+126.3360 	EXP 	New trial (rep=0, index=65): OrderedDict([('FrecEspacial', 5.904743871783625), ('Orientation', 115.84989373977824), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+126.3486 	EXP 	feedback_2: autoDraw = False
+126.3486 	EXP 	feedback_2: autoDraw = False
+126.3486 	EXP 	grating: ori = 115.84989373977824
+126.3486 	EXP 	grating: sf = array([5.90474387, 5.90474387])
+126.4018 	DATA 	Keypress: left
+126.4341 	EXP 	grating: autoDraw = True
+126.9110 	DATA 	Keypress: left
+126.9151 	EXP 	grating: autoDraw = False
+126.9151 	EXP 	feedback_2: text = 'Correct!'
+126.9151 	EXP 	feedback_2: autoDraw = True
+127.9022 	EXP 	New trial (rep=0, index=66): OrderedDict([('FrecEspacial', 5.663748059624297), ('Orientation', 125.5897576857811), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+127.9151 	EXP 	feedback_2: autoDraw = False
+127.9151 	EXP 	feedback_2: autoDraw = False
+127.9151 	EXP 	grating: ori = 125.5897576857811
+127.9151 	EXP 	grating: sf = array([5.66374806, 5.66374806])
+127.9975 	EXP 	grating: autoDraw = True
+128.2179 	DATA 	Keypress: left
+128.2454 	EXP 	grating: autoDraw = False
+128.2454 	EXP 	feedback_2: text = 'Correct!'
+128.2454 	EXP 	feedback_2: autoDraw = True
+129.2477 	EXP 	New trial (rep=0, index=67): OrderedDict([('FrecEspacial', 5.741979251356947), ('Orientation', 128.33842041439758), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+129.2612 	EXP 	feedback_2: autoDraw = False
+129.2612 	EXP 	feedback_2: autoDraw = False
+129.2612 	EXP 	grating: ori = 128.33842041439758
+129.2612 	EXP 	grating: sf = array([5.74197925, 5.74197925])
+129.3442 	EXP 	grating: autoDraw = True
+130.4206 	DATA 	Keypress: left
+130.4256 	EXP 	grating: autoDraw = False
+130.4256 	EXP 	feedback_2: text = 'Correct!'
+130.4256 	EXP 	feedback_2: autoDraw = True
+131.4287 	EXP 	New trial (rep=0, index=68): OrderedDict([('FrecEspacial', 6.100133780990699), ('Orientation', 124.42685749114428), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+131.4409 	EXP 	feedback_2: autoDraw = False
+131.4409 	EXP 	feedback_2: autoDraw = False
+131.4409 	EXP 	grating: ori = 124.42685749114428
+131.4409 	EXP 	grating: sf = array([6.10013378, 6.10013378])
+131.5238 	EXP 	grating: autoDraw = True
+132.9118 	DATA 	Keypress: left
+132.9396 	EXP 	grating: autoDraw = False
+132.9396 	EXP 	feedback_2: text = 'Correct!'
+132.9396 	EXP 	feedback_2: autoDraw = True
+133.9413 	EXP 	New trial (rep=0, index=69): OrderedDict([('FrecEspacial', 5.703423417139119), ('Orientation', 123.66794641873452), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+133.9541 	EXP 	feedback_2: autoDraw = False
+133.9541 	EXP 	feedback_2: autoDraw = False
+133.9541 	EXP 	grating: ori = 123.66794641873452
+133.9541 	EXP 	grating: sf = array([5.70342342, 5.70342342])
+134.0373 	EXP 	grating: autoDraw = True
+134.4426 	DATA 	Keypress: left
+134.4699 	EXP 	grating: autoDraw = False
+134.4699 	EXP 	feedback_2: text = 'Correct!'
+134.4699 	EXP 	feedback_2: autoDraw = True
+135.4705 	EXP 	New trial (rep=0, index=70): OrderedDict([('FrecEspacial', 5.898602060478249), ('Orientation', 125.00552019651344), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+135.4835 	EXP 	feedback_2: autoDraw = False
+135.4835 	EXP 	feedback_2: autoDraw = False
+135.4835 	EXP 	grating: ori = 125.00552019651344
+135.4835 	EXP 	grating: sf = array([5.89860206, 5.89860206])
+135.5683 	EXP 	grating: autoDraw = True
+136.3566 	DATA 	Keypress: left
+136.3872 	EXP 	grating: autoDraw = False
+136.3872 	EXP 	feedback_2: text = 'Correct!'
+136.3872 	EXP 	feedback_2: autoDraw = True
+137.3823 	EXP 	New trial (rep=0, index=71): OrderedDict([('FrecEspacial', 6.096935417938963), ('Orientation', 127.63114113211606), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+137.3970 	EXP 	feedback_2: autoDraw = False
+137.3970 	EXP 	feedback_2: autoDraw = False
+137.3970 	EXP 	grating: ori = 127.63114113211606
+137.3970 	EXP 	grating: sf = array([6.09693542, 6.09693542])
+137.4700 	DATA 	Keypress: left
+137.4821 	EXP 	grating: autoDraw = True
+139.1097 	DATA 	Keypress: left
+139.1134 	EXP 	grating: autoDraw = False
+139.1134 	EXP 	feedback_2: text = 'Correct!'
+139.1134 	EXP 	feedback_2: autoDraw = True
+140.1147 	EXP 	New trial (rep=0, index=72): OrderedDict([('FrecEspacial', 5.999417053721894), ('Orientation', 125.37850268435223), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+140.1275 	EXP 	feedback_2: autoDraw = False
+140.1275 	EXP 	feedback_2: autoDraw = False
+140.1275 	EXP 	grating: ori = 125.37850268435223
+140.1275 	EXP 	grating: sf = array([5.99941705, 5.99941705])
+140.2126 	EXP 	grating: autoDraw = True
+140.5009 	DATA 	Keypress: left
+141.0699 	DATA 	Keypress: left
+141.0755 	EXP 	grating: autoDraw = False
+141.0755 	EXP 	feedback_2: text = 'Correct!'
+141.0755 	EXP 	feedback_2: autoDraw = True
+142.0755 	EXP 	New trial (rep=0, index=73): OrderedDict([('FrecEspacial', 5.81466717530087), ('Orientation', 118.95801706338699), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+142.0896 	EXP 	feedback_2: autoDraw = False
+142.0896 	EXP 	feedback_2: autoDraw = False
+142.0896 	EXP 	grating: ori = 118.95801706338699
+142.0896 	EXP 	grating: sf = array([5.81466718, 5.81466718])
+142.1751 	EXP 	grating: autoDraw = True
+143.6178 	DATA 	Keypress: left
+143.6219 	EXP 	grating: autoDraw = False
+143.6219 	EXP 	feedback_2: text = 'Correct!'
+143.6219 	EXP 	feedback_2: autoDraw = True
+144.6241 	EXP 	New trial (rep=0, index=74): OrderedDict([('FrecEspacial', 6.094253934239045), ('Orientation', 130.22809112976108), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+144.6374 	EXP 	feedback_2: autoDraw = False
+144.6374 	EXP 	feedback_2: autoDraw = False
+144.6374 	EXP 	grating: ori = 130.22809112976108
+144.6374 	EXP 	grating: sf = array([6.09425393, 6.09425393])
+144.7232 	EXP 	grating: autoDraw = True
+145.9166 	DATA 	Keypress: left
+145.9196 	EXP 	grating: autoDraw = False
+145.9196 	EXP 	feedback_2: text = 'Correct!'
+145.9196 	EXP 	feedback_2: autoDraw = True
+146.9202 	EXP 	New trial (rep=0, index=75): OrderedDict([('FrecEspacial', 5.9225072401548), ('Orientation', 128.44555109177224), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+146.9332 	EXP 	feedback_2: autoDraw = False
+146.9332 	EXP 	feedback_2: autoDraw = False
+146.9332 	EXP 	grating: ori = 128.44555109177224
+146.9332 	EXP 	grating: sf = array([5.92250724, 5.92250724])
+147.0188 	EXP 	grating: autoDraw = True
+147.4578 	DATA 	Keypress: left
+147.4876 	EXP 	grating: autoDraw = False
+147.4876 	EXP 	feedback_2: text = 'Correct!'
+147.4876 	EXP 	feedback_2: autoDraw = True
+148.4840 	EXP 	New trial (rep=0, index=76): OrderedDict([('FrecEspacial', 6.215394076669892), ('Orientation', 124.58563473850023), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+148.4964 	EXP 	feedback_2: autoDraw = False
+148.4964 	EXP 	feedback_2: autoDraw = False
+148.4964 	EXP 	grating: ori = 124.58563473850023
+148.4964 	EXP 	grating: sf = array([6.21539408, 6.21539408])
+148.5815 	EXP 	grating: autoDraw = True
+151.1187 	DATA 	Keypress: left
+151.1217 	EXP 	grating: autoDraw = False
+151.1217 	EXP 	feedback_2: text = 'Correct!'
+151.1217 	EXP 	feedback_2: autoDraw = True
+152.1134 	EXP 	New trial (rep=0, index=77): OrderedDict([('FrecEspacial', 6.0462744898779), ('Orientation', 125.08812373097179), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+152.1259 	EXP 	feedback_2: autoDraw = False
+152.1259 	EXP 	feedback_2: autoDraw = False
+152.1259 	EXP 	grating: ori = 125.08812373097179
+152.1259 	EXP 	grating: sf = array([6.04627449, 6.04627449])
+152.2089 	EXP 	grating: autoDraw = True
+155.0409 	DATA 	Keypress: left
+155.0437 	EXP 	grating: autoDraw = False
+155.0437 	EXP 	feedback_2: text = 'Correct!'
+155.0437 	EXP 	feedback_2: autoDraw = True
+156.0397 	EXP 	New trial (rep=0, index=78): OrderedDict([('FrecEspacial', 5.8229626257204625), ('Orientation', 126.69034028760484), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+156.0527 	EXP 	feedback_2: autoDraw = False
+156.0527 	EXP 	feedback_2: autoDraw = False
+156.0527 	EXP 	grating: ori = 126.69034028760484
+156.0527 	EXP 	grating: sf = array([5.82296263, 5.82296263])
+156.1361 	EXP 	grating: autoDraw = True
+156.6330 	DATA 	Keypress: left
+156.6365 	EXP 	grating: autoDraw = False
+156.6365 	EXP 	feedback_2: text = 'Correct!'
+156.6365 	EXP 	feedback_2: autoDraw = True
+157.6394 	EXP 	New trial (rep=0, index=79): OrderedDict([('FrecEspacial', 6.0429707773779056), ('Orientation', 124.65803620293444), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'left'), ('Categoria', 'A')])
+157.6502 	EXP 	feedback_2: autoDraw = False
+157.6502 	EXP 	feedback_2: autoDraw = False
+157.6502 	EXP 	grating: ori = 124.65803620293444
+157.6502 	EXP 	grating: sf = array([6.04297078, 6.04297078])
+157.7338 	EXP 	grating: autoDraw = True
+158.1573 	DATA 	Keypress: left
+158.1830 	EXP 	grating: autoDraw = False
+158.1830 	EXP 	feedback_2: text = 'Correct!'
+158.1830 	EXP 	feedback_2: autoDraw = True
+159.1694 	EXP 	New trial (rep=0, index=80): OrderedDict([('FrecEspacial', 6.698542142146049), ('Orientation', 126.39651733465188), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+159.1826 	EXP 	feedback_2: autoDraw = False
+159.1826 	EXP 	feedback_2: autoDraw = False
+159.1826 	EXP 	grating: ori = 126.39651733465188
+159.1826 	EXP 	grating: sf = array([6.69854214, 6.69854214])
+159.2632 	EXP 	grating: autoDraw = True
+159.8021 	DATA 	Keypress: left
+159.8046 	EXP 	grating: autoDraw = False
+159.8046 	EXP 	feedback_2: text = 'Oops! That was wrong'
+159.8046 	EXP 	feedback_2: autoDraw = True
+160.8014 	EXP 	New trial (rep=0, index=81): OrderedDict([('FrecEspacial', 6.510978514997093), ('Orientation', 122.88185834862152), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+160.8129 	EXP 	feedback_2: autoDraw = False
+160.8129 	EXP 	feedback_2: autoDraw = False
+160.8129 	EXP 	grating: ori = 122.88185834862152
+160.8129 	EXP 	grating: sf = array([6.51097851, 6.51097851])
+160.8943 	EXP 	grating: autoDraw = True
+161.2480 	DATA 	Keypress: right
+161.2506 	EXP 	grating: autoDraw = False
+161.2506 	EXP 	feedback_2: text = 'Correct!'
+161.2506 	EXP 	feedback_2: autoDraw = True
+162.2472 	EXP 	New trial (rep=0, index=82): OrderedDict([('FrecEspacial', 6.528145757678323), ('Orientation', 125.97219745336427), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+162.2600 	EXP 	feedback_2: autoDraw = False
+162.2600 	EXP 	feedback_2: autoDraw = False
+162.2600 	EXP 	grating: ori = 125.97219745336427
+162.2600 	EXP 	grating: sf = array([6.52814576, 6.52814576])
+162.3432 	EXP 	grating: autoDraw = True
+162.5431 	DATA 	Keypress: right
+162.5458 	EXP 	grating: autoDraw = False
+162.5458 	EXP 	feedback_2: text = 'Correct!'
+162.5458 	EXP 	feedback_2: autoDraw = True
+163.5447 	EXP 	New trial (rep=0, index=83): OrderedDict([('FrecEspacial', 6.831826031566846), ('Orientation', 124.90652297854473), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+163.5575 	EXP 	feedback_2: autoDraw = False
+163.5575 	EXP 	feedback_2: autoDraw = False
+163.5575 	EXP 	grating: ori = 124.90652297854473
+163.5575 	EXP 	grating: sf = array([6.83182603, 6.83182603])
+163.6421 	EXP 	grating: autoDraw = True
+163.8320 	DATA 	Keypress: right
+163.8577 	EXP 	grating: autoDraw = False
+163.8577 	EXP 	feedback_2: text = 'Correct!'
+163.8577 	EXP 	feedback_2: autoDraw = True
+164.8451 	DATA 	Keypress: right
+164.8584 	EXP 	New trial (rep=0, index=84): OrderedDict([('FrecEspacial', 6.232643647091384), ('Orientation', 126.4097409411928), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+164.8721 	EXP 	feedback_2: autoDraw = False
+164.8721 	EXP 	feedback_2: autoDraw = False
+164.8721 	EXP 	grating: ori = 126.4097409411928
+164.8721 	EXP 	grating: sf = array([6.23264365, 6.23264365])
+164.9545 	EXP 	grating: autoDraw = True
+165.3438 	DATA 	Keypress: right
+165.3467 	EXP 	grating: autoDraw = False
+165.3467 	EXP 	feedback_2: text = 'Correct!'
+165.3467 	EXP 	feedback_2: autoDraw = True
+166.2096 	DATA 	Keypress: right
+166.3385 	EXP 	New trial (rep=0, index=85): OrderedDict([('FrecEspacial', 6.7328763221043015), ('Orientation', 121.56781047404114), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+166.3524 	EXP 	feedback_2: autoDraw = False
+166.3524 	EXP 	feedback_2: autoDraw = False
+166.3524 	EXP 	grating: ori = 121.56781047404114
+166.3524 	EXP 	grating: sf = array([6.73287632, 6.73287632])
+166.4380 	EXP 	grating: autoDraw = True
+166.8074 	DATA 	Keypress: right
+166.8104 	EXP 	grating: autoDraw = False
+166.8104 	EXP 	feedback_2: text = 'Correct!'
+166.8104 	EXP 	feedback_2: autoDraw = True
+167.8058 	EXP 	New trial (rep=0, index=86): OrderedDict([('FrecEspacial', 6.537452133354763), ('Orientation', 130.29761209088724), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+167.8185 	EXP 	feedback_2: autoDraw = False
+167.8185 	EXP 	feedback_2: autoDraw = False
+167.8185 	EXP 	grating: ori = 130.29761209088724
+167.8185 	EXP 	grating: sf = array([6.53745213, 6.53745213])
+167.9030 	EXP 	grating: autoDraw = True
+168.2004 	DATA 	Keypress: right
+168.2034 	EXP 	grating: autoDraw = False
+168.2034 	EXP 	feedback_2: text = 'Correct!'
+168.2034 	EXP 	feedback_2: autoDraw = True
+169.2015 	EXP 	New trial (rep=0, index=87): OrderedDict([('FrecEspacial', 6.5482835979235245), ('Orientation', 126.670572192619), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+169.2157 	EXP 	feedback_2: autoDraw = False
+169.2157 	EXP 	feedback_2: autoDraw = False
+169.2157 	EXP 	grating: ori = 126.670572192619
+169.2157 	EXP 	grating: sf = array([6.5482836, 6.5482836])
+169.2983 	EXP 	grating: autoDraw = True
+169.5835 	DATA 	Keypress: right
+169.5862 	EXP 	grating: autoDraw = False
+169.5862 	EXP 	feedback_2: text = 'Correct!'
+169.5862 	EXP 	feedback_2: autoDraw = True
+170.5827 	EXP 	New trial (rep=0, index=88): OrderedDict([('FrecEspacial', 6.459109276944004), ('Orientation', 124.18065097607708), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+170.5964 	EXP 	feedback_2: autoDraw = False
+170.5964 	EXP 	feedback_2: autoDraw = False
+170.5964 	EXP 	grating: ori = 124.18065097607708
+170.5964 	EXP 	grating: sf = array([6.45910928, 6.45910928])
+170.6796 	EXP 	grating: autoDraw = True
+171.0851 	DATA 	Keypress: right
+171.6442 	DATA 	Keypress: right
+171.6468 	EXP 	grating: autoDraw = False
+171.6468 	EXP 	feedback_2: text = 'Correct!'
+171.6468 	EXP 	feedback_2: autoDraw = True
+172.6459 	EXP 	New trial (rep=0, index=89): OrderedDict([('FrecEspacial', 6.574897956436608), ('Orientation', 127.08633839327887), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+172.6597 	EXP 	feedback_2: autoDraw = False
+172.6597 	EXP 	feedback_2: autoDraw = False
+172.6597 	EXP 	grating: ori = 127.08633839327887
+172.6597 	EXP 	grating: sf = array([6.57489796, 6.57489796])
+172.7454 	EXP 	grating: autoDraw = True
+173.2789 	DATA 	Keypress: right
+173.2818 	EXP 	grating: autoDraw = False
+173.2818 	EXP 	feedback_2: text = 'Correct!'
+173.2818 	EXP 	feedback_2: autoDraw = True
+174.2780 	EXP 	New trial (rep=0, index=90): OrderedDict([('FrecEspacial', 6.740410234263708), ('Orientation', 123.61052040617395), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+174.2916 	EXP 	feedback_2: autoDraw = False
+174.2916 	EXP 	feedback_2: autoDraw = False
+174.2916 	EXP 	grating: ori = 123.61052040617395
+174.2916 	EXP 	grating: sf = array([6.74041023, 6.74041023])
+174.3614 	DATA 	Keypress: right
+174.3729 	EXP 	grating: autoDraw = True
+177.3878 	EXP 	grating: autoDraw = False
+177.5151 	EXP 	grating: autoDraw = False
+177.5151 	EXP 	feedback_2: text = 'Oops! That was wrong'
+177.5151 	EXP 	feedback_2: autoDraw = True
+177.6418 	DATA 	Keypress: right
+178.5047 	EXP 	New trial (rep=0, index=91): OrderedDict([('FrecEspacial', 6.717203388630447), ('Orientation', 124.30551441728387), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+178.5180 	EXP 	feedback_2: autoDraw = False
+178.5180 	EXP 	feedback_2: autoDraw = False
+178.5180 	EXP 	grating: ori = 124.30551441728387
+178.5180 	EXP 	grating: sf = array([6.71720339, 6.71720339])
+178.6011 	EXP 	grating: autoDraw = True
+179.0365 	DATA 	Keypress: right
+179.0391 	EXP 	grating: autoDraw = False
+179.0391 	EXP 	feedback_2: text = 'Correct!'
+179.0391 	EXP 	feedback_2: autoDraw = True
+180.0361 	EXP 	New trial (rep=0, index=92): OrderedDict([('FrecEspacial', 6.7835844188599275), ('Orientation', 126.69930769270151), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+180.0489 	EXP 	feedback_2: autoDraw = False
+180.0489 	EXP 	feedback_2: autoDraw = False
+180.0489 	EXP 	grating: ori = 126.69930769270151
+180.0489 	EXP 	grating: sf = array([6.78358442, 6.78358442])
+180.1336 	EXP 	grating: autoDraw = True
+180.3793 	DATA 	Keypress: right
+180.3960 	EXP 	grating: autoDraw = False
+180.3960 	EXP 	feedback_2: text = 'Correct!'
+180.3960 	EXP 	feedback_2: autoDraw = True
+181.3874 	EXP 	New trial (rep=0, index=93): OrderedDict([('FrecEspacial', 6.690751765587339), ('Orientation', 120.96431130242769), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+181.3993 	EXP 	feedback_2: autoDraw = False
+181.3993 	EXP 	feedback_2: autoDraw = False
+181.3993 	EXP 	grating: ori = 120.96431130242769
+181.3993 	EXP 	grating: sf = array([6.69075177, 6.69075177])
+181.4803 	EXP 	grating: autoDraw = True
+181.7304 	DATA 	Keypress: right
+181.7330 	EXP 	grating: autoDraw = False
+181.7330 	EXP 	feedback_2: text = 'Correct!'
+181.7330 	EXP 	feedback_2: autoDraw = True
+182.7313 	EXP 	New trial (rep=0, index=94): OrderedDict([('FrecEspacial', 6.6266382456454895), ('Orientation', 126.26578681149306), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+182.7443 	EXP 	feedback_2: autoDraw = False
+182.7443 	EXP 	feedback_2: autoDraw = False
+182.7443 	EXP 	grating: ori = 126.26578681149306
+182.7443 	EXP 	grating: sf = array([6.62663825, 6.62663825])
+182.8291 	EXP 	grating: autoDraw = True
+183.0968 	DATA 	Keypress: right
+183.0997 	EXP 	grating: autoDraw = False
+183.0997 	EXP 	feedback_2: text = 'Correct!'
+183.0997 	EXP 	feedback_2: autoDraw = True
+184.0969 	EXP 	New trial (rep=0, index=95): OrderedDict([('FrecEspacial', 6.314706824400949), ('Orientation', 125.68405071923245), ('Fase', None), ('Respuesta', None), ('CorrectAns', 'right'), ('Categoria', 'B')])
+184.1095 	EXP 	feedback_2: autoDraw = False
+184.1095 	EXP 	feedback_2: autoDraw = False
+184.1095 	EXP 	grating: ori = 125.68405071923245
+184.1095 	EXP 	grating: sf = array([6.31470682, 6.31470682])
+184.1842 	DATA 	Keypress: right
+184.1920 	EXP 	grating: autoDraw = True
+184.7879 	DATA 	Keypress: right
+184.7921 	EXP 	grating: autoDraw = False
+184.7921 	EXP 	feedback_2: text = 'Correct!'
+184.7921 	EXP 	feedback_2: autoDraw = True
+184.9125 	DATA 	Keypress: right
+185.1467 	DATA 	Keypress: escape
+185.3961 	EXP 	window1: mouseVisible = True

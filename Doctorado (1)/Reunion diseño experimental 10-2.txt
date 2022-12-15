@@ -1,0 +1,40 @@
+Reunión 10/2: Diseño experimental y comité de ética.
+
+1. Comité de ética
+Paso 1: Presentar el proyecto ¿Donde? INECO/Favaloro (no son las mejores opciones)/Hospital italiano.
+Opciones en Mendoza: A. Ver si se puede presentar por contacto de Ale en Uncuyo o el CCT Mendoza. Opción B. Contacto de Adolf con la fundación de medicina nuclear.
+ATENCIÓN: ¿Tiene que ser de la misma jurisdicción donde se toman los datos el comité?
+Si es así otra opción es vía IByME por Ale.
+Información importante: Mail de Agus con el protocolo. Revisar la plataforma prisma.
+
+Resolver lo siguiente: ¿Es necesario un neurólogo/a presente para tomar los experimentos? Opcion 1: Maximo. Opción 2: Cecilia (radiologa).
+Que se debe presentar en el comité:
+*Proyecto
+*Formulario de consentimiento informado  (En el proyecto de Agus Maximo se hacía cargo de los efectos que pueda tener el tratamiento de por vida. Hablar con Maximo. Averiguar si esto es obligatorio)
+*Hoja de información para el participante (nos pasa un modelo Adolf)
+
+
+2. Diseño Experimental:
+
+Evaluaciones neurológicas: Hablar con Sol fittipaldi para tomar ADOS. Averiguar cuánto dura la toma del ADOS. 
+Pensar si lo hacemos en la misma sesión donde hacemos experimentos
+o si lo tomamos en otra sesión en función del tiempo que dura.
+
+Esquema experimental:
+Opción A: 1. ADOS (si es autista) 2. Evaluar en condición Sham un experimento. 3. Evaluar con estimulacion otro experimento. Hacerlo de forma contrabalanceada.
+Además invitar a otra instancia de evaluación donde se inviertan las condiciones, asi tendria la posibilidad de tener los datos en cross over además.
+
+Opción B: Sacrificar el Cross over y hacer experimentos 3 y 4 en la segunda sesión.Nos inclinamos por la opción B.
+
+IMPORTANTE: Preguntar a los pacientes si pensaban que estaban siendo estimulados.
+
+Tema EEG: ¿Es posible? Seteo de eeg dura 40 min. Poner el tdcs son 20 min. 20 min de estimulacion sham. 20 Min de estimulacion real. Es mucho tiempo.
+Una posibilidad es hacer eeg solo para neurotipicos. Solo es viable si conseguimos un eeg con tdcs(El eeg con tdcs de enzo tiene 8 canales, quedaria descartada esta opcion).Nos inclinamos por no hacer EEG.
+
+Experimentos online u offline: Con el protocolo charlado los experimentos los haríamos online, comenzando con la tarea luego de haber estimulado cierto tiempo. Adolfo sugirió 3 minutos.
+La estimulación dura 20 minutos (esta temporalidad es para estimulaciones en áreas motoras).
+Revisar el tiempo de estimulación. Ver si es posible cuadrarlo con una evaluación offline.
+
+Para la próxima reunión:
+Avanzar con los protocolos de ética.
+Organizar un timeline con los tiempos bien definidos de estimulación, tareas etc.

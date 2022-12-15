@@ -1,0 +1,53 @@
+                                                                Df    Sum Sq
+CueDirection                                                     1      1628
+SentenceDirection                                                1    101955
+GrupoMoveTime                                                    2  17654443
+SentenceDuration                                                 1      7942
+CueDirection:SentenceDirection                                   1    160488
+CueDirection:GrupoMoveTime                                       2      3675
+SentenceDirection:GrupoMoveTime                                  2     11070
+CueDirection:SentenceDuration                                    1      7700
+SentenceDirection:SentenceDuration                               1     28058
+GrupoMoveTime:SentenceDuration                                   2       261
+CueDirection:SentenceDirection:GrupoMoveTime                     2    110020
+CueDirection:SentenceDirection:SentenceDuration                  1     73533
+CueDirection:GrupoMoveTime:SentenceDuration                      2     35122
+SentenceDirection:GrupoMoveTime:SentenceDuration                 2    104153
+CueDirection:SentenceDirection:GrupoMoveTime:SentenceDuration    2     25384
+Residuals                                                     1695 151669526
+                                                              Mean Sq F value
+CueDirection                                                     1628   0.018
+SentenceDirection                                              101955   1.139
+GrupoMoveTime                                                 8827221  98.650
+SentenceDuration                                                 7942   0.089
+CueDirection:SentenceDirection                                 160488   1.794
+CueDirection:GrupoMoveTime                                       1838   0.021
+SentenceDirection:GrupoMoveTime                                  5535   0.062
+CueDirection:SentenceDuration                                    7700   0.086
+SentenceDirection:SentenceDuration                              28058   0.314
+GrupoMoveTime:SentenceDuration                                    131   0.001
+CueDirection:SentenceDirection:GrupoMoveTime                    55010   0.615
+CueDirection:SentenceDirection:SentenceDuration                 73533   0.822
+CueDirection:GrupoMoveTime:SentenceDuration                     17561   0.196
+SentenceDirection:GrupoMoveTime:SentenceDuration                52076   0.582
+CueDirection:SentenceDirection:GrupoMoveTime:SentenceDuration   12692   0.142
+Residuals                                                       89481        
+                                                              Pr(>F)    
+CueDirection                                                   0.893    
+SentenceDirection                                              0.286    
+GrupoMoveTime                                                 <2e-16 ***
+SentenceDuration                                               0.766    
+CueDirection:SentenceDirection                                 0.181    
+CueDirection:GrupoMoveTime                                     0.980    
+SentenceDirection:GrupoMoveTime                                0.940    
+CueDirection:SentenceDuration                                  0.769    
+SentenceDirection:SentenceDuration                             0.576    
+GrupoMoveTime:SentenceDuration                                 0.999    
+CueDirection:SentenceDirection:GrupoMoveTime                   0.541    
+CueDirection:SentenceDirection:SentenceDuration                0.365    
+CueDirection:GrupoMoveTime:SentenceDuration                    0.822    
+SentenceDirection:GrupoMoveTime:SentenceDuration               0.559    
+CueDirection:SentenceDirection:GrupoMoveTime:SentenceDuration  0.868    
+Residuals                                                               
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

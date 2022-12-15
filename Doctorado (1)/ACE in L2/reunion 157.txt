@@ -1,0 +1,9 @@
+Reunion 15/7: ACE en L2
+
+1) Neutralizar Cue direction y sentence direction en trials compatibles e incompatibles. Generar una nueva variable.
+Tanto para el esquema de medianas como para tertiles.
+
+2) Remover outliers a dos desvios estandar y repetir analisis. 
+
+3)Hacer tabla de contingencia
+grupoxtrials compatibles e incompatible. hacer un chi cuadrado.

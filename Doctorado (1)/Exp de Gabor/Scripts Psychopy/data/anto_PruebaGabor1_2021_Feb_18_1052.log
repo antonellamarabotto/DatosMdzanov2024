@@ -1,0 +1,595 @@
+1.9298 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+25.4437 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000175EE079A90>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000175EDFF31D0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+25.4440 	EXP 	window1: mouseVisible = True
+25.4441 	EXP 	window1: recordFrameIntervals = False
+25.6098 	EXP 	window1: recordFrameIntervals = True
+25.7930 	EXP 	window1: recordFrameIntervals = False
+26.0675 	EXP 	Created InstruccionesGabor = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='InstruccionesGabor', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Bienvenidos\nDescripcion de la tarea', units='height', win=Window(...), wrapWidth=1)
+26.0733 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask='circle', maskParams=None, name='grating', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([0.5, 0.5]), tex='sin', texRes=128, units='height', win=Window(...))
+26.5794 	EXP 	InstruccionesGabor: autoDraw = True
+28.4697 	EXP 	Imported Gaborparametros.xlsx as conditions, 10 conditions, 2 params
+28.4703 	EXP 	Created sequence: random, trialTypes=10, nReps=10, seed=None
+28.4707 	EXP 	New trial (rep=0, index=0): OrderedDict([('Position', [-100, 0]), ('Orientation', 120)])
+28.4735 	DATA 	Keypress: space
+28.4782 	EXP 	InstruccionesGabor: autoDraw = False
+28.4782 	EXP 	grating: pos = array([-100.,    0.])
+28.4782 	EXP 	grating: ori = 120.0
+29.0383 	EXP 	grating: autoDraw = True
+29.9370 	EXP 	New trial (rep=0, index=1): OrderedDict([('Position', [110, 0]), ('Orientation', 25)])
+29.9529 	EXP 	grating: autoDraw = False
+29.9529 	EXP 	grating: pos = array([110.,   0.])
+29.9529 	EXP 	grating: ori = 25.0
+30.4355 	EXP 	grating: autoDraw = True
+31.4349 	EXP 	New trial (rep=0, index=2): OrderedDict([('Position', [100, 0]), ('Orientation', 100)])
+31.4506 	EXP 	grating: autoDraw = False
+31.4506 	EXP 	grating: pos = array([100.,   0.])
+31.4506 	EXP 	grating: ori = 100.0
+31.9332 	EXP 	grating: autoDraw = True
+32.9325 	EXP 	New trial (rep=0, index=3): OrderedDict([('Position', [0, 0]), ('Orientation', 90)])
+32.9484 	EXP 	grating: autoDraw = False
+32.9484 	EXP 	grating: pos = array([0., 0.])
+32.9484 	EXP 	grating: ori = 90.0
+33.4310 	EXP 	grating: autoDraw = True
+34.4303 	EXP 	New trial (rep=0, index=4): OrderedDict([('Position', [-50, 0]), ('Orientation', 45)])
+34.4458 	EXP 	grating: autoDraw = False
+34.4458 	EXP 	grating: pos = array([-50.,   0.])
+34.4458 	EXP 	grating: ori = 45.0
+34.9284 	EXP 	grating: autoDraw = True
+35.9277 	EXP 	New trial (rep=0, index=5): OrderedDict([('Position', [150, 0]), ('Orientation', 0)])
+35.9436 	EXP 	grating: autoDraw = False
+35.9436 	EXP 	grating: pos = array([150.,   0.])
+35.9436 	EXP 	grating: ori = 0.0
+36.4261 	EXP 	grating: autoDraw = True
+37.4275 	EXP 	New trial (rep=0, index=6): OrderedDict([('Position', [50, 0]), ('Orientation', 135)])
+37.4411 	EXP 	grating: autoDraw = False
+37.4411 	EXP 	grating: autoDraw = False
+37.4411 	EXP 	grating: pos = array([50.,  0.])
+37.4411 	EXP 	grating: ori = 135.0
+37.9240 	EXP 	grating: autoDraw = True
+38.9245 	EXP 	New trial (rep=0, index=7): OrderedDict([('Position', [130, 0]), ('Orientation', 110)])
+38.9390 	EXP 	grating: autoDraw = False
+38.9390 	EXP 	grating: autoDraw = False
+38.9390 	EXP 	grating: pos = array([130.,   0.])
+38.9390 	EXP 	grating: ori = 110.0
+39.4215 	EXP 	grating: autoDraw = True
+40.4235 	EXP 	New trial (rep=0, index=8): OrderedDict([('Position', [-150, 0]), ('Orientation', 35)])
+40.4366 	EXP 	grating: autoDraw = False
+40.4366 	EXP 	grating: autoDraw = False
+40.4366 	EXP 	grating: pos = array([-150.,    0.])
+40.4366 	EXP 	grating: ori = 35.0
+40.9194 	EXP 	grating: autoDraw = True
+41.0384 	DATA 	Keypress: space
+41.9204 	EXP 	New trial (rep=0, index=9): OrderedDict([('Position', [-110, 0]), ('Orientation', 15)])
+41.9344 	EXP 	grating: autoDraw = False
+41.9344 	EXP 	grating: autoDraw = False
+41.9344 	EXP 	grating: pos = array([-110.,    0.])
+41.9344 	EXP 	grating: ori = 15.0
+42.4170 	EXP 	grating: autoDraw = True
+43.4182 	EXP 	New trial (rep=1, index=0): OrderedDict([('Position', [130, 0]), ('Orientation', 110)])
+43.4320 	EXP 	grating: autoDraw = False
+43.4320 	EXP 	grating: autoDraw = False
+43.4320 	EXP 	grating: pos = array([130.,   0.])
+43.4320 	EXP 	grating: ori = 110.0
+43.9146 	EXP 	grating: autoDraw = True
+44.9151 	EXP 	New trial (rep=1, index=1): OrderedDict([('Position', [0, 0]), ('Orientation', 90)])
+44.9298 	EXP 	grating: autoDraw = False
+44.9298 	EXP 	grating: autoDraw = False
+44.9298 	EXP 	grating: pos = array([0., 0.])
+44.9298 	EXP 	grating: ori = 90.0
+45.4124 	EXP 	grating: autoDraw = True
+46.4134 	EXP 	New trial (rep=1, index=2): OrderedDict([('Position', [50, 0]), ('Orientation', 135)])
+46.4274 	EXP 	grating: autoDraw = False
+46.4274 	EXP 	grating: autoDraw = False
+46.4274 	EXP 	grating: pos = array([50.,  0.])
+46.4274 	EXP 	grating: ori = 135.0
+46.9100 	EXP 	grating: autoDraw = True
+47.9105 	EXP 	New trial (rep=1, index=3): OrderedDict([('Position', [100, 0]), ('Orientation', 100)])
+47.9252 	EXP 	grating: autoDraw = False
+47.9252 	EXP 	grating: autoDraw = False
+47.9252 	EXP 	grating: pos = array([100.,   0.])
+47.9252 	EXP 	grating: ori = 100.0
+48.4077 	EXP 	grating: autoDraw = True
+49.4084 	EXP 	New trial (rep=1, index=4): OrderedDict([('Position', [150, 0]), ('Orientation', 0)])
+49.4228 	EXP 	grating: autoDraw = False
+49.4228 	EXP 	grating: autoDraw = False
+49.4228 	EXP 	grating: pos = array([150.,   0.])
+49.4228 	EXP 	grating: ori = 0.0
+49.9054 	EXP 	grating: autoDraw = True
+50.9062 	EXP 	New trial (rep=1, index=5): OrderedDict([('Position', [-150, 0]), ('Orientation', 35)])
+50.9205 	EXP 	grating: autoDraw = False
+50.9205 	EXP 	grating: autoDraw = False
+50.9205 	EXP 	grating: pos = array([-150.,    0.])
+50.9205 	EXP 	grating: ori = 35.0
+51.4031 	EXP 	grating: autoDraw = True
+52.4039 	EXP 	New trial (rep=1, index=6): OrderedDict([('Position', [110, 0]), ('Orientation', 25)])
+52.4182 	EXP 	grating: autoDraw = False
+52.4182 	EXP 	grating: autoDraw = False
+52.4182 	EXP 	grating: pos = array([110.,   0.])
+52.4182 	EXP 	grating: ori = 25.0
+52.9006 	EXP 	grating: autoDraw = True
+53.9021 	EXP 	New trial (rep=1, index=7): OrderedDict([('Position', [-50, 0]), ('Orientation', 45)])
+53.9158 	EXP 	grating: autoDraw = False
+53.9158 	EXP 	grating: autoDraw = False
+53.9158 	EXP 	grating: pos = array([-50.,   0.])
+53.9158 	EXP 	grating: ori = 45.0
+54.3985 	EXP 	grating: autoDraw = True
+55.3995 	EXP 	New trial (rep=1, index=8): OrderedDict([('Position', [-100, 0]), ('Orientation', 120)])
+55.4136 	EXP 	grating: autoDraw = False
+55.4136 	EXP 	grating: autoDraw = False
+55.4136 	EXP 	grating: pos = array([-100.,    0.])
+55.4136 	EXP 	grating: ori = 120.0
+55.8960 	EXP 	grating: autoDraw = True
+56.8974 	EXP 	New trial (rep=1, index=9): OrderedDict([('Position', [-110, 0]), ('Orientation', 15)])
+56.9111 	EXP 	grating: autoDraw = False
+56.9111 	EXP 	grating: autoDraw = False
+56.9111 	EXP 	grating: pos = array([-110.,    0.])
+56.9111 	EXP 	grating: ori = 15.0
+57.3939 	EXP 	grating: autoDraw = True
+58.3950 	EXP 	New trial (rep=2, index=0): OrderedDict([('Position', [130, 0]), ('Orientation', 110)])
+58.4090 	EXP 	grating: autoDraw = False
+58.4090 	EXP 	grating: autoDraw = False
+58.4090 	EXP 	grating: pos = array([130.,   0.])
+58.4090 	EXP 	grating: ori = 110.0
+58.8915 	EXP 	grating: autoDraw = True
+59.8928 	EXP 	New trial (rep=2, index=1): OrderedDict([('Position', [-150, 0]), ('Orientation', 35)])
+59.9066 	EXP 	grating: autoDraw = False
+59.9066 	EXP 	grating: autoDraw = False
+59.9066 	EXP 	grating: pos = array([-150.,    0.])
+59.9066 	EXP 	grating: ori = 35.0
+60.3892 	EXP 	grating: autoDraw = True
+61.3904 	EXP 	New trial (rep=2, index=2): OrderedDict([('Position', [50, 0]), ('Orientation', 135)])
+61.4043 	EXP 	grating: autoDraw = False
+61.4043 	EXP 	grating: autoDraw = False
+61.4043 	EXP 	grating: pos = array([50.,  0.])
+61.4043 	EXP 	grating: ori = 135.0
+61.8874 	EXP 	grating: autoDraw = True
+62.8882 	EXP 	New trial (rep=2, index=3): OrderedDict([('Position', [110, 0]), ('Orientation', 25)])
+62.9020 	EXP 	grating: autoDraw = False
+62.9020 	EXP 	grating: autoDraw = False
+62.9020 	EXP 	grating: pos = array([110.,   0.])
+62.9020 	EXP 	grating: ori = 25.0
+63.3845 	EXP 	grating: autoDraw = True
+64.3857 	EXP 	New trial (rep=2, index=4): OrderedDict([('Position', [-100, 0]), ('Orientation', 120)])
+64.3996 	EXP 	grating: autoDraw = False
+64.3996 	EXP 	grating: autoDraw = False
+64.3996 	EXP 	grating: pos = array([-100.,    0.])
+64.3996 	EXP 	grating: ori = 120.0
+64.8823 	EXP 	grating: autoDraw = True
+65.6342 	DATA 	Mouse: Left button down, pos=(613,326)
+65.7670 	DATA 	Mouse:  Left button up, pos=(613,326)
+65.8675 	EXP 	New trial (rep=2, index=5): OrderedDict([('Position', [0, 0]), ('Orientation', 90)])
+65.8808 	EXP 	grating: autoDraw = False
+65.8808 	EXP 	grating: autoDraw = False
+65.8808 	EXP 	grating: pos = array([0., 0.])
+65.8808 	EXP 	grating: ori = 90.0
+66.3636 	EXP 	grating: autoDraw = True
+67.3472 	DATA 	Mouse: Left button down, pos=(613,326)
+67.3650 	EXP 	New trial (rep=2, index=6): OrderedDict([('Position', [-50, 0]), ('Orientation', 45)])
+67.3785 	EXP 	grating: autoDraw = False
+67.3785 	EXP 	grating: autoDraw = False
+67.3785 	EXP 	grating: pos = array([-50.,   0.])
+67.3785 	EXP 	grating: ori = 45.0
+67.4639 	DATA 	Mouse:  Left button up, pos=(613,326)
+67.8608 	EXP 	grating: autoDraw = True
+67.9638 	DATA 	Mouse: Left button down, pos=(613,326)
+68.1302 	DATA 	Mouse:  Left button up, pos=(613,326)
+68.1965 	DATA 	Mouse: Left button down, pos=(613,326)
+68.3296 	DATA 	Mouse:  Left button up, pos=(613,326)
+68.8624 	EXP 	New trial (rep=2, index=7): OrderedDict([('Position', [100, 0]), ('Orientation', 100)])
+68.8760 	EXP 	grating: autoDraw = False
+68.8760 	EXP 	grating: autoDraw = False
+68.8760 	EXP 	grating: pos = array([100.,   0.])
+68.8760 	EXP 	grating: ori = 100.0
+69.0120 	DATA 	Mouse: Left button down, pos=(613,326)
+69.2118 	DATA 	Mouse:  Left button up, pos=(613,326)
+69.3588 	EXP 	grating: autoDraw = True
+69.6277 	DATA 	Keypress: space
+70.3604 	EXP 	New trial (rep=2, index=8): OrderedDict([('Position', [-110, 0]), ('Orientation', 15)])
+70.3738 	EXP 	grating: autoDraw = False
+70.3738 	EXP 	grating: autoDraw = False
+70.3738 	EXP 	grating: pos = array([-110.,    0.])
+70.3738 	EXP 	grating: ori = 15.0
+70.8563 	EXP 	grating: autoDraw = True
+71.8581 	EXP 	New trial (rep=2, index=9): OrderedDict([('Position', [150, 0]), ('Orientation', 0)])
+71.8714 	EXP 	grating: autoDraw = False
+71.8714 	EXP 	grating: autoDraw = False
+71.8714 	EXP 	grating: pos = array([150.,   0.])
+71.8714 	EXP 	grating: ori = 0.0
+72.3541 	EXP 	grating: autoDraw = True
+73.3553 	EXP 	New trial (rep=3, index=0): OrderedDict([('Position', [50, 0]), ('Orientation', 135)])
+73.3692 	EXP 	grating: autoDraw = False
+73.3692 	EXP 	grating: autoDraw = False
+73.3692 	EXP 	grating: pos = array([50.,  0.])
+73.3692 	EXP 	grating: ori = 135.0
+73.8517 	EXP 	grating: autoDraw = True
+74.8532 	EXP 	New trial (rep=3, index=1): OrderedDict([('Position', [-110, 0]), ('Orientation', 15)])
+74.8668 	EXP 	grating: autoDraw = False
+74.8668 	EXP 	grating: autoDraw = False
+74.8668 	EXP 	grating: pos = array([-110.,    0.])
+74.8668 	EXP 	grating: ori = 15.0
+75.3495 	EXP 	grating: autoDraw = True
+76.3503 	EXP 	New trial (rep=3, index=2): OrderedDict([('Position', [150, 0]), ('Orientation', 0)])
+76.3646 	EXP 	grating: autoDraw = False
+76.3646 	EXP 	grating: autoDraw = False
+76.3646 	EXP 	grating: pos = array([150.,   0.])
+76.3646 	EXP 	grating: ori = 0.0
+76.8471 	EXP 	grating: autoDraw = True
+77.8484 	EXP 	New trial (rep=3, index=3): OrderedDict([('Position', [100, 0]), ('Orientation', 100)])
+77.8622 	EXP 	grating: autoDraw = False
+77.8622 	EXP 	grating: autoDraw = False
+77.8622 	EXP 	grating: pos = array([100.,   0.])
+77.8622 	EXP 	grating: ori = 100.0
+78.3453 	EXP 	grating: autoDraw = True
+79.3453 	EXP 	New trial (rep=3, index=4): OrderedDict([('Position', [-100, 0]), ('Orientation', 120)])
+79.3600 	EXP 	grating: autoDraw = False
+79.3600 	EXP 	grating: autoDraw = False
+79.3600 	EXP 	grating: pos = array([-100.,    0.])
+79.3600 	EXP 	grating: ori = 120.0
+79.8425 	EXP 	grating: autoDraw = True
+80.8433 	EXP 	New trial (rep=3, index=5): OrderedDict([('Position', [130, 0]), ('Orientation', 110)])
+80.8576 	EXP 	grating: autoDraw = False
+80.8576 	EXP 	grating: autoDraw = False
+80.8576 	EXP 	grating: pos = array([130.,   0.])
+80.8576 	EXP 	grating: ori = 110.0
+81.3404 	EXP 	grating: autoDraw = True
+82.3412 	EXP 	New trial (rep=3, index=6): OrderedDict([('Position', [110, 0]), ('Orientation', 25)])
+82.3553 	EXP 	grating: autoDraw = False
+82.3553 	EXP 	grating: autoDraw = False
+82.3553 	EXP 	grating: pos = array([110.,   0.])
+82.3553 	EXP 	grating: ori = 25.0
+82.8377 	EXP 	grating: autoDraw = True
+83.8390 	EXP 	New trial (rep=3, index=7): OrderedDict([('Position', [0, 0]), ('Orientation', 90)])
+83.8530 	EXP 	grating: autoDraw = False
+83.8530 	EXP 	grating: autoDraw = False
+83.8530 	EXP 	grating: pos = array([0., 0.])
+83.8530 	EXP 	grating: ori = 90.0
+84.3354 	EXP 	grating: autoDraw = True
+85.3383 	EXP 	New trial (rep=3, index=8): OrderedDict([('Position', [-50, 0]), ('Orientation', 45)])
+85.3515 	EXP 	grating: autoDraw = False
+85.3515 	EXP 	grating: autoDraw = False
+85.3515 	EXP 	grating: pos = array([-50.,   0.])
+85.3515 	EXP 	grating: ori = 45.0
+85.8331 	EXP 	grating: autoDraw = True
+86.8345 	EXP 	New trial (rep=3, index=9): OrderedDict([('Position', [-150, 0]), ('Orientation', 35)])
+86.8485 	EXP 	grating: autoDraw = False
+86.8485 	EXP 	grating: autoDraw = False
+86.8485 	EXP 	grating: pos = array([-150.,    0.])
+86.8485 	EXP 	grating: ori = 35.0
+87.3308 	EXP 	grating: autoDraw = True
+88.3315 	EXP 	New trial (rep=4, index=0): OrderedDict([('Position', [130, 0]), ('Orientation', 110)])
+88.3460 	EXP 	grating: autoDraw = False
+88.3460 	EXP 	grating: autoDraw = False
+88.3460 	EXP 	grating: pos = array([130.,   0.])
+88.3460 	EXP 	grating: ori = 110.0
+88.8287 	EXP 	grating: autoDraw = True
+89.8298 	EXP 	New trial (rep=4, index=1): OrderedDict([('Position', [-110, 0]), ('Orientation', 15)])
+89.8437 	EXP 	grating: autoDraw = False
+89.8437 	EXP 	grating: autoDraw = False
+89.8437 	EXP 	grating: pos = array([-110.,    0.])
+89.8437 	EXP 	grating: ori = 15.0
+90.3262 	EXP 	grating: autoDraw = True
+91.3275 	EXP 	New trial (rep=4, index=2): OrderedDict([('Position', [150, 0]), ('Orientation', 0)])
+91.3413 	EXP 	grating: autoDraw = False
+91.3413 	EXP 	grating: autoDraw = False
+91.3413 	EXP 	grating: pos = array([150.,   0.])
+91.3413 	EXP 	grating: ori = 0.0
+91.8241 	EXP 	grating: autoDraw = True
+92.8251 	EXP 	New trial (rep=4, index=3): OrderedDict([('Position', [-150, 0]), ('Orientation', 35)])
+92.8391 	EXP 	grating: autoDraw = False
+92.8391 	EXP 	grating: autoDraw = False
+92.8391 	EXP 	grating: pos = array([-150.,    0.])
+92.8391 	EXP 	grating: ori = 35.0
+93.3217 	EXP 	grating: autoDraw = True
+94.3230 	EXP 	New trial (rep=4, index=4): OrderedDict([('Position', [-50, 0]), ('Orientation', 45)])
+94.3367 	EXP 	grating: autoDraw = False
+94.3367 	EXP 	grating: autoDraw = False
+94.3367 	EXP 	grating: pos = array([-50.,   0.])
+94.3367 	EXP 	grating: ori = 45.0
+94.8194 	EXP 	grating: autoDraw = True
+95.8205 	EXP 	New trial (rep=4, index=5): OrderedDict([('Position', [100, 0]), ('Orientation', 100)])
+95.8345 	EXP 	grating: autoDraw = False
+95.8345 	EXP 	grating: autoDraw = False
+95.8345 	EXP 	grating: pos = array([100.,   0.])
+95.8345 	EXP 	grating: ori = 100.0
+96.3170 	EXP 	grating: autoDraw = True
+97.3185 	EXP 	New trial (rep=4, index=6): OrderedDict([('Position', [-100, 0]), ('Orientation', 120)])
+97.3321 	EXP 	grating: autoDraw = False
+97.3321 	EXP 	grating: autoDraw = False
+97.3321 	EXP 	grating: pos = array([-100.,    0.])
+97.3321 	EXP 	grating: ori = 120.0
+97.8146 	EXP 	grating: autoDraw = True
+98.8160 	EXP 	New trial (rep=4, index=7): OrderedDict([('Position', [110, 0]), ('Orientation', 25)])
+98.8299 	EXP 	grating: autoDraw = False
+98.8299 	EXP 	grating: autoDraw = False
+98.8299 	EXP 	grating: pos = array([110.,   0.])
+98.8299 	EXP 	grating: ori = 25.0
+99.3124 	EXP 	grating: autoDraw = True
+100.2981 	EXP 	New trial (rep=4, index=8): OrderedDict([('Position', [50, 0]), ('Orientation', 135)])
+100.3114 	EXP 	grating: autoDraw = False
+100.3114 	EXP 	grating: autoDraw = False
+100.3114 	EXP 	grating: pos = array([50.,  0.])
+100.3114 	EXP 	grating: ori = 135.0
+100.7935 	EXP 	grating: autoDraw = True
+101.7939 	EXP 	New trial (rep=4, index=9): OrderedDict([('Position', [0, 0]), ('Orientation', 90)])
+101.8088 	EXP 	grating: autoDraw = False
+101.8088 	EXP 	grating: autoDraw = False
+101.8088 	EXP 	grating: pos = array([0., 0.])
+101.8088 	EXP 	grating: ori = 90.0
+102.2910 	EXP 	grating: autoDraw = True
+103.2925 	EXP 	New trial (rep=5, index=0): OrderedDict([('Position', [-150, 0]), ('Orientation', 35)])
+103.3061 	EXP 	grating: autoDraw = False
+103.3061 	EXP 	grating: autoDraw = False
+103.3061 	EXP 	grating: pos = array([-150.,    0.])
+103.3061 	EXP 	grating: ori = 35.0
+103.7889 	EXP 	grating: autoDraw = True
+104.7899 	EXP 	New trial (rep=5, index=1): OrderedDict([('Position', [130, 0]), ('Orientation', 110)])
+104.8042 	EXP 	grating: autoDraw = False
+104.8042 	EXP 	grating: autoDraw = False
+104.8042 	EXP 	grating: pos = array([130.,   0.])
+104.8042 	EXP 	grating: ori = 110.0
+105.2865 	EXP 	grating: autoDraw = True
+105.8383 	DATA 	Keypress: space
+106.2879 	EXP 	New trial (rep=5, index=2): OrderedDict([('Position', [-50, 0]), ('Orientation', 45)])
+106.3016 	EXP 	grating: autoDraw = False
+106.3016 	EXP 	grating: autoDraw = False
+106.3016 	EXP 	grating: pos = array([-50.,   0.])
+106.3016 	EXP 	grating: ori = 45.0
+106.7841 	EXP 	grating: autoDraw = True
+107.7697 	EXP 	New trial (rep=5, index=3): OrderedDict([('Position', [0, 0]), ('Orientation', 90)])
+107.7830 	EXP 	grating: autoDraw = False
+107.7830 	EXP 	grating: autoDraw = False
+107.7830 	EXP 	grating: pos = array([0., 0.])
+107.7830 	EXP 	grating: ori = 90.0
+108.2654 	EXP 	grating: autoDraw = True
+109.2665 	EXP 	New trial (rep=5, index=4): OrderedDict([('Position', [100, 0]), ('Orientation', 100)])
+109.2804 	EXP 	grating: autoDraw = False
+109.2804 	EXP 	grating: autoDraw = False
+109.2804 	EXP 	grating: pos = array([100.,   0.])
+109.2804 	EXP 	grating: ori = 100.0
+109.7629 	EXP 	grating: autoDraw = True
+110.7643 	EXP 	New trial (rep=5, index=5): OrderedDict([('Position', [150, 0]), ('Orientation', 0)])
+110.7780 	EXP 	grating: autoDraw = False
+110.7780 	EXP 	grating: autoDraw = False
+110.7780 	EXP 	grating: pos = array([150.,   0.])
+110.7780 	EXP 	grating: ori = 0.0
+111.2607 	EXP 	grating: autoDraw = True
+112.2619 	EXP 	New trial (rep=5, index=6): OrderedDict([('Position', [110, 0]), ('Orientation', 25)])
+112.2755 	EXP 	grating: autoDraw = False
+112.2755 	EXP 	grating: autoDraw = False
+112.2755 	EXP 	grating: pos = array([110.,   0.])
+112.2755 	EXP 	grating: ori = 25.0
+112.7583 	EXP 	grating: autoDraw = True
+113.7595 	EXP 	New trial (rep=5, index=7): OrderedDict([('Position', [-100, 0]), ('Orientation', 120)])
+113.7734 	EXP 	grating: autoDraw = False
+113.7734 	EXP 	grating: autoDraw = False
+113.7734 	EXP 	grating: pos = array([-100.,    0.])
+113.7734 	EXP 	grating: ori = 120.0
+114.2559 	EXP 	grating: autoDraw = True
+115.2573 	EXP 	New trial (rep=5, index=8): OrderedDict([('Position', [-110, 0]), ('Orientation', 15)])
+115.2709 	EXP 	grating: autoDraw = False
+115.2709 	EXP 	grating: autoDraw = False
+115.2709 	EXP 	grating: pos = array([-110.,    0.])
+115.2709 	EXP 	grating: ori = 15.0
+115.7536 	EXP 	grating: autoDraw = True
+116.7551 	EXP 	New trial (rep=5, index=9): OrderedDict([('Position', [50, 0]), ('Orientation', 135)])
+116.7688 	EXP 	grating: autoDraw = False
+116.7688 	EXP 	grating: autoDraw = False
+116.7688 	EXP 	grating: pos = array([50.,  0.])
+116.7688 	EXP 	grating: ori = 135.0
+117.2512 	EXP 	grating: autoDraw = True
+118.2523 	EXP 	New trial (rep=6, index=0): OrderedDict([('Position', [130, 0]), ('Orientation', 110)])
+118.2663 	EXP 	grating: autoDraw = False
+118.2663 	EXP 	grating: autoDraw = False
+118.2663 	EXP 	grating: pos = array([130.,   0.])
+118.2663 	EXP 	grating: ori = 110.0
+118.7493 	EXP 	grating: autoDraw = True
+119.7503 	EXP 	New trial (rep=6, index=1): OrderedDict([('Position', [110, 0]), ('Orientation', 25)])
+119.7642 	EXP 	grating: autoDraw = False
+119.7642 	EXP 	grating: autoDraw = False
+119.7642 	EXP 	grating: pos = array([110.,   0.])
+119.7642 	EXP 	grating: ori = 25.0
+120.2467 	EXP 	grating: autoDraw = True
+121.2481 	EXP 	New trial (rep=6, index=2): OrderedDict([('Position', [150, 0]), ('Orientation', 0)])
+121.2617 	EXP 	grating: autoDraw = False
+121.2617 	EXP 	grating: autoDraw = False
+121.2617 	EXP 	grating: pos = array([150.,   0.])
+121.2617 	EXP 	grating: ori = 0.0
+121.7443 	EXP 	grating: autoDraw = True
+122.7454 	EXP 	New trial (rep=6, index=3): OrderedDict([('Position', [-110, 0]), ('Orientation', 15)])
+122.7596 	EXP 	grating: autoDraw = False
+122.7596 	EXP 	grating: autoDraw = False
+122.7596 	EXP 	grating: pos = array([-110.,    0.])
+122.7596 	EXP 	grating: ori = 15.0
+123.2421 	EXP 	grating: autoDraw = True
+124.2435 	EXP 	New trial (rep=6, index=4): OrderedDict([('Position', [-50, 0]), ('Orientation', 45)])
+124.2572 	EXP 	grating: autoDraw = False
+124.2572 	EXP 	grating: autoDraw = False
+124.2572 	EXP 	grating: pos = array([-50.,   0.])
+124.2572 	EXP 	grating: ori = 45.0
+124.7398 	EXP 	grating: autoDraw = True
+125.7411 	EXP 	New trial (rep=6, index=5): OrderedDict([('Position', [-100, 0]), ('Orientation', 120)])
+125.7548 	EXP 	grating: autoDraw = False
+125.7548 	EXP 	grating: autoDraw = False
+125.7548 	EXP 	grating: pos = array([-100.,    0.])
+125.7548 	EXP 	grating: ori = 120.0
+126.2375 	EXP 	grating: autoDraw = True
+127.2384 	EXP 	New trial (rep=6, index=6): OrderedDict([('Position', [100, 0]), ('Orientation', 100)])
+127.2526 	EXP 	grating: autoDraw = False
+127.2526 	EXP 	grating: autoDraw = False
+127.2526 	EXP 	grating: pos = array([100.,   0.])
+127.2526 	EXP 	grating: ori = 100.0
+127.7352 	EXP 	grating: autoDraw = True
+128.7368 	EXP 	New trial (rep=6, index=7): OrderedDict([('Position', [-150, 0]), ('Orientation', 35)])
+128.7503 	EXP 	grating: autoDraw = False
+128.7503 	EXP 	grating: autoDraw = False
+128.7503 	EXP 	grating: pos = array([-150.,    0.])
+128.7503 	EXP 	grating: ori = 35.0
+129.2329 	EXP 	grating: autoDraw = True
+130.2336 	EXP 	New trial (rep=6, index=8): OrderedDict([('Position', [0, 0]), ('Orientation', 90)])
+130.2479 	EXP 	grating: autoDraw = False
+130.2479 	EXP 	grating: autoDraw = False
+130.2479 	EXP 	grating: pos = array([0., 0.])
+130.2479 	EXP 	grating: ori = 90.0
+130.7311 	EXP 	grating: autoDraw = True
+131.7319 	EXP 	New trial (rep=6, index=9): OrderedDict([('Position', [50, 0]), ('Orientation', 135)])
+131.7455 	EXP 	grating: autoDraw = False
+131.7455 	EXP 	grating: autoDraw = False
+131.7455 	EXP 	grating: pos = array([50.,  0.])
+131.7455 	EXP 	grating: ori = 135.0
+132.2282 	EXP 	grating: autoDraw = True
+133.2297 	EXP 	New trial (rep=7, index=0): OrderedDict([('Position', [110, 0]), ('Orientation', 25)])
+133.2433 	EXP 	grating: autoDraw = False
+133.2433 	EXP 	grating: autoDraw = False
+133.2433 	EXP 	grating: pos = array([110.,   0.])
+133.2433 	EXP 	grating: ori = 25.0
+133.7258 	EXP 	grating: autoDraw = True
+134.7273 	EXP 	New trial (rep=7, index=1): OrderedDict([('Position', [-100, 0]), ('Orientation', 120)])
+134.7409 	EXP 	grating: autoDraw = False
+134.7409 	EXP 	grating: autoDraw = False
+134.7409 	EXP 	grating: pos = array([-100.,    0.])
+134.7409 	EXP 	grating: ori = 120.0
+135.2237 	EXP 	grating: autoDraw = True
+136.2252 	EXP 	New trial (rep=7, index=2): OrderedDict([('Position', [100, 0]), ('Orientation', 100)])
+136.2387 	EXP 	grating: autoDraw = False
+136.2387 	EXP 	grating: autoDraw = False
+136.2387 	EXP 	grating: pos = array([100.,   0.])
+136.2387 	EXP 	grating: ori = 100.0
+136.7211 	EXP 	grating: autoDraw = True
+137.7225 	EXP 	New trial (rep=7, index=3): OrderedDict([('Position', [-50, 0]), ('Orientation', 45)])
+137.7363 	EXP 	grating: autoDraw = False
+137.7363 	EXP 	grating: autoDraw = False
+137.7363 	EXP 	grating: pos = array([-50.,   0.])
+137.7363 	EXP 	grating: ori = 45.0
+138.2190 	EXP 	grating: autoDraw = True
+139.2203 	EXP 	New trial (rep=7, index=4): OrderedDict([('Position', [150, 0]), ('Orientation', 0)])
+139.2340 	EXP 	grating: autoDraw = False
+139.2340 	EXP 	grating: autoDraw = False
+139.2340 	EXP 	grating: pos = array([150.,   0.])
+139.2340 	EXP 	grating: ori = 0.0
+139.7166 	EXP 	grating: autoDraw = True
+140.7179 	EXP 	New trial (rep=7, index=5): OrderedDict([('Position', [-150, 0]), ('Orientation', 35)])
+140.7317 	EXP 	grating: autoDraw = False
+140.7317 	EXP 	grating: autoDraw = False
+140.7317 	EXP 	grating: pos = array([-150.,    0.])
+140.7317 	EXP 	grating: ori = 35.0
+141.2144 	EXP 	grating: autoDraw = True
+142.2155 	EXP 	New trial (rep=7, index=6): OrderedDict([('Position', [-110, 0]), ('Orientation', 15)])
+142.2297 	EXP 	grating: autoDraw = False
+142.2297 	EXP 	grating: autoDraw = False
+142.2297 	EXP 	grating: pos = array([-110.,    0.])
+142.2297 	EXP 	grating: ori = 15.0
+142.7120 	EXP 	grating: autoDraw = True
+143.7134 	EXP 	New trial (rep=7, index=7): OrderedDict([('Position', [50, 0]), ('Orientation', 135)])
+143.7271 	EXP 	grating: autoDraw = False
+143.7271 	EXP 	grating: autoDraw = False
+143.7271 	EXP 	grating: pos = array([50.,  0.])
+143.7271 	EXP 	grating: ori = 135.0
+144.2097 	EXP 	grating: autoDraw = True
+145.2102 	EXP 	New trial (rep=7, index=8): OrderedDict([('Position', [130, 0]), ('Orientation', 110)])
+145.2247 	EXP 	grating: autoDraw = False
+145.2247 	EXP 	grating: autoDraw = False
+145.2247 	EXP 	grating: pos = array([130.,   0.])
+145.2247 	EXP 	grating: ori = 110.0
+145.7074 	EXP 	grating: autoDraw = True
+145.8768 	DATA 	Mouse: Left button down, pos=(613,325)
+145.9268 	DATA 	Mouse:  Left button up, pos=(613,325)
+145.9923 	DATA 	Mouse: Left button down, pos=(613,325)
+146.1265 	DATA 	Mouse:  Left button up, pos=(613,325)
+146.7084 	EXP 	New trial (rep=7, index=9): OrderedDict([('Position', [0, 0]), ('Orientation', 90)])
+146.7225 	EXP 	grating: autoDraw = False
+146.7225 	EXP 	grating: autoDraw = False
+146.7225 	EXP 	grating: pos = array([0., 0.])
+146.7225 	EXP 	grating: ori = 90.0
+147.2052 	EXP 	grating: autoDraw = True
+148.2064 	EXP 	New trial (rep=8, index=0): OrderedDict([('Position', [130, 0]), ('Orientation', 110)])
+148.2202 	EXP 	grating: autoDraw = False
+148.2202 	EXP 	grating: autoDraw = False
+148.2202 	EXP 	grating: pos = array([130.,   0.])
+148.2202 	EXP 	grating: ori = 110.0
+148.7028 	EXP 	grating: autoDraw = True
+149.7037 	EXP 	New trial (rep=8, index=1): OrderedDict([('Position', [50, 0]), ('Orientation', 135)])
+149.7179 	EXP 	grating: autoDraw = False
+149.7179 	EXP 	grating: autoDraw = False
+149.7179 	EXP 	grating: pos = array([50.,  0.])
+149.7179 	EXP 	grating: ori = 135.0
+150.2005 	EXP 	grating: autoDraw = True
+151.2013 	EXP 	New trial (rep=8, index=2): OrderedDict([('Position', [-50, 0]), ('Orientation', 45)])
+151.2154 	EXP 	grating: autoDraw = False
+151.2154 	EXP 	grating: autoDraw = False
+151.2154 	EXP 	grating: pos = array([-50.,   0.])
+151.2154 	EXP 	grating: ori = 45.0
+151.6982 	EXP 	grating: autoDraw = True
+152.6994 	EXP 	New trial (rep=8, index=3): OrderedDict([('Position', [0, 0]), ('Orientation', 90)])
+152.7133 	EXP 	grating: autoDraw = False
+152.7133 	EXP 	grating: autoDraw = False
+152.7133 	EXP 	grating: pos = array([0., 0.])
+152.7133 	EXP 	grating: ori = 90.0
+153.1957 	EXP 	grating: autoDraw = True
+154.1961 	EXP 	New trial (rep=8, index=4): OrderedDict([('Position', [110, 0]), ('Orientation', 25)])
+154.2108 	EXP 	grating: autoDraw = False
+154.2108 	EXP 	grating: autoDraw = False
+154.2108 	EXP 	grating: pos = array([110.,   0.])
+154.2108 	EXP 	grating: ori = 25.0
+154.6935 	EXP 	grating: autoDraw = True
+155.6950 	EXP 	New trial (rep=8, index=5): OrderedDict([('Position', [150, 0]), ('Orientation', 0)])
+155.7087 	EXP 	grating: autoDraw = False
+155.7087 	EXP 	grating: autoDraw = False
+155.7087 	EXP 	grating: pos = array([150.,   0.])
+155.7087 	EXP 	grating: ori = 0.0
+156.1910 	EXP 	grating: autoDraw = True
+157.1926 	EXP 	New trial (rep=8, index=6): OrderedDict([('Position', [100, 0]), ('Orientation', 100)])
+157.2062 	EXP 	grating: autoDraw = False
+157.2062 	EXP 	grating: autoDraw = False
+157.2062 	EXP 	grating: pos = array([100.,   0.])
+157.2062 	EXP 	grating: ori = 100.0
+157.6889 	EXP 	grating: autoDraw = True
+158.6895 	EXP 	New trial (rep=8, index=7): OrderedDict([('Position', [-150, 0]), ('Orientation', 35)])
+158.7040 	EXP 	grating: autoDraw = False
+158.7040 	EXP 	grating: autoDraw = False
+158.7040 	EXP 	grating: pos = array([-150.,    0.])
+158.7040 	EXP 	grating: ori = 35.0
+159.1865 	EXP 	grating: autoDraw = True
+160.1877 	EXP 	New trial (rep=8, index=8): OrderedDict([('Position', [-110, 0]), ('Orientation', 15)])
+160.2017 	EXP 	grating: autoDraw = False
+160.2017 	EXP 	grating: autoDraw = False
+160.2017 	EXP 	grating: pos = array([-110.,    0.])
+160.2017 	EXP 	grating: ori = 15.0
+160.6842 	EXP 	grating: autoDraw = True
+161.6855 	EXP 	New trial (rep=8, index=9): OrderedDict([('Position', [-100, 0]), ('Orientation', 120)])
+161.6994 	EXP 	grating: autoDraw = False
+161.6994 	EXP 	grating: autoDraw = False
+161.6994 	EXP 	grating: pos = array([-100.,    0.])
+161.6994 	EXP 	grating: ori = 120.0
+162.1820 	EXP 	grating: autoDraw = True
+163.1672 	EXP 	New trial (rep=9, index=0): OrderedDict([('Position', [130, 0]), ('Orientation', 110)])
+163.1804 	EXP 	grating: autoDraw = False
+163.1804 	EXP 	grating: autoDraw = False
+163.1804 	EXP 	grating: pos = array([130.,   0.])
+163.1804 	EXP 	grating: ori = 110.0
+163.6631 	EXP 	grating: autoDraw = True
+164.6645 	EXP 	New trial (rep=9, index=1): OrderedDict([('Position', [-110, 0]), ('Orientation', 15)])
+164.6786 	EXP 	grating: autoDraw = False
+164.6786 	EXP 	grating: autoDraw = False
+164.6786 	EXP 	grating: pos = array([-110.,    0.])
+164.6786 	EXP 	grating: ori = 15.0
+165.1607 	EXP 	grating: autoDraw = True
+166.1619 	EXP 	New trial (rep=9, index=2): OrderedDict([('Position', [-100, 0]), ('Orientation', 120)])
+166.1758 	EXP 	grating: autoDraw = False
+166.1758 	EXP 	grating: autoDraw = False
+166.1758 	EXP 	grating: pos = array([-100.,    0.])
+166.1758 	EXP 	grating: ori = 120.0
+166.6583 	EXP 	grating: autoDraw = True
+167.6596 	EXP 	New trial (rep=9, index=3): OrderedDict([('Position', [-150, 0]), ('Orientation', 35)])
+167.6735 	EXP 	grating: autoDraw = False
+167.6735 	EXP 	grating: autoDraw = False
+167.6735 	EXP 	grating: pos = array([-150.,    0.])
+167.6735 	EXP 	grating: ori = 35.0
+168.1559 	EXP 	grating: autoDraw = True
+169.1574 	EXP 	New trial (rep=9, index=4): OrderedDict([('Position', [50, 0]), ('Orientation', 135)])
+169.1711 	EXP 	grating: autoDraw = False
+169.1711 	EXP 	grating: autoDraw = False
+169.1711 	EXP 	grating: pos = array([50.,  0.])
+169.1711 	EXP 	grating: ori = 135.0
+169.5401 	DATA 	Keypress: escape
+169.6538 	EXP 	grating: autoDraw = True
+169.9562 	EXP 	window1: mouseVisible = True

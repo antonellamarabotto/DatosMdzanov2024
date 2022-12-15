@@ -1,0 +1,50 @@
+1.9459 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.7658 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1366, 768]. Using actual size
+10.6775 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C79AE01AC8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001C79AD82208>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.6779 	EXP 	window1: mouseVisible = True
+10.6779 	EXP 	window1: recordFrameIntervals = False
+10.8426 	EXP 	window1: recordFrameIntervals = True
+11.0259 	EXP 	window1: recordFrameIntervals = False
+11.3255 	EXP 	Created InstruccionesGabor = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='InstruccionesGabor', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Bienvenidos\nDescripcion de la tarea', units='height', win=Window(...), wrapWidth=1)
+11.3292 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask='none', maskParams=None, name='grating', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([0.5, 0.5]), tex='sin', texRes=128, units='height', win=Window(...))
+11.3568 	EXP 	grating: mask = 'circle'
+11.8292 	EXP 	InstruccionesGabor: autoDraw = True
+14.3919 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+14.3923 	EXP 	New trial (rep=0, index=0): None
+14.3949 	DATA 	Keypress: space
+14.4037 	EXP 	InstruccionesGabor: autoDraw = False
+14.9037 	EXP 	grating: autoDraw = True
+15.9025 	EXP 	New trial (rep=1, index=0): None
+15.9179 	EXP 	grating: autoDraw = False
+16.4005 	EXP 	grating: autoDraw = True
+17.3995 	EXP 	New trial (rep=2, index=0): None
+17.4155 	EXP 	grating: autoDraw = False
+17.8984 	EXP 	grating: autoDraw = True
+18.8975 	EXP 	New trial (rep=3, index=0): None
+18.9137 	EXP 	grating: autoDraw = False
+19.3960 	EXP 	grating: autoDraw = True
+20.3958 	EXP 	New trial (rep=4, index=0): None
+20.4110 	EXP 	grating: autoDraw = False
+20.8936 	EXP 	grating: autoDraw = True
+21.8930 	EXP 	New trial (rep=5, index=0): None
+21.9087 	EXP 	grating: autoDraw = False
+22.3913 	EXP 	grating: autoDraw = True
+23.3925 	EXP 	New trial (rep=6, index=0): None
+23.4063 	EXP 	grating: autoDraw = False
+23.4063 	EXP 	grating: autoDraw = False
+23.8888 	EXP 	grating: autoDraw = True
+24.8900 	EXP 	New trial (rep=7, index=0): None
+24.9041 	EXP 	grating: autoDraw = False
+24.9041 	EXP 	grating: autoDraw = False
+25.3866 	EXP 	grating: autoDraw = True
+26.3879 	EXP 	New trial (rep=8, index=0): None
+26.4017 	EXP 	grating: autoDraw = False
+26.4017 	EXP 	grating: autoDraw = False
+26.8843 	EXP 	grating: autoDraw = True
+27.8851 	EXP 	New trial (rep=9, index=0): None
+27.8994 	EXP 	grating: autoDraw = False
+27.8994 	EXP 	grating: autoDraw = False
+28.3818 	EXP 	grating: autoDraw = True
+29.3975 	EXP 	grating: autoDraw = False
+29.3975 	EXP 	grating: autoDraw = False
+29.5495 	EXP 	window1: mouseVisible = True

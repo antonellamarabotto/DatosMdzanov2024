@@ -1,0 +1,36 @@
+                                             Df    Sum Sq  Mean Sq F value   Pr(>F)
+SenDir                                        1     32488    32488   0.269 0.603970
+CueDir                                        1    218665   218665   1.812 0.178510
+GrupoLiftOffDiff                              1  35576201 35576201 294.739  < 2e-16
+SentenceDur                                   1   1889395  1889395  15.653 7.94e-05
+SenDir:CueDir                                 1    297301   297301   2.463 0.116751
+SenDir:GrupoLiftOffDiff                       1   1364452  1364452  11.304 0.000792
+CueDir:GrupoLiftOffDiff                       1     20801    20801   0.172 0.678103
+SenDir:SentenceDur                            1     44533    44533   0.369 0.543667
+CueDir:SentenceDur                            1    146093   146093   1.210 0.271432
+GrupoLiftOffDiff:SentenceDur                  1     83183    83183   0.689 0.406579
+SenDir:CueDir:GrupoLiftOffDiff                1     61011    61011   0.505 0.477215
+SenDir:CueDir:SentenceDur                     1    290965   290965   2.411 0.120717
+SenDir:GrupoLiftOffDiff:SentenceDur           1         7        7   0.000 0.993955
+CueDir:GrupoLiftOffDiff:SentenceDur           1    219250   219250   1.816 0.177931
+SenDir:CueDir:GrupoLiftOffDiff:SentenceDur    1    100453   100453   0.832 0.361769
+Residuals                                  1593 192281745   120704                 
+                                              
+SenDir                                        
+CueDir                                        
+GrupoLiftOffDiff                           ***
+SentenceDur                                ***
+SenDir:CueDir                                 
+SenDir:GrupoLiftOffDiff                    ***
+CueDir:GrupoLiftOffDiff                       
+SenDir:SentenceDur                            
+CueDir:SentenceDur                            
+GrupoLiftOffDiff:SentenceDur                  
+SenDir:CueDir:GrupoLiftOffDiff                
+SenDir:CueDir:SentenceDur                     
+SenDir:GrupoLiftOffDiff:SentenceDur           
+CueDir:GrupoLiftOffDiff:SentenceDur           
+SenDir:CueDir:GrupoLiftOffDiff:SentenceDur    
+Residuals                                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

@@ -1,0 +1,20 @@
+                                                  Df    Sum Sq  Mean Sq F value
+CueDirection                                       1     86888    86888   0.322
+SentenceDirection                                  1    491302   491302   1.821
+GrupoLiftOffDiff                                   2 114925931 57462966 213.013
+CueDirection:SentenceDirection                     1    142701   142701   0.529
+CueDirection:GrupoLiftOffDiff                      2    270698   135349   0.502
+SentenceDirection:GrupoLiftOffDiff                 2    132808    66404   0.246
+CueDirection:SentenceDirection:GrupoLiftOffDiff    2    190408    95204   0.353
+Residuals                                       1707 460485111   269763        
+                                                Pr(>F)    
+CueDirection                                     0.570    
+SentenceDirection                                0.177    
+GrupoLiftOffDiff                                <2e-16 ***
+CueDirection:SentenceDirection                   0.467    
+CueDirection:GrupoLiftOffDiff                    0.606    
+SentenceDirection:GrupoLiftOffDiff               0.782    
+CueDirection:SentenceDirection:GrupoLiftOffDiff  0.703    
+Residuals                                                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

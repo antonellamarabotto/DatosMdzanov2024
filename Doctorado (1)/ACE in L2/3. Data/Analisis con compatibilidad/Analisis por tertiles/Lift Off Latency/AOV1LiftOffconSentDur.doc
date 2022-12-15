@@ -1,0 +1,11 @@
+                                          Df    Sum Sq  Mean Sq F value Pr(>F)    
+Compatibilidad                             1    448945   448945   3.701 0.0546 .  
+GrupoLiftOff                               2  40700566 20350283 167.764 <2e-16 ***
+SentenceDur                                1  46621164 46621164 384.337 <2e-16 ***
+Compatibilidad:GrupoLiftOff                2     61565    30783   0.254 0.7759    
+Compatibilidad:SentenceDur                 1    230814   230814   1.903 0.1680    
+GrupoLiftOff:SentenceDur                   2    543232   271616   2.239 0.1069    
+Compatibilidad:GrupoLiftOff:SentenceDur    2     60790    30395   0.251 0.7784    
+Residuals                               1596 193599135   121303                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

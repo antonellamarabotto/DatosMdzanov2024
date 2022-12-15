@@ -1,0 +1,4 @@
+Reunion 10/11:
+Resumen de resultados hasta ahora. Test de Tukey para interacciones significativas.
+Analisis por tertiles quitando el tertil del medio. Agregar un analisis con outliers por observacion, tomando como referencia la media de cada grupo.
+

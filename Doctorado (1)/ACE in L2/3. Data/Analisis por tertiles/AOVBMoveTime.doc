@@ -1,0 +1,34 @@
+                                                   Df    Sum Sq Mean Sq F value
+CueDirection                                        1      1628    1628   0.018
+SentenceDirection                                   1    101955  101955   1.141
+GrupoMoveTime                                       2  17654443 8827221  98.749
+SentenceDuration                                    1      7942    7942   0.089
+CueDirection:SentenceDirection                      1    160488  160488   1.795
+CueDirection:GrupoMoveTime                          2      3675    1838   0.021
+SentenceDirection:GrupoMoveTime                     2     11070    5535   0.062
+CueDirection:SentenceDuration                       1      7700    7700   0.086
+SentenceDirection:SentenceDuration                  1     28058   28058   0.314
+GrupoMoveTime:SentenceDuration                      2       261     131   0.001
+CueDirection:SentenceDirection:GrupoMoveTime        2    110020   55010   0.615
+CueDirection:SentenceDirection:SentenceDuration     1     73533   73533   0.823
+CueDirection:GrupoMoveTime:SentenceDuration         2     35122   17561   0.196
+SentenceDirection:GrupoMoveTime:SentenceDuration    2    104153   52076   0.583
+Residuals                                        1697 151694909   89390        
+                                                 Pr(>F)    
+CueDirection                                      0.893    
+SentenceDirection                                 0.286    
+GrupoMoveTime                                    <2e-16 ***
+SentenceDuration                                  0.766    
+CueDirection:SentenceDirection                    0.180    
+CueDirection:GrupoMoveTime                        0.980    
+SentenceDirection:GrupoMoveTime                   0.940    
+CueDirection:SentenceDuration                     0.769    
+SentenceDirection:SentenceDuration                0.575    
+GrupoMoveTime:SentenceDuration                    0.999    
+CueDirection:SentenceDirection:GrupoMoveTime      0.541    
+CueDirection:SentenceDirection:SentenceDuration   0.365    
+CueDirection:GrupoMoveTime:SentenceDuration       0.822    
+SentenceDirection:GrupoMoveTime:SentenceDuration  0.559    
+Residuals                                                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

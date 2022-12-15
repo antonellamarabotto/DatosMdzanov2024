@@ -1,0 +1,36 @@
+                                                        Df    Sum Sq  Mean Sq
+CueDirection                                             1      1628     1628
+SentenceDirection                                        1    101955   101955
+Grupo                                                    1  14901352 14901352
+SentenceDuration                                         1      1238     1238
+CueDirection:SentenceDirection                           1    156153   156153
+CueDirection:Grupo                                       1     13735    13735
+SentenceDirection:Grupo                                  1     31248    31248
+CueDirection:SentenceDuration                            1      7164     7164
+SentenceDirection:SentenceDuration                       1     33178    33178
+Grupo:SentenceDuration                                   1       153      153
+CueDirection:SentenceDirection:Grupo                     1    152663   152663
+CueDirection:SentenceDirection:SentenceDuration          1     71521    71521
+CueDirection:Grupo:SentenceDuration                      1      8568     8568
+SentenceDirection:Grupo:SentenceDuration                 1      2311     2311
+CueDirection:SentenceDirection:Grupo:SentenceDuration    1     32529    32529
+Residuals                                             1703 154479561    90710
+                                                      F value Pr(>F)    
+CueDirection                                            0.018  0.893    
+SentenceDirection                                       1.124  0.289    
+Grupo                                                 164.274 <2e-16 ***
+SentenceDuration                                        0.014  0.907    
+CueDirection:SentenceDirection                          1.721  0.190    
+CueDirection:Grupo                                      0.151  0.697    
+SentenceDirection:Grupo                                 0.344  0.557    
+CueDirection:SentenceDuration                           0.079  0.779    
+SentenceDirection:SentenceDuration                      0.366  0.545    
+Grupo:SentenceDuration                                  0.002  0.967    
+CueDirection:SentenceDirection:Grupo                    1.683  0.195    
+CueDirection:SentenceDirection:SentenceDuration         0.788  0.375    
+CueDirection:Grupo:SentenceDuration                     0.094  0.759    
+SentenceDirection:Grupo:SentenceDuration                0.025  0.873    
+CueDirection:SentenceDirection:Grupo:SentenceDuration   0.359  0.549    
+Residuals                                                               
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

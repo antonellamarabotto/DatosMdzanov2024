@@ -1,0 +1,56 @@
+2.0852 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.6092 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026C7C39EBE0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000026C7C322320>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.6096 	EXP 	window1: mouseVisible = True
+11.6096 	EXP 	window1: recordFrameIntervals = False
+11.7750 	EXP 	window1: recordFrameIntervals = True
+11.9583 	EXP 	window1: recordFrameIntervals = False
+12.2603 	EXP 	Created InstruccionesGabor = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='InstruccionesGabor', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Bienvenidos\nDescripcion de la tarea', units='height', win=Window(...), wrapWidth=1)
+12.2652 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask='circle', maskParams=None, name='grating', opacity=1.0, ori=0.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([200., 200.]), tex='sin', texRes=128, units='pix', win=Window(...))
+12.7612 	EXP 	InstruccionesGabor: autoDraw = True
+13.6444 	DATA 	Keypress: space
+13.7322 	EXP 	Imported Gaborparametros.xlsx as conditions, 10 conditions, 3 params
+13.7330 	EXP 	Created sequence: random, trialTypes=10, nReps=10, seed=None
+13.7337 	EXP 	New trial (rep=0, index=0): OrderedDict([('FrecEspacial', 0.2), ('Orientation', 110), ('Fase', 0.9)])
+13.7389 	EXP 	InstruccionesGabor: autoDraw = False
+13.7389 	EXP 	grating: sf = array([0.2, 0.2])
+13.7389 	EXP 	grating: phase = array([0.9, 0.9])
+14.2544 	EXP 	grating: autoDraw = True
+15.1705 	EXP 	New trial (rep=0, index=1): OrderedDict([('FrecEspacial', 0.2), ('Orientation', 120), ('Fase', 0.7)])
+15.1863 	EXP 	grating: autoDraw = False
+15.1863 	EXP 	grating: sf = array([0.2, 0.2])
+15.1863 	EXP 	grating: phase = array([0.7, 0.7])
+15.6691 	EXP 	grating: autoDraw = True
+16.6681 	EXP 	New trial (rep=0, index=2): OrderedDict([('FrecEspacial', 0.2), ('Orientation', 25), ('Fase', 0.5)])
+16.6840 	EXP 	grating: autoDraw = False
+16.6840 	EXP 	grating: sf = array([0.2, 0.2])
+16.6840 	EXP 	grating: phase = array([0.5, 0.5])
+17.1665 	EXP 	grating: autoDraw = True
+18.1658 	EXP 	New trial (rep=0, index=3): OrderedDict([('FrecEspacial', 0.2), ('Orientation', 90), ('Fase', 0.2)])
+18.1816 	EXP 	grating: autoDraw = False
+18.1816 	EXP 	grating: sf = array([0.2, 0.2])
+18.1816 	EXP 	grating: phase = array([0.2, 0.2])
+18.6642 	EXP 	grating: autoDraw = True
+19.6634 	EXP 	New trial (rep=0, index=4): OrderedDict([('FrecEspacial', 0.2), ('Orientation', 135), ('Fase', 0.3)])
+19.6791 	EXP 	grating: autoDraw = False
+19.6791 	EXP 	grating: sf = array([0.2, 0.2])
+19.6791 	EXP 	grating: phase = array([0.3, 0.3])
+20.1620 	EXP 	grating: autoDraw = True
+21.1610 	EXP 	New trial (rep=0, index=5): OrderedDict([('FrecEspacial', 0.2), ('Orientation', 35), ('Fase', 0.4)])
+21.1768 	EXP 	grating: autoDraw = False
+21.1768 	EXP 	grating: sf = array([0.2, 0.2])
+21.1768 	EXP 	grating: phase = array([0.4, 0.4])
+21.6595 	EXP 	grating: autoDraw = True
+22.6610 	EXP 	New trial (rep=0, index=6): OrderedDict([('FrecEspacial', 0.2), ('Orientation', 15), ('Fase', 0.6)])
+22.6747 	EXP 	grating: autoDraw = False
+22.6747 	EXP 	grating: autoDraw = False
+22.6747 	EXP 	grating: sf = array([0.2, 0.2])
+22.6747 	EXP 	grating: phase = array([0.6, 0.6])
+23.1574 	EXP 	grating: autoDraw = True
+24.1585 	EXP 	New trial (rep=0, index=7): OrderedDict([('FrecEspacial', 0.2), ('Orientation', 0), ('Fase', 0.0)])
+24.1724 	EXP 	grating: autoDraw = False
+24.1724 	EXP 	grating: autoDraw = False
+24.1724 	EXP 	grating: sf = array([0.2, 0.2])
+24.1724 	EXP 	grating: phase = array([0., 0.])
+24.6548 	EXP 	grating: autoDraw = True
+25.5231 	DATA 	Keypress: escape
+25.6613 	EXP 	window1: mouseVisible = True

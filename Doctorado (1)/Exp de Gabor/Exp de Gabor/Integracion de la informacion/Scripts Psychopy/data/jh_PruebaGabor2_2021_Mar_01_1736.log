@@ -1,0 +1,41 @@
+0.5668 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.6652 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002B646CC4C18>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002B646D15278>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.6655 	EXP 	window1: mouseVisible = True
+8.6656 	EXP 	window1: recordFrameIntervals = False
+8.8327 	EXP 	window1: recordFrameIntervals = True
+9.0164 	EXP 	window1: recordFrameIntervals = False
+9.2926 	EXP 	Created InstruccionesGabor = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='InstruccionesGabor', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Bienvenidos\nDescripcion de la tarea', units='height', win=Window(...), wrapWidth=1)
+9.2969 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, autoDraw=False, autoLog=True, blendmode='avg', color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask='circle', maskParams=None, name='grating', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([200., 200.]), tex='sin', texRes=128, units='pix', win=Window(...))
+9.2993 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3192 	EXP 	Created Gracias = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Gracias', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='¡Muchas gracias por participar!', units='height', win=Window(...), wrapWidth=1)
+9.8279 	EXP 	InstruccionesGabor: autoDraw = True
+10.4985 	EXP 	Imported Gaborparametros.xlsx as conditions, 29 conditions, 5 params
+10.4990 	EXP 	Created sequence: sequential, trialTypes=29, nReps=1, seed=None
+10.4994 	EXP 	New trial (rep=0, index=0): {'FrecEspacial': 0.02, 'Orientation': 0.0, 'Fase': 0.0, 'Respuesta': 'Correcta', 'CorrectAns': 'right'}
+10.5016 	DATA 	Keypress: space
+10.5041 	EXP 	InstruccionesGabor: autoDraw = False
+10.5041 	EXP 	grating: ori = 0.0
+10.5041 	EXP 	grating: sf = array([0.02, 0.02])
+10.6404 	EXP 	grating: autoDraw = True
+10.6404 	EXP 	grating: tex = 'sin'
+11.9743 	DATA 	Keypress: right
+11.9776 	EXP 	grating: autoDraw = False
+11.9776 	EXP 	feedback_2: autoDraw = True
+11.9776 	EXP 	feedback_2: text = ''
+12.9791 	EXP 	New trial (rep=0, index=1): {'FrecEspacial': 0.01, 'Orientation': 45.0, 'Fase': 0.0, 'Respuesta': 'Correcta', 'CorrectAns': 'right'}
+12.9918 	EXP 	feedback_2: autoDraw = False
+12.9918 	EXP 	feedback_2: autoDraw = False
+12.9918 	EXP 	grating: ori = 45.0
+12.9918 	EXP 	grating: sf = array([0.01, 0.01])
+13.0751 	EXP 	grating: autoDraw = True
+14.3933 	DATA 	Keypress: left
+14.3960 	EXP 	grating: autoDraw = False
+14.3960 	EXP 	feedback_2: autoDraw = True
+15.3919 	EXP 	New trial (rep=0, index=2): {'FrecEspacial': 0.025, 'Orientation': 90.0, 'Fase': 0.0, 'Respuesta': 'Incorrecta', 'CorrectAns': 'left'}
+15.4052 	EXP 	feedback_2: autoDraw = False
+15.4052 	EXP 	feedback_2: autoDraw = False
+15.4052 	EXP 	grating: ori = 90.0
+15.4052 	EXP 	grating: sf = array([0.025, 0.025])
+15.4909 	EXP 	grating: autoDraw = True
+16.5270 	DATA 	Keypress: escape
+16.8138 	EXP 	window1: mouseVisible = True

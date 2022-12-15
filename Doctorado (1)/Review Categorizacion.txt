@@ -1,0 +1,28 @@
+
+Introduccion: Importancia de los procesos de categorizacion
+
+Bases neurobiologicas de la categorizacion en sanos.
+
+Diferencias en resting state con eeg en ASD que puedan reflejar diferencias 
+problemas de categorizacion o no.
+
+Revisar la bibliografia de:
+Categorizacion basado en reglas
+Categorizacion de prototipos
+categorizacion semantica (Buscar semantic descision)
+Relaciones de equivalencia (Review de equivalencia 2013)
+Gramaticas artificiales
+
+Resultados de neuroimagen en procesos de categorizacion:
+Neuroimagen estructural, funcional, electroencefalografia: ERP, oscilaciones, 
+functional connectivity, 
+source localization; magnetoencefalografia; espectroscopia (FNIRS)
+
+Resultados de tdcs o tms en procesos de categorizacion
+
+Culumnas de Excel
+Caracterizacion del ASD (Bases biologicas, fenomenologia, diagnosticos, clinico),
+Neurobiologia de la categorizacion, Alteraciones neurobiologicas el autismo (volumetria, 
+alteracion cortical,patrones de activacion distitnos, 
+alteraciones de potenciales evocados) (no en categorizacion), categorizaciones,
+cuestiones o implicancias teoricas, cuestiones o implicancias clinicas.

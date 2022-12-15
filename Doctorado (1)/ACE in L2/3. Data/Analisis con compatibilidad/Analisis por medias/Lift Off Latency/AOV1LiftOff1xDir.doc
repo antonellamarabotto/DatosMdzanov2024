@@ -1,0 +1,11 @@
+                             Df    Sum Sq  Mean Sq F value  Pr(>F)    
+CueDir                        1    360911   360911   2.348 0.12562    
+SenDir                        1     33659    33659   0.219 0.63986    
+GrupoLiftOff                  1  33871121 33871121 220.383 < 2e-16 ***
+CueDir:SenDir                 1    538188   538188   3.502 0.06149 .  
+CueDir:GrupoLiftOff           1      1539     1539   0.010 0.92030    
+SenDir:GrupoLiftOff           1   1542154  1542154  10.034 0.00157 ** 
+CueDir:SenDir:GrupoLiftOff    1     11137    11137   0.072 0.78782    
+Residuals                  1600 245907501   153692                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

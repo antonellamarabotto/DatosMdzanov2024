@@ -1,0 +1,7 @@
+                    Df    Sum Sq Mean Sq F value Pr(>F)    
+CueDirection         1      1628    1628   0.018  0.892    
+SentenceDirection    1    101955  101955   1.148  0.284    
+GrupoMoveTime        2  17654443 8827221  99.384 <2e-16 ***
+Residuals         1714 152236931   88820                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

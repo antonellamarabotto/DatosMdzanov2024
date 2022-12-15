@@ -1,0 +1,40 @@
+Response driven analysis
+
+Calcular Accuracy
+Eliminar oraciones sn sentido
+Eliminar respuestas incorrectas
+Calclular lift off diferencial
+
+Calcular media por sujeto (lift off, lift off diferencial y Move).
+
+1) Buscar mediana de las medias.
+
+2) dividir en tercios. Quedarse con el tercio inferior  y superior. No analizar el tercio central. 
+
+Hacer lo mismo pero para el conjunto de ensayos totales.
+
+ 
+Estadística (medias/sujeto): Anova
+1) Anova 2x2x2
+Grupo (factor intersujeto: 2 niveles)
+Sentence direction (intrasujeto: 2 niveles)
+Cue direction (intrasujeto: 2 niveles)
+
+2) Anova 2x2
+Grupo (factor intersujeto: 2 niveles)
+Compatibilidad (intrasujeto: 2 niveles)
+
+Estadística (medias totales): Anova
+1) Anova 2x2x2
+Velocidad de respuesta (factor intrasujeto: 2 niveles)
+Sentence direction (intrasujeto: 2 niveles)
+Cue direction (intrasujeto: 2 niveles)
+
+2) Anova 2x2
+Velocidad de respuesta (factor intrasujeto: 2 niveles)
+Compatibilidad (intrasujeto: 2 niveles)
+
+Stimulus driven analysis
+1) tomar todos los ensayos y dividir en mediana y tercios de los tiempos de duración de la oración
+
+2) tomar sólo las oraciones que fueron respondidas correctamente  y dividir en mediana y tercios de tiempos de duración de la oración.

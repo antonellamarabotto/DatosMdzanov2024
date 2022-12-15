@@ -1,0 +1,6 @@
+﻿FrecEspacial,Orientation,Fase,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,InstruccionesGabor.started,InstruccionesGabor.stopped,respinstrucciones.keys,respinstrucciones.rt,respinstrucciones.started,respinstrucciones.stopped,grating.started,grating.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,12.553246299999955,None,space,1.3543860999998287,12.553246299999955,None,,,rte,001,2021_Feb_19_1225,PruebaGabor1,2020.2.10,60.12563853431408,
+0.7,100,0.8,0,0,0,8,,,,,,,14.480775899999571,None,rte,001,2021_Feb_19_1225,PruebaGabor1,2020.2.10,60.12563853431408,
+1.7,120,0.7,0,1,1,7,,,,,,,15.92697440000029,None,rte,001,2021_Feb_19_1225,PruebaGabor1,2020.2.10,60.12563853431408,
+1.3,135,0.3,0,2,2,3,,,,,,,17.4246463999998,None,rte,001,2021_Feb_19_1225,PruebaGabor1,2020.2.10,60.12563853431408,
+0.75,45,0.1,0,3,3,1,,,,,,,18.922304300000178,None,rte,001,2021_Feb_19_1225,PruebaGabor1,2020.2.10,60.12563853431408,

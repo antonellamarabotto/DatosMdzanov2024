@@ -1,0 +1,53 @@
+                                                                   Df    Sum Sq
+CueDirection                                                        1     86888
+SentenceDirection                                                   1    491302
+GrupoLiftOffDiff                                                    2 114925931
+SentenceDuration                                                    1   3304274
+CueDirection:SentenceDirection                                      1    143506
+CueDirection:GrupoLiftOffDiff                                       2    230585
+SentenceDirection:GrupoLiftOffDiff                                  2    132458
+CueDirection:SentenceDuration                                       1    535987
+SentenceDirection:SentenceDuration                                  1   1594128
+GrupoLiftOffDiff:SentenceDuration                                   2    386848
+CueDirection:SentenceDirection:GrupoLiftOffDiff                     2    145824
+CueDirection:SentenceDirection:SentenceDuration                     1    137658
+CueDirection:GrupoLiftOffDiff:SentenceDuration                      2    170453
+SentenceDirection:GrupoLiftOffDiff:SentenceDuration                 2   1314221
+CueDirection:SentenceDirection:GrupoLiftOffDiff:SentenceDuration    2     75389
+Residuals                                                        1695 453050396
+                                                                  Mean Sq F value
+CueDirection                                                        86888   0.325
+SentenceDirection                                                  491302   1.838
+GrupoLiftOffDiff                                                 57462966 214.987
+SentenceDuration                                                  3304274  12.362
+CueDirection:SentenceDirection                                     143506   0.537
+CueDirection:GrupoLiftOffDiff                                      115293   0.431
+SentenceDirection:GrupoLiftOffDiff                                  66229   0.248
+CueDirection:SentenceDuration                                      535987   2.005
+SentenceDirection:SentenceDuration                                1594128   5.964
+GrupoLiftOffDiff:SentenceDuration                                  193424   0.724
+CueDirection:SentenceDirection:GrupoLiftOffDiff                     72912   0.273
+CueDirection:SentenceDirection:SentenceDuration                    137658   0.515
+CueDirection:GrupoLiftOffDiff:SentenceDuration                      85226   0.319
+SentenceDirection:GrupoLiftOffDiff:SentenceDuration                657111   2.458
+CueDirection:SentenceDirection:GrupoLiftOffDiff:SentenceDuration    37695   0.141
+Residuals                                                          267286        
+                                                                  Pr(>F)    
+CueDirection                                                     0.56865    
+SentenceDirection                                                0.17535    
+GrupoLiftOffDiff                                                 < 2e-16 ***
+SentenceDuration                                                 0.00045 ***
+CueDirection:SentenceDirection                                   0.46382    
+CueDirection:GrupoLiftOffDiff                                    0.64971    
+SentenceDirection:GrupoLiftOffDiff                               0.78056    
+CueDirection:SentenceDuration                                    0.15694    
+SentenceDirection:SentenceDuration                               0.01470 *  
+GrupoLiftOffDiff:SentenceDuration                                0.48512    
+CueDirection:SentenceDirection:GrupoLiftOffDiff                  0.76129    
+CueDirection:SentenceDirection:SentenceDuration                  0.47307    
+CueDirection:GrupoLiftOffDiff:SentenceDuration                   0.72702    
+SentenceDirection:GrupoLiftOffDiff:SentenceDuration              0.08587 .  
+CueDirection:SentenceDirection:GrupoLiftOffDiff:SentenceDuration 0.86848    
+Residuals                                                                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

@@ -1,0 +1,42 @@
+2.0501 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+12.7995 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002094FC1EBE0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002094FBA2320>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.7998 	EXP 	window1: mouseVisible = True
+12.7998 	EXP 	window1: recordFrameIntervals = False
+12.9652 	EXP 	window1: recordFrameIntervals = True
+13.1484 	EXP 	window1: recordFrameIntervals = False
+13.4593 	EXP 	Created InstruccionesGabor = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='InstruccionesGabor', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Bienvenidos\nDescripcion de la tarea', units='height', win=Window(...), wrapWidth=1)
+13.4650 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask='circle', maskParams=None, name='grating', opacity=1.0, ori=1.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([300., 300.]), tex='sin', texRes=128, units='pix', win=Window(...))
+13.9678 	EXP 	InstruccionesGabor: autoDraw = True
+15.5660 	EXP 	Imported Gaborparametros.xlsx as conditions, 10 conditions, 3 params
+15.5667 	EXP 	Created sequence: random, trialTypes=10, nReps=10, seed=None
+15.5672 	EXP 	New trial (rep=0, index=0): OrderedDict([('FrecEspacial', 1.97), ('Orientation', 100), ('Fase', 0.8)])
+15.5703 	DATA 	Keypress: space
+15.5727 	EXP 	InstruccionesGabor: autoDraw = False
+15.5727 	EXP 	grating: ori = 100.0
+15.5727 	EXP 	grating: sf = array([1.97, 1.97])
+15.5727 	EXP 	grating: phase = array([0.8, 0.8])
+16.0773 	EXP 	grating: autoDraw = True
+17.0263 	EXP 	New trial (rep=0, index=1): OrderedDict([('FrecEspacial', 1.99), ('Orientation', 0), ('Fase', 0.0)])
+17.0420 	EXP 	grating: autoDraw = False
+17.0420 	EXP 	grating: ori = 0.0
+17.0420 	EXP 	grating: sf = array([1.99, 1.99])
+17.0420 	EXP 	grating: phase = array([0., 0.])
+17.5247 	EXP 	grating: autoDraw = True
+18.5236 	EXP 	New trial (rep=0, index=2): OrderedDict([('FrecEspacial', 1.93), ('Orientation', 0), ('Fase', 0.4)])
+18.5397 	EXP 	grating: autoDraw = False
+18.5397 	EXP 	grating: ori = 0.0
+18.5397 	EXP 	grating: sf = array([1.93, 1.93])
+18.5397 	EXP 	grating: phase = array([0.4, 0.4])
+19.0222 	EXP 	grating: autoDraw = True
+20.0216 	EXP 	New trial (rep=0, index=3): OrderedDict([('FrecEspacial', 1.9), ('Orientation', 45), ('Fase', 0.1)])
+20.0372 	EXP 	grating: autoDraw = False
+20.0372 	EXP 	grating: ori = 45.0
+20.0372 	EXP 	grating: sf = array([1.9, 1.9])
+20.0372 	EXP 	grating: phase = array([0.1, 0.1])
+20.5199 	EXP 	grating: autoDraw = True
+21.5192 	EXP 	New trial (rep=0, index=4): OrderedDict([('FrecEspacial', 1.92), ('Orientation', 135), ('Fase', None)])
+21.5351 	EXP 	grating: autoDraw = False
+21.5351 	EXP 	grating: ori = 135.0
+21.5351 	EXP 	grating: sf = array([1.92, 1.92])
+21.5351 	EXP 	grating: phase = None
+22.0670 	EXP 	window1: mouseVisible = True

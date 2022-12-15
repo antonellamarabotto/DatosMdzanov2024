@@ -1,0 +1,6 @@
+                 Df   Sum Sq Mean Sq F value Pr(>F)    
+Compatibilidad    1     4099    4099   0.301  0.584    
+GrupoMoveTime     2  9414459 4707229 345.166 <2e-16 ***
+Residuals      1689 23033873   13638                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
