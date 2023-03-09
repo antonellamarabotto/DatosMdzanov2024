@@ -1,0 +1,3 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,FrecEspacial,Orientation,Fase,Respuesta,CorrectAns,InstruccionesGabor.started,InstruccionesGabor.stopped,respinstrucciones.keys,respinstrucciones.rt,respinstrucciones.started,respinstrucciones.stopped,grating.started,grating.stopped,key_resp.keys,key_resp.corr,key_resp.rt,key_resp.started,key_resp.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,17.16453410000031,None,space,0.6970129999999699,17.16453410000031,None,,,,,,,,fgd,001,2021_Mar_01_1736,PruebaGabor2,2021.1.0,60.06778048345479,
+,,,,,,,,,,,,,,,18.04846290000023,None,left,0,1.6265232999994623,18.133636200000183,None,,,,,,,

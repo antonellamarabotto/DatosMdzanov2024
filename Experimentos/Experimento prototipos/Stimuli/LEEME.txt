@@ -1,0 +1,3 @@
+TRAININGA: Entrenamiento con 16 figuras. La mitad de lo hecho en el paper en el cual esta basado. Prueba para ver si desaparece el efecto techo del entrenamiento con 30 figuras.
+
+TRAINING: 30 figuras (15 random y 15 prototipicas). Es el protocolo hecho en el paper.

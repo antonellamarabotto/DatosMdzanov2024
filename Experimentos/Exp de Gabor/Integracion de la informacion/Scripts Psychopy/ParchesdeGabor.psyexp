@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.1.3">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="comma" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant': '', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="False" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="fileList" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="True" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="deg" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1920, 1080]" valType="code" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="str" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="PruebaGabor2" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="Intrucciones">
+      <TextComponent name="Instrucciones2">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Instrucciones2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="A continuacion&amp;#10;veran un circulo en pantalla, por dentro tienen lineas oscuras y claras." valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="Instrucciones">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Instrucciones" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="9.5" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Observa la orientacion de las lineas y la cantidad que hay.&amp;#10;&amp;#10;Existen dos grupos de circulos, A y B.&amp;#10;&amp;#10;&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="instrucciones3">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instrucciones3" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="14" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Elegi a que grupo pertenece el circulo en pantalla.&amp;#10;&amp;#10;Si pertenece a la categoria A presiona la flecha derecha.&amp;#10;&amp;#10;Si pertenece a la categoria B presiona la flecha izquierda." valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="Intrucciones1">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Intrucciones1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Bienvenidos/as" valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="18.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Vamos a hacer uno de prueba!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="End">
+      <TextComponent name="Gracias">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Gracias" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="¡Muchas gracias por participar!" valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="image">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="Comienzo">
+      <TextComponent name="ComienzoTexto">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="ComienzoTexto" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Excelente&amp;#10;Si tenes alguna duda consulta antes de seguir con el/la experimentador/a&amp;#10;&amp;#10;Cuando estes listo/a para continuar presiona la barra espaciadora" valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="feedbacka">
+      <CodeComponent name="message">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="msg=''" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="msg = &quot;&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((key_resp.corr === 1)) {&amp;#10;    msg = &quot;Correct!&quot;;&amp;#10;} else {&amp;#10;    msg = &quot;Oops! That was wrong&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if key_resp.corr:#stored on last run routine&amp;#10;  msg=&quot;Correct!&quot;&amp;#10;else:&amp;#10;  msg=&quot;Oops! That was wrong&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="message" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="feedback_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="feedback_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="trialb">
+      <GratingComponent name="grating2">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="avg" valType="str" updates="constant" name="blendmode"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1.0" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="circle" valType="str" updates="constant" name="mask"/>
+        <Param val="grating2" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="$Orientacion" valType="code" updates="set every repeat" name="ori"/>
+        <Param val="0" valType="code" updates="constant" name="phase"/>
+        <Param val="(0,0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="$FrecuenciaEspacial" valType="code" updates="set every repeat" name="sf"/>
+        <Param val="(200, 200)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="sin" valType="str" updates="constant" name="tex"/>
+        <Param val="128" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </GratingComponent>
+      <KeyboardComponent name="key_resp">
+        <Param val="'left','right'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$tecla" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.2" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3" valType="num" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Prueba">
+      <KeyboardComponent name="KeyRespPrueba">
+        <Param val="'left','right'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="tecla" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="KeyRespPrueba" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.2" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3" valType="num" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <GratingComponent name="GratingPrueba">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="avg" valType="str" updates="constant" name="blendmode"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1.0" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="circle" valType="str" updates="constant" name="mask"/>
+        <Param val="GratingPrueba" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="$Orientation" valType="code" updates="set every repeat" name="ori"/>
+        <Param val="0" valType="code" updates="constant" name="phase"/>
+        <Param val="(0,0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="$FrecuenciaEspacial" valType="code" updates="set every repeat" name="sf"/>
+        <Param val="(200,200)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="sin" valType="str" updates="constant" name="tex"/>
+        <Param val="128" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </GratingComponent>
+    </Routine>
+    <Routine name="FeedbackPrueba">
+      <TextComponent name="FeedbackPrueb">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="FeedbackPrueb" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="MsjePrueba">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="msg=''" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="msg = &quot;&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((key_resp.corr === 1)) {&amp;#10;    msg = &quot;Correct!&quot;;&amp;#10;} else {&amp;#10;    msg = &quot;Oops! That was wrong&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if KeyRespPrueba.corr:#stored on last run routine&amp;#10;  msg=&quot;Correct!&quot;&amp;#10;else:&amp;#10;  msg=&quot;Oops! That was wrong&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="MsjePrueba" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Intrucciones"/>
+    <LoopInitiator loopType="TrialHandler" name="Training">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'FrecEspacial': 5.67570285788662, 'Orientation': 150, 'Categoria': 'A', 'CorrectAns': 'left', 'FrecuenciaEspacial': 0.0283785142894331}, {'FrecEspacial': 5.97436997443584, 'Orientation': 114, 'Categoria': 'A', 'CorrectAns': 'left', 'FrecuenciaEspacial': 0.0298718498721792}, {'FrecEspacial': 5.68239108616436, 'Orientation': 269, 'Categoria': 'A', 'CorrectAns': 'left', 'FrecuenciaEspacial': 0.0284119554308218}, {'FrecEspacial': 5.87740232142946, 'Orientation': 313, 'Categoria': 'A', 'CorrectAns': 'left', 'FrecuenciaEspacial': 0.0293870116071473}, {'FrecEspacial': 6.21497055868499, 'Orientation': 182, 'Categoria': 'A', 'CorrectAns': 'left', 'FrecuenciaEspacial': 0.03107485279342495}, {'FrecEspacial': 5.9777226950445, 'Orientation': 215, 'Categoria': 'A', 'CorrectAns': 'left', 'FrecuenciaEspacial': 0.0298886134752225}, {'FrecEspacial': 6.16942304684475, 'Orientation': 156, 'Categoria': 'A', 'CorrectAns': 'left', 'FrecuenciaEspacial': 0.030847115234223753}, {'FrecEspacial': 5.83113663926556, 'Orientation': 47, 'Categoria': 'A', 'CorrectAns': 'left', 'FrecuenciaEspacial': 0.029155683196327803}, {'FrecEspacial': 6.06838533782589, 'Orientation': 13, 'Categoria': 'A', 'CorrectAns': 'left', 'FrecuenciaEspacial': 0.03034192668912945}, {'FrecEspacial': 5.88404357011018, 'Orientation': 172, 'Categoria': 'A', 'CorrectAns': 'left', 'FrecuenciaEspacial': 0.0294202178505509}, {'FrecEspacial': 6.80490635941894, 'Orientation': 239, 'Categoria': 'B', 'CorrectAns': 'right', 'FrecuenciaEspacial': 0.0340245317970947}, {'FrecEspacial': 6.70350812493045, 'Orientation': 0, 'Categoria': 'B', 'CorrectAns': 'right', 'FrecuenciaEspacial': 0.03351754062465225}, {'FrecEspacial': 6.55448032748352, 'Orientation': 61, 'Categoria': 'B', 'CorrectAns': 'right', 'FrecuenciaEspacial': 0.0327724016374176}, {'FrecEspacial': 6.68475017850682, 'Orientation': 337, 'Categoria': 'B', 'CorrectAns': 'right', 'FrecuenciaEspacial': 0.033423750892534104}, {'FrecEspacial': 6.55127629413204, 'Orientation': 355, 'Categoria': 'B', 'CorrectAns': 'right', 'FrecuenciaEspacial': 0.0327563814706602}, {'FrecEspacial': 6.48877641866224, 'Orientation': 251, 'Categoria': 'B', 'CorrectAns': 'right', 'FrecuenciaEspacial': 0.0324438820933112}, {'FrecEspacial': 6.34624095869614, 'Orientation': 156, 'Categoria': 'B', 'CorrectAns': 'right', 'FrecuenciaEspacial': 0.031731204793480704}, {'FrecEspacial': 6.22544387677702, 'Orientation': 50, 'Categoria': 'B', 'CorrectAns': 'right', 'FrecuenciaEspacial': 0.031127219383885102}, {'FrecEspacial': 6.55648003231694, 'Orientation': 136, 'Categoria': 'B', 'CorrectAns': 'right', 'FrecuenciaEspacial': 0.0327824001615847}, {'FrecEspacial': 6.59467094736406, 'Orientation': 243, 'Categoria': 'B', 'CorrectAns': 'right', 'FrecuenciaEspacial': 0.0329733547368203}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="ParametrosAyBTest1.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="Training" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Prueba"/>
+    <Routine name="FeedbackPrueba"/>
+    <LoopTerminator name="Training"/>
+    <Routine name="Comienzo"/>
+    <LoopInitiator loopType="TrialHandler" name="Test">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Frecuencia': 5.93196959075185, 'Orientacion': 127.47737405748, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029659847953759248}, {'Frecuencia': 5.85443077619495, 'Orientacion': 117.430662194758, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02927215388097475}, {'Frecuencia': 5.96571590425178, 'Orientacion': 125.787974095969, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0298285795212589}, {'Frecuencia': 6.21127711385968, 'Orientacion': 125.836139031753, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0310563855692984}, {'Frecuencia': 6.18434955715339, 'Orientacion': 122.646180665539, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03092174778576695}, {'Frecuencia': 6.34357164497819, 'Orientacion': 122.274418501258, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03171785822489095}, {'Frecuencia': 6.1723048065297, 'Orientacion': 127.917841087616, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.030861524032648503}, {'Frecuencia': 5.93448769355556, 'Orientacion': 126.850124022672, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0296724384677778}, {'Frecuencia': 5.95607941801887, 'Orientacion': 127.507099846778, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02978039709009435}, {'Frecuencia': 6.14299647049478, 'Orientacion': 126.657906753107, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0307149823524739}, {'Frecuencia': 6.47723272574519, 'Orientacion': 132.969873721402, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03238616362872595}, {'Frecuencia': 5.72469907557725, 'Orientacion': 126.338549138128, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.028623495377886252}, {'Frecuencia': 6.12739146907271, 'Orientacion': 127.165525656523, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03063695734536355}, {'Frecuencia': 5.78253765455631, 'Orientacion': 122.565771767636, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02891268827278155}, {'Frecuencia': 5.96732688091593, 'Orientacion': 125.603031637604, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029836634404579652}, {'Frecuencia': 5.63491017954664, 'Orientacion': 128.5035338995, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0281745508977332}, {'Frecuencia': 6.18216229162792, 'Orientacion': 124.934642009881, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0309108114581396}, {'Frecuencia': 5.99126683616278, 'Orientacion': 119.027552242634, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029956334180813903}, {'Frecuencia': 5.79326967326711, 'Orientacion': 125.543759715296, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02896634836633555}, {'Frecuencia': 6.15886234193793, 'Orientacion': 123.681780685316, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03079431170968965}, {'Frecuencia': 5.85089282604896, 'Orientacion': 132.278936337055, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0292544641302448}, {'Frecuencia': 5.89245949857673, 'Orientacion': 127.907138672823, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02946229749288365}, {'Frecuencia': 5.63974847223259, 'Orientacion': 129.679948015756, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02819874236116295}, {'Frecuencia': 5.81738659980274, 'Orientacion': 126.396525555873, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0290869329990137}, {'Frecuencia': 5.8414702314797, 'Orientacion': 124.469922056053, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029207351157398496}, {'Frecuencia': 6.01733120967078, 'Orientacion': 122.535103658356, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0300866560483539}, {'Frecuencia': 5.63986754492985, 'Orientacion': 118.645950880618, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02819933772464925}, {'Frecuencia': 6.05346646226739, 'Orientacion': 117.827661043597, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03026733231133695}, {'Frecuencia': 5.87619339213906, 'Orientacion': 128.390153751275, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0293809669606953}, {'Frecuencia': 5.90695431857837, 'Orientacion': 122.788038300736, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029534771592891848}, {'Frecuencia': 6.11829386790087, 'Orientacion': 125.394109797089, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.030591469339504348}, {'Frecuencia': 6.05791747972947, 'Orientacion': 125.013980378065, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03028958739864735}, {'Frecuencia': 5.75273203676054, 'Orientacion': 124.362223063742, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.028763660183802702}, {'Frecuencia': 6.17913170432566, 'Orientacion': 128.594025863983, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0308956585216283}, {'Frecuencia': 5.9523076461078, 'Orientacion': 126.739135947803, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029761538230539}, {'Frecuencia': 6.09530119407027, 'Orientacion': 129.610508325641, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.030476505970351352}, {'Frecuencia': 6.00286426876505, 'Orientacion': 125.566726817163, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03001432134382525}, {'Frecuencia': 5.86558021363296, 'Orientacion': 121.115579784991, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0293279010681648}, {'Frecuencia': 6.12432448942767, 'Orientacion': 117.976118521888, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03062162244713835}, {'Frecuencia': 6.12589775544583, 'Orientacion': 120.049109921315, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03062948877722915}, {'Frecuencia': 5.76990592290461, 'Orientacion': 118.222243016151, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02884952961452305}, {'Frecuencia': 6.05003181862328, 'Orientacion': 126.894689135778, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0302501590931164}, {'Frecuencia': 5.97277505592042, 'Orientacion': 126.895685758351, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0298638752796021}, {'Frecuencia': 5.96801436795051, 'Orientacion': 122.710755299026, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02984007183975255}, {'Frecuencia': 5.76507482409815, 'Orientacion': 128.03609740409, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02882537412049075}, {'Frecuencia': 6.02215844660558, 'Orientacion': 124.603612657643, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0301107922330279}, {'Frecuencia': 5.95936515750304, 'Orientacion': 121.916501977313, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0297968257875152}, {'Frecuencia': 5.91284049003908, 'Orientacion': 126.644816338518, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0295642024501954}, {'Frecuencia': 6.1432026467119, 'Orientacion': 122.590024431805, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0307160132335595}, {'Frecuencia': 5.73272056264305, 'Orientacion': 120.797405977746, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02866360281321525}, {'Frecuencia': 6.17106888280891, 'Orientacion': 127.343411792522, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.030855344414044552}, {'Frecuencia': 6.23092354576576, 'Orientacion': 127.483617313921, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.031154617728828802}, {'Frecuencia': 6.01743957625894, 'Orientacion': 120.190582076381, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0300871978812947}, {'Frecuencia': 5.6807195571445, 'Orientacion': 124.841808905811, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0284035977857225}, {'Frecuencia': 6.00822509616202, 'Orientacion': 125.89286296997, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.030041125480810102}, {'Frecuencia': 5.87624014198715, 'Orientacion': 125.027946644265, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029381200709935752}, {'Frecuencia': 5.85707828371261, 'Orientacion': 124.306326870201, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029285391418563053}, {'Frecuencia': 5.97724202806088, 'Orientacion': 120.363159390588, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0298862101403044}, {'Frecuencia': 6.0177768843338, 'Orientacion': 125.006049270367, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.030088884421669}, {'Frecuencia': 6.06432125678256, 'Orientacion': 129.750145257147, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0303216062839128}, {'Frecuencia': 6.20933052835858, 'Orientacion': 125.463166932949, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.031046652641792898}, {'Frecuencia': 5.93216290127769, 'Orientacion': 129.447229335716, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02966081450638845}, {'Frecuencia': 6.12303795247945, 'Orientacion': 122.585418825593, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03061518976239725}, {'Frecuencia': 6.07935110303932, 'Orientacion': 127.609465291699, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0303967555151966}, {'Frecuencia': 5.69244879663508, 'Orientacion': 124.577896600623, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0284622439831754}, {'Frecuencia': 6.04390885947166, 'Orientacion': 122.884743000396, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.030219544297358302}, {'Frecuencia': 5.9587301026744, 'Orientacion': 125.44429484991, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029793650513372}, {'Frecuencia': 5.9726499270781, 'Orientacion': 125.74136515359, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029863249635390502}, {'Frecuencia': 5.96822392844921, 'Orientacion': 125.670081489794, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02984111964224605}, {'Frecuencia': 5.86839365737321, 'Orientacion': 125.59437012238, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02934196828686605}, {'Frecuencia': 5.9795165476198, 'Orientacion': 122.934668960424, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029897582738098998}, {'Frecuencia': 6.2392630056621, 'Orientacion': 121.67461010439, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.031196315028310502}, {'Frecuencia': 6.07317793129252, 'Orientacion': 129.208040002422, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0303658896564626}, {'Frecuencia': 5.92951802654956, 'Orientacion': 122.618370131088, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0296475901327478}, {'Frecuencia': 5.79553034721129, 'Orientacion': 125.613728626593, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.028977651736056452}, {'Frecuencia': 5.99880785212392, 'Orientacion': 124.766847558007, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0299940392606196}, {'Frecuencia': 5.83840437763431, 'Orientacion': 122.886371712172, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.029192021888171552}, {'Frecuencia': 5.96697065162737, 'Orientacion': 131.564905085383, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.02983485325813685}, {'Frecuencia': 6.15778680038375, 'Orientacion': 127.90959472149, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.03078893400191875}, {'Frecuencia': 5.90365962755496, 'Orientacion': 128.932732480763, 'Categoria': 'A', 'tecla': 'left', 'FrecuenciaEspacial': 0.0295182981377748}, {'Frecuencia': 6.33986442507469, 'Orientacion': 125.207767992383, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03169932212537345}, {'Frecuencia': 6.49149336367453, 'Orientacion': 124.923910235627, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03245746681837265}, {'Frecuencia': 6.39386779654777, 'Orientacion': 125.012238531736, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03196933898273885}, {'Frecuencia': 6.61526336770675, 'Orientacion': 128.199308566761, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03307631683853375}, {'Frecuencia': 6.59241566055994, 'Orientacion': 126.168120219219, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0329620783027997}, {'Frecuencia': 6.76787660355544, 'Orientacion': 124.950208817273, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0338393830177772}, {'Frecuencia': 6.45347927328079, 'Orientacion': 129.671282946063, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.032267396366403946}, {'Frecuencia': 6.7093604856437, 'Orientacion': 125.666719577318, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.033546802428218496}, {'Frecuencia': 6.53117712131197, 'Orientacion': 125.876331960568, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03265588560655985}, {'Frecuencia': 6.47014056527745, 'Orientacion': 123.040811780324, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03235070282638725}, {'Frecuencia': 6.7707635224407, 'Orientacion': 126.083293810046, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0338538176122035}, {'Frecuencia': 6.668434383354, 'Orientacion': 122.167491742709, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03334217191677}, {'Frecuencia': 6.58116570877573, 'Orientacion': 126.823808757469, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03290582854387865}, {'Frecuencia': 6.70384741910121, 'Orientacion': 130.272201235837, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.033519237095506055}, {'Frecuencia': 6.63640087535025, 'Orientacion': 124.196334789946, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03318200437675125}, {'Frecuencia': 6.64159483252279, 'Orientacion': 128.311044791019, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03320797416261395}, {'Frecuencia': 6.5767165692692, 'Orientacion': 133.57685865735, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.032883582846346}, {'Frecuencia': 6.46506265087491, 'Orientacion': 128.477835371077, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03232531325437455}, {'Frecuencia': 6.34781366874311, 'Orientacion': 124.352552398034, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03173906834371555}, {'Frecuencia': 6.35733128588602, 'Orientacion': 121.944629000158, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0317866564294301}, {'Frecuencia': 6.56802682494225, 'Orientacion': 122.545150545239, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03284013412471125}, {'Frecuencia': 6.47450960349238, 'Orientacion': 133.713416668354, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0323725480174619}, {'Frecuencia': 6.69059901729376, 'Orientacion': 118.527482805876, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0334529950864688}, {'Frecuencia': 6.50801641968416, 'Orientacion': 121.34339911988, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0325400820984208}, {'Frecuencia': 6.29015234797456, 'Orientacion': 125.052290359511, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0314507617398728}, {'Frecuencia': 6.50033565982211, 'Orientacion': 124.805955631143, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03250167829911055}, {'Frecuencia': 6.47347216545604, 'Orientacion': 124.485249960179, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0323673608272802}, {'Frecuencia': 6.36034753612928, 'Orientacion': 124.562610343776, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0318017376806464}, {'Frecuencia': 6.78113328998318, 'Orientacion': 127.365506042099, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.033905666449915904}, {'Frecuencia': 6.35304654685342, 'Orientacion': 122.88138035776, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0317652327342671}, {'Frecuencia': 6.6208345026324, 'Orientacion': 118.065505078961, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.033104172513162}, {'Frecuencia': 6.43369042610583, 'Orientacion': 120.779235610833, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03216845213052915}, {'Frecuencia': 6.22963196749719, 'Orientacion': 126.460373239261, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03114815983748595}, {'Frecuencia': 6.44516953891685, 'Orientacion': 123.758215981914, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.032225847694584246}, {'Frecuencia': 6.91788629020602, 'Orientacion': 124.568037908956, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0345894314510301}, {'Frecuencia': 6.53339762441399, 'Orientacion': 124.600840217661, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.032666988122069945}, {'Frecuencia': 6.84251830171517, 'Orientacion': 124.807371106124, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03421259150857585}, {'Frecuencia': 6.67173822784306, 'Orientacion': 126.814060946868, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0333586911392153}, {'Frecuencia': 6.47451071863169, 'Orientacion': 124.754498582946, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03237255359315845}, {'Frecuencia': 6.64332806128007, 'Orientacion': 130.482920260234, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03321664030640035}, {'Frecuencia': 6.48762048386507, 'Orientacion': 121.26993493647, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03243810241932535}, {'Frecuencia': 6.81403292606229, 'Orientacion': 128.761203815309, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03407016463031145}, {'Frecuencia': 6.49547432084775, 'Orientacion': 125.261277877126, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03247737160423875}, {'Frecuencia': 6.6135839590612, 'Orientacion': 122.183104233183, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.033067919795305996}, {'Frecuencia': 6.56700949215299, 'Orientacion': 126.720352198955, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03283504746076495}, {'Frecuencia': 6.28779959742528, 'Orientacion': 121.436094196037, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0314389979871264}, {'Frecuencia': 6.61206980990951, 'Orientacion': 124.49933699301, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03306034904954755}, {'Frecuencia': 6.36734430269101, 'Orientacion': 127.112453005878, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03183672151345505}, {'Frecuencia': 6.63075728869268, 'Orientacion': 127.445307273589, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0331537864434634}, {'Frecuencia': 6.64608421115762, 'Orientacion': 124.440622865795, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0332304210557881}, {'Frecuencia': 6.52111692247199, 'Orientacion': 118.074335633619, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03260558461235995}, {'Frecuencia': 6.53283536217494, 'Orientacion': 127.80196157451, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.032664176810874704}, {'Frecuencia': 6.6846608288597, 'Orientacion': 122.617294137169, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0334233041442985}, {'Frecuencia': 6.55656050798694, 'Orientacion': 128.693585153078, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0327828025399347}, {'Frecuencia': 6.46792045597843, 'Orientacion': 127.260370166192, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.032339602279892146}, {'Frecuencia': 6.25945603441529, 'Orientacion': 127.859786230132, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.031297280172076454}, {'Frecuencia': 6.57320703483543, 'Orientacion': 123.036785937771, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03286603517417715}, {'Frecuencia': 6.61639566451348, 'Orientacion': 117.70272840284, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0330819783225674}, {'Frecuencia': 6.49342298427785, 'Orientacion': 124.675818103102, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03246711492138925}, {'Frecuencia': 6.58110189690583, 'Orientacion': 127.232234415261, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03290550948452915}, {'Frecuencia': 6.49631409652647, 'Orientacion': 122.486418710783, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03248157048263235}, {'Frecuencia': 6.48196964641985, 'Orientacion': 123.742580652704, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.032409848232099255}, {'Frecuencia': 6.47522252387609, 'Orientacion': 128.833767876062, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03237611261938045}, {'Frecuencia': 6.66357137679118, 'Orientacion': 126.317399676843, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0333178568839559}, {'Frecuencia': 6.48572353583091, 'Orientacion': 129.508251532194, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03242861767915455}, {'Frecuencia': 6.36523783440879, 'Orientacion': 123.996860053363, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.031826189172043946}, {'Frecuencia': 6.52203169173905, 'Orientacion': 123.245967242736, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03261015845869525}, {'Frecuencia': 6.80830187609153, 'Orientacion': 123.458795652533, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03404150938045765}, {'Frecuencia': 6.2872874907659, 'Orientacion': 127.994391586951, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0314364374538295}, {'Frecuencia': 6.48181037990916, 'Orientacion': 129.446830462446, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0324090518995458}, {'Frecuencia': 6.67353446711762, 'Orientacion': 124.197232492461, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0333676723355881}, {'Frecuencia': 6.35864399788973, 'Orientacion': 128.233943631336, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.031793219989448646}, {'Frecuencia': 6.64675982066366, 'Orientacion': 128.77782535224, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0332337991033183}, {'Frecuencia': 6.57276362228557, 'Orientacion': 130.010426675962, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03286381811142785}, {'Frecuencia': 6.41727352776295, 'Orientacion': 125.257382046007, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03208636763881475}, {'Frecuencia': 6.30296100754781, 'Orientacion': 127.931185077632, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.03151480503773905}, {'Frecuencia': 6.73942645523218, 'Orientacion': 120.339104190251, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0336971322761609}, {'Frecuencia': 6.74788580006998, 'Orientacion': 122.802746420909, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0337394290003499}, {'Frecuencia': 6.40505364381848, 'Orientacion': 124.132514661941, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.0320252682190924}, {'Frecuencia': 6.23522540419579, 'Orientacion': 127.217094666316, 'Categoria': 'B', 'tecla': 'right', 'FrecuenciaEspacial': 0.031176127020978953}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="ParametrosAyB.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="Test" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trialb"/>
+    <Routine name="feedbacka"/>
+    <LoopTerminator name="Test"/>
+    <Routine name="End"/>
+  </Flow>
+</PsychoPy2experiment>
