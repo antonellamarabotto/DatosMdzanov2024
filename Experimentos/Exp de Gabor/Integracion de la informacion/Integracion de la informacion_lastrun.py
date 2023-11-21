@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.3),
-    on diciembre 06, 2022, at 13:34
+    on octubre 26, 2023, at 15:22
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -49,7 +49,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\UdeSA\\Desktop\\Antonella\\Doctorado (1)\\Exp de Gabor\\Exp de Gabor\\Integracion de la informacion\\Integracion de la informacion_lastrun.py',
+    originPath='D:\\Antonella\\Experimentos\\Exp de Gabor\\Integracion de la informacion\\Integracion de la informacion_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -100,7 +100,7 @@ Instrucciones1 = visual.TextStim(win=win, name='Instrucciones1',
     depth=0.0);
 key_resp_3 = keyboard.Keyboard()
 Instrucciones2 = visual.TextStim(win=win, name='Instrucciones2',
-    text='A continuacion\nveran un circulo en pantalla, por dentro tienen lineas oscuras y claras.',
+    text='A continuación\nveras un circulo en pantalla, por dentro tiene líneas oscuras y claras.\n',
     font='Open Sans',
     units='height', pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=None, 
@@ -108,7 +108,7 @@ Instrucciones2 = visual.TextStim(win=win, name='Instrucciones2',
     depth=-2.0);
 key_resp_4 = keyboard.Keyboard()
 Instrucciones3 = visual.TextStim(win=win, name='Instrucciones3',
-    text='Observa la cantidad de lineas claras y oscuras que hay y la orientacion de las mimas.\n\nExisten dos grupos de circulos, A y B.\n\n\n',
+    text='Observa la cantidad de líneas claras y oscuras que hay y la orientación de las mismas.\n\nExisten dos grupos de círculos, A y B.\n\n\n\n',
     font='Arial',
     units='height', pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=1.0, 
@@ -116,7 +116,7 @@ Instrucciones3 = visual.TextStim(win=win, name='Instrucciones3',
     depth=-4.0);
 key_resp_5 = keyboard.Keyboard()
 instrucciones4 = visual.TextStim(win=win, name='instrucciones4',
-    text='Elegi a que grupo pertenece el circulo en pantalla.\n\nSi pertenece a la categoria A presiona la flecha derecha.\n\nSi pertenece a la categoria B presiona la flecha izquierda.',
+    text='\nElegi a que grupo pertenece el circulo en pantalla.\n\nSi es uno u otro depende tanto de la frecuencia de las bandas como de su orientacion.\n\nObserva estas dos caracteristicas, usa la flecha derecha e izquierda para distinguirlos.\n\nUna vez presionada la tecla en la pantalla aparecerá "Correcto" o "Incorrecto"\n\n\n\n\n',
     font='Arial',
     units='height', pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=1.0, 
@@ -124,7 +124,7 @@ instrucciones4 = visual.TextStim(win=win, name='instrucciones4',
     depth=-6.0);
 key_resp_6 = keyboard.Keyboard()
 Instrucciones5 = visual.TextStim(win=win, name='Instrucciones5',
-    text='Vamos a hacer uno de prueba!',
+    text='¡Vamos a hacer uno de prueba!',
     font='Open Sans',
     units='height', pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
@@ -136,11 +136,19 @@ PruebaClock = core.Clock()
 KeyRespPrueba = keyboard.Keyboard()
 GratingPrueba = visual.GratingStim(
     win=win, name='GratingPrueba',units='pix', 
-    tex='sin', mask='circle', anchor='center',
-    ori=1.0, pos=(0,0), size=(200,200), sf=1.0, phase=0,
+    tex='sin', mask='gauss', anchor='center',
+    ori=1.0, pos=(0,0), size=(500,500), sf=1.0, phase=0,
     color=[1,1,1], colorSpace='rgb',
     opacity=1, contrast=1.0, blendmode='avg',
     texRes=128, interpolate=True, depth=-1.0)
+# Define your stimuli
+grating_size = 10  # Initial size of the grating stimulus
+grating = visual.GratingStim(win=win, ori=45, tex='sin', sf=0.05, size=grating_size)
+
+mask_size = 10  # Initial size of the Gaussian mask
+mask_opacity = 1.0  # Opacity of the mask (1.0 is fully opaque)
+mask_grating = visual.GratingStim(win=win, mask="gauss", size=mask_size, opacity=mask_opacity)
+
 
 # Initialize components for Routine "FeedbackPrueba"
 FeedbackPruebaClock = core.Clock()
@@ -165,14 +173,22 @@ key_resp_2 = keyboard.Keyboard()
 
 # Initialize components for Routine "trialb"
 trialbClock = core.Clock()
+keyrespTest = keyboard.Keyboard()
 grating2 = visual.GratingStim(
     win=win, name='grating2',units='pix', 
-    tex='sin', mask='circle', anchor='center',
-    ori=1.0, pos=(0,0), size=(200, 200), sf=1.0, phase=0,
+    tex='sin', mask='gauss', anchor='center',
+    ori=1.0, pos=(0,0), size=(500, 500), sf=1.0, phase=0,
     color=[1,1,1], colorSpace='rgb',
     opacity=1, contrast=1.0, blendmode='avg',
-    texRes=128, interpolate=True, depth=0.0)
-keyrespTest = keyboard.Keyboard()
+    texRes=128, interpolate=True, depth=-1.0)
+# Define your stimuli
+grating_size = 10  # Initial size of the grating stimulus
+grating = visual.GratingStim(win=win, ori=45, tex='sin', sf=0.05, size=grating_size)
+
+mask_size = 10  # Initial size of the Gaussian mask
+mask_opacity = 1.0  # Opacity of the mask (1.0 is fully opaque)
+mask_grating = visual.GratingStim(win=win, mask="gauss", size=mask_size, opacity=mask_opacity)
+
 
 # Initialize components for Routine "feedbacka"
 feedbackaClock = core.Clock()
@@ -472,7 +488,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 Training = data.TrialHandler(nReps=1.0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('ParametrosAyBtest.xlsx'),
+    trialList=data.importConditions('ParametrosPRUEBAintinfoTraining.xlsx'),
     seed=None, name='Training')
 thisExp.addLoop(Training)  # add the loop to the experiment
 thisTraining = Training.trialList[0]  # so we can initialise stimuli with some values
@@ -549,7 +565,7 @@ for thisTraining in Training:
                 KeyRespPrueba.keys = _KeyRespPrueba_allKeys[-1].name  # just the last key pressed
                 KeyRespPrueba.rt = _KeyRespPrueba_allKeys[-1].rt
                 # was this correct?
-                if (KeyRespPrueba.keys == str(tecla)) or (KeyRespPrueba.keys == tecla):
+                if (KeyRespPrueba.keys == str(Tecla)) or (KeyRespPrueba.keys == Tecla):
                     KeyRespPrueba.corr = 1
                 else:
                     KeyRespPrueba.corr = 0
@@ -598,7 +614,7 @@ for thisTraining in Training:
     if KeyRespPrueba.keys in ['', [], None]:  # No response was made
         KeyRespPrueba.keys = None
         # was no response the correct answer?!
-        if str(tecla).lower() == 'none':
+        if str(Tecla).lower() == 'none':
            KeyRespPrueba.corr = 1;  # correct non-response
         else:
            KeyRespPrueba.corr = 0;  # failed to respond (incorrectly)
@@ -798,7 +814,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 Test = data.TrialHandler(nReps=1, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('ParametrosAyB.xlsx'),
+    trialList=data.importConditions('ParametrosPruebaintinfo.xlsx'),
     seed=None, name='Test')
 thisExp.addLoop(Test)  # add the loop to the experiment
 thisTest = Test.trialList[0]  # so we can initialise stimuli with some values
@@ -818,13 +834,13 @@ for thisTest in Test:
     continueRoutine = True
     routineTimer.add(3.200000)
     # update component parameters for each repeat
-    grating2.setOri(Orientacion)
-    grating2.setSF(FrecuenciaEspacial)
     keyrespTest.keys = []
     keyrespTest.rt = []
     _keyrespTest_allKeys = []
+    grating2.setOri(Orientacion)
+    grating2.setSF(FrecuenciaEspacial)
     # keep track of which components have finished
-    trialbComponents = [grating2, keyrespTest]
+    trialbComponents = [keyrespTest, grating2]
     for thisComponent in trialbComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -846,23 +862,6 @@ for thisTest in Test:
         tThisFlipGlobal = win.getFutureFlipTime(clock=None)
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
-        
-        # *grating2* updates
-        if grating2.status == NOT_STARTED and tThisFlip >= 0.1-frameTolerance:
-            # keep track of start time/frame for later
-            grating2.frameNStart = frameN  # exact frame index
-            grating2.tStart = t  # local t and not account for scr refresh
-            grating2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(grating2, 'tStartRefresh')  # time at next scr refresh
-            grating2.setAutoDraw(True)
-        if grating2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > grating2.tStartRefresh + 3.0-frameTolerance:
-                # keep track of stop time/frame for later
-                grating2.tStop = t  # not accounting for scr refresh
-                grating2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(grating2, 'tStopRefresh')  # time at next scr refresh
-                grating2.setAutoDraw(False)
         
         # *keyrespTest* updates
         waitOnFlip = False
@@ -892,12 +891,29 @@ for thisTest in Test:
                 keyrespTest.keys = _keyrespTest_allKeys[-1].name  # just the last key pressed
                 keyrespTest.rt = _keyrespTest_allKeys[-1].rt
                 # was this correct?
-                if (keyrespTest.keys == str(tecla)) or (keyrespTest.keys == tecla):
+                if (keyrespTest.keys == str(Tecla)) or (keyrespTest.keys == Tecla):
                     keyrespTest.corr = 1
                 else:
                     keyrespTest.corr = 0
                 # a response ends the routine
                 continueRoutine = False
+        
+        # *grating2* updates
+        if grating2.status == NOT_STARTED and tThisFlip >= 0.1-frameTolerance:
+            # keep track of start time/frame for later
+            grating2.frameNStart = frameN  # exact frame index
+            grating2.tStart = t  # local t and not account for scr refresh
+            grating2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(grating2, 'tStartRefresh')  # time at next scr refresh
+            grating2.setAutoDraw(True)
+        if grating2.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > grating2.tStartRefresh + 3.0-frameTolerance:
+                # keep track of stop time/frame for later
+                grating2.tStop = t  # not accounting for scr refresh
+                grating2.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(grating2, 'tStopRefresh')  # time at next scr refresh
+                grating2.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -920,13 +936,11 @@ for thisTest in Test:
     for thisComponent in trialbComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    Test.addData('grating2.started', grating2.tStartRefresh)
-    Test.addData('grating2.stopped', grating2.tStopRefresh)
     # check responses
     if keyrespTest.keys in ['', [], None]:  # No response was made
         keyrespTest.keys = None
         # was no response the correct answer?!
-        if str(tecla).lower() == 'none':
+        if str(Tecla).lower() == 'none':
            keyrespTest.corr = 1;  # correct non-response
         else:
            keyrespTest.corr = 0;  # failed to respond (incorrectly)
@@ -937,6 +951,8 @@ for thisTest in Test:
         Test.addData('keyrespTest.rt', keyrespTest.rt)
     Test.addData('keyrespTest.started', keyrespTest.tStartRefresh)
     Test.addData('keyrespTest.stopped', keyrespTest.tStopRefresh)
+    Test.addData('grating2.started', grating2.tStartRefresh)
+    Test.addData('grating2.stopped', grating2.tStopRefresh)
     
     # ------Prepare to start Routine "feedbacka"-------
     continueRoutine = True

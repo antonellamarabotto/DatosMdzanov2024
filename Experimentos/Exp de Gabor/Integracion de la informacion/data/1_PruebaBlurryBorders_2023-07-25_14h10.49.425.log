@@ -1,0 +1,11 @@
+15.1350 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+26.6506 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+27.4841 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002816D3AFB50>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000028147D7DFD0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+27.4845 	EXP 	window1: mouseVisible = True
+27.4845 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+27.4846 	EXP 	window1: recordFrameIntervals = False
+27.6502 	EXP 	window1: recordFrameIntervals = True
+27.8339 	EXP 	Screen (0) actual frame rate measured at 60.07Hz
+27.8339 	EXP 	window1: recordFrameIntervals = False
+30.1431 	DEPRECATION 	Couldn't find image cos; check path? (tried: D:\Antonella\Experimentos\Exp de Gabor\Integracion de la informacion\cos)
+30.2397 	EXP 	window1: mouseVisible = True

@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.3),
-    on noviembre 15, 2022, at 16:12
+    on octubre 10, 2023, at 16:41
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -49,7 +49,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\UdeSA\\Desktop\\Antonella\\Doctorado (1)\\Exp de Gabor\\Exp de Gabor\\Integracion de la informacion\\Integracion de la informacion.py',
+    originPath='D:\\Antonella\\Experimentos\\Exp de Gabor\\Integracion de la informacion\\Integracion de la informacion.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -100,7 +100,7 @@ Instrucciones1 = visual.TextStim(win=win, name='Instrucciones1',
     depth=0.0);
 key_resp_3 = keyboard.Keyboard()
 Instrucciones2 = visual.TextStim(win=win, name='Instrucciones2',
-    text='A continuacion\nveran un circulo en pantalla, por dentro tienen lineas oscuras y claras.',
+    text='A continuación\nveras un circulo en pantalla, por dentro tiene líneas oscuras y claras.\n',
     font='Open Sans',
     units='height', pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=None, 
@@ -108,7 +108,7 @@ Instrucciones2 = visual.TextStim(win=win, name='Instrucciones2',
     depth=-2.0);
 key_resp_4 = keyboard.Keyboard()
 Instrucciones3 = visual.TextStim(win=win, name='Instrucciones3',
-    text='Observa la orientacion de las lineas y la cantidad que hay.\n\nExisten dos grupos de circulos, A y B.\n\n\n',
+    text='Observa la cantidad de líneas claras y oscuras que hay y la orientación de las mismas.\n\nExisten dos grupos de círculos, A y B.\n\n\n\n',
     font='Arial',
     units='height', pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=1.0, 
@@ -116,7 +116,7 @@ Instrucciones3 = visual.TextStim(win=win, name='Instrucciones3',
     depth=-4.0);
 key_resp_5 = keyboard.Keyboard()
 instrucciones4 = visual.TextStim(win=win, name='instrucciones4',
-    text='Elegi a que grupo pertenece el circulo en pantalla.\n\nSi pertenece a la categoria A presiona la flecha derecha.\n\nSi pertenece a la categoria B presiona la flecha izquierda.',
+    text='\nElegi a que grupo pertenece el circulo en pantalla.\n\nSi es uno u otro depende tanto de la frecuencia de las bandas como de su orientacion.\n\nObserva estas dos caracteristicas, usa la flecha derecha e izquierda para distinguirlos.\n\nUna vez presionada la tecla en la pantalla aparecerá "Correcto" o "Incorrecto"\n\n\n\n\n',
     font='Arial',
     units='height', pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=1.0, 
@@ -124,7 +124,7 @@ instrucciones4 = visual.TextStim(win=win, name='instrucciones4',
     depth=-6.0);
 key_resp_6 = keyboard.Keyboard()
 Instrucciones5 = visual.TextStim(win=win, name='Instrucciones5',
-    text='Vamos a hacer uno de prueba!',
+    text='¡Vamos a hacer uno de prueba!',
     font='Open Sans',
     units='height', pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
@@ -136,7 +136,7 @@ PruebaClock = core.Clock()
 KeyRespPrueba = keyboard.Keyboard()
 GratingPrueba = visual.GratingStim(
     win=win, name='GratingPrueba',units='pix', 
-    tex='sin', mask='circle', anchor='center',
+    tex='sin', mask='gauss', anchor='center',
     ori=1.0, pos=(0,0), size=(200,200), sf=1.0, phase=0,
     color=[1,1,1], colorSpace='rgb',
     opacity=1, contrast=1.0, blendmode='avg',
@@ -150,7 +150,7 @@ FeedbackPrueb = visual.TextStim(win=win, name='FeedbackPrueb',
     units='height', pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
-    depth=0.0);
+    depth=-1.0);
 
 # Initialize components for Routine "Comienzo"
 ComienzoClock = core.Clock()
@@ -458,48 +458,12 @@ for thisComponent in IntruccionesComponents:
         thisComponent.setAutoDraw(False)
 thisExp.addData('Instrucciones1.started', Instrucciones1.tStartRefresh)
 thisExp.addData('Instrucciones1.stopped', Instrucciones1.tStopRefresh)
-# check responses
-if key_resp_3.keys in ['', [], None]:  # No response was made
-    key_resp_3.keys = None
-thisExp.addData('key_resp_3.keys',key_resp_3.keys)
-if key_resp_3.keys != None:  # we had a response
-    thisExp.addData('key_resp_3.rt', key_resp_3.rt)
-thisExp.addData('key_resp_3.started', key_resp_3.tStartRefresh)
-thisExp.addData('key_resp_3.stopped', key_resp_3.tStopRefresh)
-thisExp.nextEntry()
 thisExp.addData('Instrucciones2.started', Instrucciones2.tStartRefresh)
 thisExp.addData('Instrucciones2.stopped', Instrucciones2.tStopRefresh)
-# check responses
-if key_resp_4.keys in ['', [], None]:  # No response was made
-    key_resp_4.keys = None
-thisExp.addData('key_resp_4.keys',key_resp_4.keys)
-if key_resp_4.keys != None:  # we had a response
-    thisExp.addData('key_resp_4.rt', key_resp_4.rt)
-thisExp.addData('key_resp_4.started', key_resp_4.tStartRefresh)
-thisExp.addData('key_resp_4.stopped', key_resp_4.tStopRefresh)
-thisExp.nextEntry()
 thisExp.addData('Instrucciones3.started', Instrucciones3.tStartRefresh)
 thisExp.addData('Instrucciones3.stopped', Instrucciones3.tStopRefresh)
-# check responses
-if key_resp_5.keys in ['', [], None]:  # No response was made
-    key_resp_5.keys = None
-thisExp.addData('key_resp_5.keys',key_resp_5.keys)
-if key_resp_5.keys != None:  # we had a response
-    thisExp.addData('key_resp_5.rt', key_resp_5.rt)
-thisExp.addData('key_resp_5.started', key_resp_5.tStartRefresh)
-thisExp.addData('key_resp_5.stopped', key_resp_5.tStopRefresh)
-thisExp.nextEntry()
 thisExp.addData('instrucciones4.started', instrucciones4.tStartRefresh)
 thisExp.addData('instrucciones4.stopped', instrucciones4.tStopRefresh)
-# check responses
-if key_resp_6.keys in ['', [], None]:  # No response was made
-    key_resp_6.keys = None
-thisExp.addData('key_resp_6.keys',key_resp_6.keys)
-if key_resp_6.keys != None:  # we had a response
-    thisExp.addData('key_resp_6.rt', key_resp_6.rt)
-thisExp.addData('key_resp_6.started', key_resp_6.tStartRefresh)
-thisExp.addData('key_resp_6.stopped', key_resp_6.tStopRefresh)
-thisExp.nextEntry()
 thisExp.addData('Instrucciones5.started', Instrucciones5.tStartRefresh)
 thisExp.addData('Instrucciones5.stopped', Instrucciones5.tStopRefresh)
 # the Routine "Intrucciones" was not non-slip safe, so reset the non-slip timer
@@ -508,7 +472,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 Training = data.TrialHandler(nReps=1.0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('ParametrosAyBtest.xlsx'),
+    trialList=data.importConditions('ParametrosPRUEBAintinfoTraining.xlsx'),
     seed=None, name='Training')
 thisExp.addLoop(Training)  # add the loop to the experiment
 thisTraining = Training.trialList[0]  # so we can initialise stimuli with some values
@@ -517,7 +481,6 @@ if thisTraining != None:
     for paramName in thisTraining:
         exec('{} = thisTraining[paramName]'.format(paramName))
 
-print(Training)
 for thisTraining in Training:
     currentLoop = Training
     # abbreviate parameter names if possible (e.g. rgb = thisTraining.rgb)
@@ -586,7 +549,7 @@ for thisTraining in Training:
                 KeyRespPrueba.keys = _KeyRespPrueba_allKeys[-1].name  # just the last key pressed
                 KeyRespPrueba.rt = _KeyRespPrueba_allKeys[-1].rt
                 # was this correct?
-                if (KeyRespPrueba.keys == str(tecla)) or (KeyRespPrueba.keys == tecla):
+                if (KeyRespPrueba.keys == str(Tecla)) or (KeyRespPrueba.keys == Tecla):
                     KeyRespPrueba.corr = 1
                 else:
                     KeyRespPrueba.corr = 0
@@ -609,6 +572,17 @@ for thisTraining in Training:
                 GratingPrueba.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(GratingPrueba, 'tStopRefresh')  # time at next scr refresh
                 GratingPrueba.setAutoDraw(False)
+        # In the "Each Frame" tab of the Code Component
+        # Determine the size of the Gaussian mask you want
+        mask_size = 9.0  # Adjust this value to control the size of the Gaussian mask (1-degree smaller than the initial size)
+        
+        # Draw the grating stimulus with the Gaussian mask applied
+        mask_grating.mask = 'gauss'
+        mask_grating.size = mask_size
+        mask_grating.draw()
+        
+        # Update the window to display the stimulus
+        win.flip()
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -635,7 +609,7 @@ for thisTraining in Training:
     if KeyRespPrueba.keys in ['', [], None]:  # No response was made
         KeyRespPrueba.keys = None
         # was no response the correct answer?!
-        if str(tecla).lower() == 'none':
+        if str(Tecla).lower() == 'none':
            KeyRespPrueba.corr = 1;  # correct non-response
         else:
            KeyRespPrueba.corr = 0;  # failed to respond (incorrectly)
@@ -653,13 +627,11 @@ for thisTraining in Training:
     continueRoutine = True
     routineTimer.add(1.000000)
     # update component parameters for each repeat
-    FeedbackPrueb.setText(msg)
     if KeyRespPrueba.corr:#stored on last run routine
       msg="Correcto"
     else:
-      msg="Incorrecto"
-    
-    print(msg)
+      msg="Segui intentando"
+    FeedbackPrueb.setText(msg)
     # keep track of which components have finished
     FeedbackPruebaComponents = [FeedbackPrueb]
     for thisComponent in FeedbackPruebaComponents:
@@ -677,7 +649,6 @@ for thisTraining in Training:
     
     # -------Run Routine "FeedbackPrueba"-------
     while continueRoutine and routineTimer.getTime() > 0:
-        print('feedback')
         # get current time
         t = FeedbackPruebaClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=FeedbackPruebaClock)
@@ -687,7 +658,6 @@ for thisTraining in Training:
         
         # *FeedbackPrueb* updates
         if FeedbackPrueb.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            print('feedback1')
             # keep track of start time/frame for later
             FeedbackPrueb.frameNStart = frameN  # exact frame index
             FeedbackPrueb.tStart = t  # local t and not account for scr refresh
@@ -695,7 +665,6 @@ for thisTraining in Training:
             win.timeOnFlip(FeedbackPrueb, 'tStartRefresh')  # time at next scr refresh
             FeedbackPrueb.setAutoDraw(True)
         if FeedbackPrueb.status == STARTED:
-            print('feedback2')
             # is it time to stop? (based on global clock, using actual start)
             if tThisFlipGlobal > FeedbackPrueb.tStartRefresh + 1.0-frameTolerance:
                 # keep track of stop time/frame for later
@@ -713,7 +682,6 @@ for thisTraining in Training:
             break
         continueRoutine = False  # will revert to True if at least one component still running
         for thisComponent in FeedbackPruebaComponents:
-            print('feedback3')
             if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                 continueRoutine = True
                 break  # at least one component has not yet finished
@@ -841,7 +809,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 Test = data.TrialHandler(nReps=1, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('ParametrosAyB.xlsx'),
+    trialList=data.importConditions('ParametrosPruebaintinfo.xlsx'),
     seed=None, name='Test')
 thisExp.addLoop(Test)  # add the loop to the experiment
 thisTest = Test.trialList[0]  # so we can initialise stimuli with some values
@@ -935,7 +903,7 @@ for thisTest in Test:
                 keyrespTest.keys = _keyrespTest_allKeys[-1].name  # just the last key pressed
                 keyrespTest.rt = _keyrespTest_allKeys[-1].rt
                 # was this correct?
-                if (keyrespTest.keys == str(tecla)) or (keyrespTest.keys == tecla):
+                if (keyrespTest.keys == str(Tecla)) or (keyrespTest.keys == Tecla):
                     keyrespTest.corr = 1
                 else:
                     keyrespTest.corr = 0
@@ -969,7 +937,7 @@ for thisTest in Test:
     if keyrespTest.keys in ['', [], None]:  # No response was made
         keyrespTest.keys = None
         # was no response the correct answer?!
-        if str(tecla).lower() == 'none':
+        if str(Tecla).lower() == 'none':
            keyrespTest.corr = 1;  # correct non-response
         else:
            keyrespTest.corr = 0;  # failed to respond (incorrectly)

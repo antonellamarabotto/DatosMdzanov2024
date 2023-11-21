@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.3),
-    on agosto 31, 2022, at 18:09
+    on marzo 23, 2023, at 15:41
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -49,7 +49,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\UdeSA\\Desktop\\Antonella\\Doctorado (1)\\Exp de Gabor\\Exp de Gabor\\Scripts Psychopy\\PruebaGabor2_lastrun.py',
+    originPath='D:\\Antonella\\Experimentos\\Exp de Gabor\\Integracion de la informacion\\Scripts Psychopy\\PruebaGabor2_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info

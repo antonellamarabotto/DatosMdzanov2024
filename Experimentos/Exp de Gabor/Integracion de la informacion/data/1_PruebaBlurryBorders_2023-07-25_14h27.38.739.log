@@ -1,0 +1,20 @@
+1.5156 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.5211 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+9.1612 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000015273662AF0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001524F0CFF70>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.1617 	EXP 	window1: mouseVisible = True
+9.1617 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.1618 	EXP 	window1: recordFrameIntervals = False
+9.3270 	EXP 	window1: recordFrameIntervals = True
+9.5107 	EXP 	Screen (0) actual frame rate measured at 59.99Hz
+9.5108 	EXP 	window1: recordFrameIntervals = False
+11.6584 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask='circle', maskParams=None, name='grating', opacity=1.0, ori=96.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.03060079, 0.03060079]), size=array([200., 200.]), tex='sin', texRes=128.0, units='pix', win=Window(...))
+11.6645 	EXP 	Created grating_2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask='gauss', maskParams=None, name='grating_2', opacity=1.0, ori=96.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.03060079, 0.03060079]), size=array([250., 250.]), tex='sin', texRes=128.0, units='pix', win=Window(...))
+12.6619 	EXP 	grating: autoDraw = True
+12.6619 	EXP 	grating_2: autoDraw = True
+12.6619 	EXP 	grating: tex = 'sin'
+12.6619 	EXP 	grating_2: tex = 'sin'
+14.6625 	EXP 	grating: autoDraw = False
+14.6625 	EXP 	grating_2: autoDraw = False
+14.6625 	EXP 	grating: autoDraw = False
+14.6625 	EXP 	grating_2: autoDraw = False
+14.7781 	EXP 	window1: mouseVisible = True

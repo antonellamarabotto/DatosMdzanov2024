@@ -1,0 +1,132 @@
+1.5344 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.6655 	WARNING 	User requested fullscreen with size [1680 1050], but screen is actually [1920, 1080]. Using actual size
+8.3118 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022B521F0AC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022B547C8DC0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.3120 	EXP 	window1: mouseVisible = True
+8.3121 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.3121 	EXP 	window1: recordFrameIntervals = False
+8.4781 	EXP 	window1: recordFrameIntervals = True
+8.6618 	EXP 	Screen (0) actual frame rate measured at 60.02Hz
+8.6618 	EXP 	window1: recordFrameIntervals = False
+10.8341 	EXP 	Created Instrucciones1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instrucciones1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.8427 	EXP 	Created Instrucciones2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instrucciones2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.8589 	EXP 	Created Instrucciones3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instrucciones3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.8780 	EXP 	Created instrucciones4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrucciones4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.8844 	EXP 	Created Instrucciones5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instrucciones5', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='¡Vamos a hacer uno de prueba!', units='height', win=Window(...), wrapWidth=1)
+10.8898 	EXP 	Created GratingPrueba = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask='gauss', maskParams=None, name='GratingPrueba', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([200., 200.]), tex='sin', texRes=128, units='pix', win=Window(...))
+10.8918 	EXP 	Created FeedbackPrueb = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='FeedbackPrueb', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.9085 	EXP 	Created ComienzoTexto = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ComienzoTexto', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.9122 	EXP 	Created grating2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask='circle', maskParams=None, name='grating2', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([200., 200.]), tex='sin', texRes=128, units='pix', win=Window(...))
+10.9134 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.9293 	EXP 	Created Gracias = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Gracias', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='¡Muchas gracias por participar!', units='height', win=Window(...), wrapWidth=1)
+10.9313 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='deg', win=Window(...))
+11.9300 	EXP 	Instrucciones1: autoDraw = True
+13.3156 	DATA 	Keypress: space
+13.3304 	EXP 	Instrucciones1: autoDraw = False
+13.3304 	EXP 	Instrucciones2: autoDraw = True
+14.0661 	DATA 	Keypress: space
+14.5322 	DATA 	Keypress: space
+15.5334 	DATA 	Keypress: space
+15.5478 	EXP 	Instrucciones2: autoDraw = False
+15.5478 	EXP 	Instrucciones3: autoDraw = True
+15.9163 	DATA 	Keypress: space
+16.1347 	DATA 	Keypress: space
+16.1482 	EXP 	Instrucciones3: autoDraw = False
+16.1482 	EXP 	instrucciones4: autoDraw = True
+16.6834 	DATA 	Keypress: space
+17.0009 	DATA 	Keypress: space
+17.0147 	EXP 	instrucciones4: autoDraw = False
+17.0147 	EXP 	Instrucciones5: autoDraw = True
+17.8833 	DATA 	Keypress: space
+18.5841 	DATA 	Keypress: space
+20.1847 	DATA 	Keypress: space
+20.6350 	DATA 	Keypress: space
+21.0133 	EXP 	Imported ParametrosPRUEBAintinfoTraining.xlsx as conditions, 10 conditions, 6 params
+21.0143 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+21.0149 	EXP 	New trial (rep=0, index=0): {'Frecuencia': 6.12015737910944, 'Orientaciondecimal': 0.960355341119567, 'Categoria': 'A', 'Tecla': 'left', 'FrecuenciaEspacial': 0.030600786895547197, 'Orientacion': 96.0355341119567}
+21.0255 	EXP 	Created unnamed GratingStim = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, interpolate=False, mask='gauss', maskParams=None, name='unnamed GratingStim', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([10., 10.]), tex='sin', texRes=128, units='deg', win=Window(...))
+21.0350 	EXP 	Instrucciones5: autoDraw = False
+21.0350 	EXP 	Instrucciones1: autoDraw = False
+21.0350 	EXP 	Instrucciones2: autoDraw = False
+21.0350 	EXP 	Instrucciones3: autoDraw = False
+21.0350 	EXP 	instrucciones4: autoDraw = False
+21.0350 	EXP 	Instrucciones5: autoDraw = False
+21.0350 	EXP 	GratingPrueba: ori = 96.0355341119567
+21.0350 	EXP 	GratingPrueba: sf = array([0.03060079, 0.03060079])
+21.1321 	EXP 	GratingPrueba: autoDraw = True
+21.1321 	EXP 	GratingPrueba: tex = 'sin'
+23.7176 	DATA 	Keypress: space
+24.1330 	EXP 	GratingPrueba: autoDraw = False
+24.2194 	EXP 	GratingPrueba: autoDraw = False
+24.2194 	EXP 	FeedbackPrueb: height = 0.1
+24.2194 	EXP 	FeedbackPrueb: height = 0.1
+24.2194 	EXP 	FeedbackPrueb: text = 'Segui intentando'
+24.2194 	EXP 	FeedbackPrueb: autoDraw = True
+25.2003 	EXP 	New trial (rep=0, index=1): {'Frecuencia': 5.80474231627537, 'Orientaciondecimal': 0.973560272222272, 'Categoria': 'B', 'Tecla': 'right', 'FrecuenciaEspacial': 0.029023711581376854, 'Orientacion': 97.3560272222272}
+25.2054 	EXP 	Created unnamed GratingStim = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, interpolate=False, mask='gauss', maskParams=None, name='unnamed GratingStim', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([10., 10.]), tex='sin', texRes=128, units='deg', win=Window(...))
+25.2168 	EXP 	FeedbackPrueb: autoDraw = False
+25.2168 	EXP 	GratingPrueba: ori = 97.3560272222272
+25.2168 	EXP 	GratingPrueba: sf = array([0.02902371, 0.02902371])
+25.3001 	EXP 	GratingPrueba: autoDraw = True
+25.9073 	DATA 	Keypress: right
+25.9175 	EXP 	GratingPrueba: autoDraw = False
+25.9175 	EXP 	FeedbackPrueb: height = 0.1
+25.9175 	EXP 	FeedbackPrueb: height = 0.1
+25.9175 	EXP 	FeedbackPrueb: text = 'Correcto'
+25.9175 	EXP 	FeedbackPrueb: autoDraw = True
+26.9019 	EXP 	New trial (rep=0, index=2): {'Frecuencia': 5.72673654075559, 'Orientaciondecimal': 0.957490584769043, 'Categoria': 'B', 'Tecla': 'right', 'FrecuenciaEspacial': 0.028633682703777953, 'Orientacion': 95.74905847690431}
+26.9063 	EXP 	Created unnamed GratingStim = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, interpolate=False, mask='gauss', maskParams=None, name='unnamed GratingStim', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([10., 10.]), tex='sin', texRes=128, units='deg', win=Window(...))
+26.9182 	EXP 	FeedbackPrueb: autoDraw = False
+26.9182 	EXP 	FeedbackPrueb: autoDraw = False
+26.9182 	EXP 	GratingPrueba: ori = 95.74905847690431
+26.9182 	EXP 	GratingPrueba: sf = array([0.02863368, 0.02863368])
+27.0011 	EXP 	GratingPrueba: autoDraw = True
+27.4909 	DATA 	Keypress: left
+27.5021 	EXP 	GratingPrueba: autoDraw = False
+27.5021 	EXP 	FeedbackPrueb: height = 0.1
+27.5021 	EXP 	FeedbackPrueb: height = 0.1
+27.5021 	EXP 	FeedbackPrueb: text = 'Segui intentando'
+27.5021 	EXP 	FeedbackPrueb: autoDraw = True
+28.4855 	EXP 	New trial (rep=0, index=3): {'Frecuencia': 6.08635969142881, 'Orientaciondecimal': 0.950826717019596, 'Categoria': 'A', 'Tecla': 'left', 'FrecuenciaEspacial': 0.03043179845714405, 'Orientacion': 95.0826717019596}
+28.4899 	EXP 	Created unnamed GratingStim = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, interpolate=False, mask='gauss', maskParams=None, name='unnamed GratingStim', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([10., 10.]), tex='sin', texRes=128, units='deg', win=Window(...))
+28.5019 	EXP 	FeedbackPrueb: autoDraw = False
+28.5019 	EXP 	FeedbackPrueb: autoDraw = False
+28.5019 	EXP 	GratingPrueba: ori = 95.0826717019596
+28.5019 	EXP 	GratingPrueba: sf = array([0.0304318, 0.0304318])
+28.5849 	EXP 	GratingPrueba: autoDraw = True
+28.9043 	DATA 	Keypress: right
+28.9183 	EXP 	GratingPrueba: autoDraw = False
+28.9183 	EXP 	FeedbackPrueb: text = 'Segui intentando'
+28.9183 	EXP 	FeedbackPrueb: autoDraw = True
+29.9026 	EXP 	New trial (rep=0, index=4): {'Frecuencia': 6.18055084207957, 'Orientaciondecimal': 0.975046060904673, 'Categoria': 'A', 'Tecla': 'left', 'FrecuenciaEspacial': 0.03090275421039785, 'Orientacion': 97.5046060904673}
+29.9118 	EXP 	Created unnamed GratingStim = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, interpolate=False, mask='gauss', maskParams=None, name='unnamed GratingStim', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([10., 10.]), tex='sin', texRes=128, units='deg', win=Window(...))
+29.9215 	EXP 	FeedbackPrueb: autoDraw = False
+29.9215 	EXP 	FeedbackPrueb: autoDraw = False
+29.9215 	EXP 	GratingPrueba: ori = 97.5046060904673
+29.9215 	EXP 	GratingPrueba: sf = array([0.03090275, 0.03090275])
+30.0182 	EXP 	GratingPrueba: autoDraw = True
+30.3392 	DATA 	Keypress: right
+30.3516 	EXP 	GratingPrueba: autoDraw = False
+30.3516 	EXP 	FeedbackPrueb: text = 'Segui intentando'
+30.3516 	EXP 	FeedbackPrueb: autoDraw = True
+31.3365 	EXP 	New trial (rep=0, index=5): {'Frecuencia': 5.73387135997741, 'Orientaciondecimal': 0.963799584746463, 'Categoria': 'B', 'Tecla': 'right', 'FrecuenciaEspacial': 0.028669356799887052, 'Orientacion': 96.3799584746463}
+31.3454 	EXP 	Created unnamed GratingStim = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, interpolate=False, mask='gauss', maskParams=None, name='unnamed GratingStim', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([10., 10.]), tex='sin', texRes=128, units='deg', win=Window(...))
+31.3550 	EXP 	FeedbackPrueb: autoDraw = False
+31.3550 	EXP 	FeedbackPrueb: autoDraw = False
+31.3550 	EXP 	GratingPrueba: ori = 96.3799584746463
+31.3550 	EXP 	GratingPrueba: sf = array([0.02866936, 0.02866936])
+31.4520 	EXP 	GratingPrueba: autoDraw = True
+31.8777 	DATA 	Keypress: right
+31.8882 	EXP 	GratingPrueba: autoDraw = False
+31.8882 	EXP 	FeedbackPrueb: height = 0.1
+31.8882 	EXP 	FeedbackPrueb: height = 0.1
+31.8882 	EXP 	FeedbackPrueb: text = 'Correcto'
+31.8882 	EXP 	FeedbackPrueb: autoDraw = True
+32.8871 	EXP 	New trial (rep=0, index=6): {'Frecuencia': 5.71342981255569, 'Orientaciondecimal': 0.951064757265215, 'Categoria': 'B', 'Tecla': 'right', 'FrecuenciaEspacial': 0.02856714906277845, 'Orientacion': 95.1064757265215}
+32.8960 	EXP 	Created unnamed GratingStim = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, interpolate=False, mask='gauss', maskParams=None, name='unnamed GratingStim', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([10., 10.]), tex='sin', texRes=128, units='deg', win=Window(...))
+32.9056 	EXP 	FeedbackPrueb: autoDraw = False
+32.9056 	EXP 	FeedbackPrueb: autoDraw = False
+32.9056 	EXP 	GratingPrueba: ori = 95.1064757265215
+32.9056 	EXP 	GratingPrueba: sf = array([0.02856715, 0.02856715])
+33.0026 	EXP 	GratingPrueba: autoDraw = True
+33.3045 	DATA 	Keypress: escape
+33.9321 	EXP 	window1: mouseVisible = True

@@ -30,11 +30,22 @@ import math
 
 
 
+# #Parametros del paper levemente modificados
+# mean  = [272,153]#Uf y Uo para A
+# mean2 = [265,145]#Uf y Uo para B
+# cov   = [[4.538,4.463],
+#          [4.463,4.538]]  # [[f2,f*O][O*f,O2]]diagonal covariance para A
+# cov2  = [[4.538,4.463],
+#          [4.463,4.538]]#[[f2,f*O][O*f,O2]]diagonal covariance para A
 
-mean  = [272,153]#Uf y Uo para A
-mean2 = [327,97]#Uf y Uo para B
-cov   = [[4.538,4.463], [4.463,4.538]]  # [[f2,f*O][O*f,O2]]diagonal covariance para A
-cov2  = [[4.538,4.463], [4.463,4.538]]#[[f2,f*O][O*f,O2]]diagonal covariance para A
+
+#Parametros con las varianzas muy aumentadas
+mean  = [295,153]#Uf y Uo para A
+mean2 = [275,153]#Uf y Uo para B
+cov   = [[20,19.66],
+         [14.745,15]]  # [[f2,f*O][O*f,O2]]diagonal covariance para A
+cov2  = [[20,19.66],
+         [14.745,15]]#[[f2,f*O][O*f,O2]]diagonal covariance para A
 x,y   = np.random.multivariate_normal(mean, cov, 80).T # Frecuencia y orientacion para A
 x2,y2 = np.random.multivariate_normal(mean2, cov2, 80).T # Frecuencia y orientacion para B
 
@@ -59,7 +70,7 @@ d2 = {'Frecuencia': x2, 'Orientacion': y2, 'Categoria': ['B']*80, 'Tecla': ['Rig
 df2 = pd.DataFrame(data=d2)
 df3 = df.append(df2)
 df3 = df3.sample(frac=1)
-df3.to_csv("ParametrosAyB.csv")
+df3.to_csv("ParametrosAyBNuevo.csv")
 
 
 
